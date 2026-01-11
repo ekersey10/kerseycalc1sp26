@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <chapter xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>In-Class Activities</title>
+
+    <introduction>
+      <p>
+        These activities are designed to be used in class to help students understand the material. They are not graded, but students are encouraged to work on them in groups and ask the instructor for help when needed.
+      </p>
+    </introduction>
+    
+
+    <xi:include href="./activities/01-odometer-speedometer.ptx"/>
+    <xi:include href="./activities/02-velocity-acceleration.ptx"/>
+    <xi:include href="./activities/03-basic-derivative-practice.ptx"/>
+    <xi:include href="./activities/04-related-rates-preview.ptx"/>
+
+
+    <xi:include href="./activities/05-related-rates.ptx"/>
+    <xi:include href="./activities/06-global-optimization.ptx"/>
+    <xi:include href="./activities/07-applied-optimization.ptx"/>
+    <xi:include href="./activities/08-Riemann-sums.ptx"/>
+    <xi:include href="./activities/09-FTC.ptx"/>
+    <!-- Add more xi:include files here to include them in the main course -->
+  </chapter>

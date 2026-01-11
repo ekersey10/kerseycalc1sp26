@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Syllabus</title>
+
+  <!--
+  <subtitle>MATH 131 Fall 2025 (4 credits)</subtitle>
+  --> <!-- Include frontmatter -->
+  <introduction>
+    <p>
+      Welcome to what promises to be an exciting and fun semester of Calculus I!  I know you are all eager to get started, but please take a few moments to familiarize yourself with this syllabus.
+    </p>
+  </introduction>
+  <!-- Include chapters -->
+  <subsection xml:id="sec-course-info">
+    <title>Course Information</title>
+
+    <p>
+      This is the syllabus for <term>Calculus I (MATH 131, section 006)</term> for Fall 2025.
+      It is a 4 credit course.
+      <dl>
+      <li>
+        <title>Instructor</title>
+
+        <p>
+          Oscar Levin, Ross Hall 2040D, <url href="mailto:oscar.levin@unco.edu">oscar.levin@unco.edu</url>.
+        </p>
+      </li>
+
+      <li>
+        <title>Student Hours</title>
+
+        <p>
+          Tu/Th 10-11am; Wed 10:30-11:30am.
+          Additional times by appointment.
+        </p>
+
+        <p>
+          <alert>Important</alert>: I <em>want</em> to see you in student hours, and will happily make appointments with you outside of the regular hours.  I'm also available by email and will respond within 24 hours, usually much sooner.  There is little I enjoy more than discussing mathematics, so you are really doing me a favor by coming to see me.
+        </p>
+      </li>
+
+      <li>
+        <title>Class meets</title>
+
+        <p>
+          M/W/F 12:20-1:10pm and Tu 12:30-1:20pm in Ross 2090.
+        </p>
+      </li>
+
+      <li>
+        <title>Course Description</title>
+
+        <p>
+          First course in a three course sequence in calculus.
+          Differentiation and related concepts, applications of derivatives, including exponential, logarithmic and trigonometric functions.
+        </p>
+      </li>
+
+      <li>
+        <title>Prerequisite</title>
+
+        <p>
+          Appropriate <url href="https://www.unco.edu/nhs/mathematical-sciences/placement/results.aspx">ALEKS placement score</url>; or MATH 127 or MATH 125 with a minimum grade of C.
+        </p>
+      </li>
+
+      <li>
+        <title>Textbook and course materials</title>
+
+        <p>
+          <pubtitle>Active Calculus, 2nd ed</pubtitle>
+          by Matthew Boelkins.
+          This and all other course materials will be available for free through Canvas.
+        </p>
+      </li>
+      </dl>
+    </p>
+
+
+    <paragraphs>
+      <title>Course Overview</title>
+
+      <p>
+        Calculus is about change.
+      </p>
+
+      <p>
+        A fundamental way to understand the world is by measuring <em>amounts</em> or <em>quantities</em> of things.
+        How <em>tall</em> is that tree?  How <em>far</em> above the ground is the space ship?  How <em>many</em> gallons of water are in the tub?  But rarely are these quantities static.
+        How can we describe the way the quantities change, and how are the quantities and their change related?  Can we predict how tall the tree will be next year?  If we know how fast the spaceship is falling, can we predict when it will crash to the ground?  When will the tub overflow?
+      </p>
+
+      <p>
+        To answer these and many more questions, we will explore one of the two fundamental tools in calculus: the <term>derivative</term>.
+        To understand the derivative, we will need to understand the idea of a <term>limit</term> as well.
+        We will become experts at computing derivatives of pretty much any function that has one.
+        We will see how to use the derivative to solve mathematical and real world problems.
+      </p>
+
+      <p>
+        The derivative lets us move from quantity to rate of change.
+        We will conclude the course by reversing this process, introducing the second fundamental tool in calculus: the <term>integral</term>.
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="sec-assessments">
+    <title>Assessments and Grades</title>
+
+    <p>
+      The goal of this course is to <em>understand</em> fundamental concepts of calculus.
+      Measuring understanding is a difficult task.
+      How can you (and I, since I'm assigning you a grade) be confident that you understand?
+    </p>
+
+    <p>
+      I don't have a perfect answer, but what we will use in this course is a combination of two types of indirect evidence.
+      <ol>
+        <li>
+          <p>
+            You can accomplish a variety of tasks that someone with a good understanding of calculus should be able to accomplish.
+            We will divide these tasks into 20 <term>learning targets</term>, listed below, and throughout the course you will have opportunities to demonstrate your mastery of these learning targets.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            You engage meaningfully in mathematical practice, <em>doing</em> the mathematics that leads to understanding.
+            This includes participating in discussions, exploring new ideas, trying hard things (often unsuccessfully at first), revising your work, and asking good questions.
+            Your engagement will be measured through a combination of in-class participation on various types of homework assignments.
+          </p>
+        </li>
+      </ol>
+      Regardless of your level of understanding entering this course, my hope is that you will leave with an improved understanding of mathematics.
+      One of my favorite things about mathematics is that no matter how much you understand, there are still more fascinating connections to discover.
+    </p>
+
+
+    <paragraphs>
+      <title>Learning targets</title>
+
+      <p>
+        By the end of this course, you should be able to:
+        <ol>
+          <li>
+            <p>
+              Find and interpret average velocity and its units, using information about the position function (as a table, graph, or function formula).
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Estimate the derivative of a function at a given value using numerical or graphical data.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use the limit definition of the derivative to find a formula for the derivative function.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Given the graph of a function, sketch an accurate graph of its derivative (including the correct sign, direction, relative heights, zeros, and any places where the derivative doesn't exist).
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Interpret the instantaneous rate of change of a function and explain its meaning in context.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Recognize and explain the relationships among the behaviors of <m>f</m>, <m>f'</m>, and <m>f''</m> by analyzing graphical or numerical information from one or more of <m>f</m>, <m>f'</m>, and <m>f''</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Find an equation of the tangent line to a function at a point and use the tangent line to approximate values of the function.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Find the derivative of polynomials, exponential, logarithmic, and trigonometric functions with fluency.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use the product and quotient rules to find the derivative of a function.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use the chain rule to find the derivative of a composite function.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use multiple derivative rules in combination to find the derivative of a function.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use implicit differentiation to find <m>dy/dx</m> for a function defined implicitly, using basic derivative and structure rules in the process.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Solve related rates problems and interpret the results in the given context.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Solve applied optimization problems using appropriate derivative tests and write a concluding sentence that justifies my work.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use derivatives to describe the behavior of functions, including local extrema, inflections points, intervals of increase and decrease, and concavity.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use derivatives to evaluate limits with indeterminate forms by applying L'Hôpital's Rule.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              For an object with a piecewise linear velocity function, compute the exact distance traveled and change in position of the object over a given time interval.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Compute a Riemann sum and interpret the result as an accumulation of a changing quantity.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Interpret a definite integral in terms of net-signed area.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Use the Fundamental Theorem of Calculus to evaluate definite integrals exactly.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </paragraphs>
+
+
+    <paragraphs>
+      <title>Assessment of Learning Targets</title>
+
+      <p>
+        You will have multiple opportunities to demonstrate your mastery of the learning targets.
+        Your first opportunity will be during weekly <term>learning target quizzes</term>, usually given in class on Tuesdays.
+        Each quiz will be clearly aligned with one or more of the learning targets.
+      </p>
+
+      <p>
+        Quizzes will be graded and assigned a grade of <term>U</term>, <term>P</term>, or <term>M</term>, indicating you have demonstrated <term>Unfamiliarity</term>, <term>Partial Understanding</term>, or <term>Mastery</term> of the learning target.
+      </p>
+
+      <p>
+        For any learning target for which you do not demonstrate Mastery on your first attempt, you may reattempt to do so by taking another learning target quiz within two weeks of the original quiz.
+        Additional attempts, and attempts beyond the two week window, will be granted only after meeting with me to discuss your progress and understanding of the learning target.
+      </p>
+
+      <p>
+        Occasionally, a grade of <term>M-</term> may be assigned if the quiz contains minor mistakes that could easily be corrected.
+        In such cases, you may be able to elevate your grade to <term>M</term> without taking an additional quiz by revising your quiz appropriately (usually through discussion with me).
+      </p>
+
+      <p>
+        Your grade in the course will be partially determined by the number of learning targets for which you have demonstrated Mastery.
+        There is no credit given for learning targets below Mastery level, and the number of attempts it takes to reach Mastery does not matter.
+      </p>
+    </paragraphs>
+
+
+    <paragraphs>
+      <title>Final Exam</title>
+
+      <p>
+        The final exam for this class is on <alert>Thursday, December 11 from 10:45am to 1:15pm</alert>.
+        Instead of a traditional final exam, we will use this time as an opportunity for you to complete any learning targets you have not yet mastered.
+      </p>
+
+      <p>
+        In the unlikely event that the University is closed due to inclement weather on the day of our exam, we will hold the exam at the same time on Friday, December 12 (the designated makeup day for this situation).  In the event that this makeup day is also canceled, I will contact you with alternative options.
+      </p>
+    </paragraphs>
+
+
+    <paragraphs>
+      <title>Assessment of Mathematical Engagement</title>
+
+      <p>
+        Your level of effort and engagement will be assessed through your participation in class and completion of a variety of homework assignments.
+        <dl>
+        <li>
+          <title>Participation</title>
+
+          <p>
+            I expect you to attend every class and participate actively when present.
+            This includes asking questions, contributing to discussions, and collaborating with your peers.
+            You will get a weekly participation score based on your engagement.
+          </p>
+        </li>
+
+        <li>
+          <title>Daily Prep Assignments</title>
+
+          <p>
+            So we can make the most of our time in class together, you will be asked to prepare for each class by reading parts of the textbook and/or completing online prep assignments.
+          </p>
+        </li>
+
+        <li>
+          <title>Practice Problems</title>
+
+          <p>
+            Each section of the textbook will be accompanied with a set of online practice problems.
+            These are graded automatically and you have an unlimited number of attempts to get the correct answers.
+          </p>
+        </li>
+
+        <li>
+          <title>Written Homework</title>
+
+          <p>
+            Roughly every other week, you will be assigned a written homework question that will require you to demonstrate your understanding of the material in a more open-ended format.
+            These will be graded and may be revised one time after they are returned.
+            You will submit these by scanning your written work and uploading it to Canvas.
+          </p>
+        </li>
+        </dl>
+      </p>
+    </paragraphs>
+
+
+    <paragraphs>
+      <title>Final Grades</title>
+
+      <p>
+        Your final grade will be calculated using the following table:
+      </p>
+
+      <tabular>
+        <col right="minor" halign="right"/><col right="minor" halign="center"/><col right="minor" halign="center"/><col right="minor" halign="center"/><col halign="center"/>
+        <row header="yes" bottom="minor">
+          <cell></cell>
+          <cell>A</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+          <cell>D</cell>
+        </row>
+
+        <row bottom="minor">
+          <cell halign="right">Mastery-level Learning Targets</cell>
+          <cell>18</cell>
+          <cell>16</cell>
+          <cell>14</cell>
+          <cell>12</cell>
+        </row>
+
+        <row>
+          <cell halign="right">Engagement Score</cell>
+          <cell>90%</cell>
+          <cell>80%</cell>
+          <cell>70%</cell>
+          <cell>60%</cell>
+        </row>
+      </tabular>
+
+      <p>
+        To receive a particular grade, you must meet or exceed the requirements for that grade <alert>in both categories</alert>.
+        If you do not meet the requirements for a D, your final grade will be an F.
+      </p>
+
+      <p>
+        It is also possible to receive a plus or minus grade if your engagement score is one category above or below the level specified for the number of learning targets mastered.
+        For example, if you have mastered 16 learning targets and have over 90% for your engagement score, your final grade would be a B+.
+        If your engagement score is more than one level below your mastery score, the two levels will be averaged.
+      </p>
+
+    </paragraphs>
+
+    <paragraphs>
+      <title>Note about Grades in Canvas</title>
+      <p>
+        All your grades for all assignments will be kept inside Canvas, so you can always check to see how you are doing in this class.  
+      </p>
+
+      <p>
+        However, note that your final grade depends on two measures: your mastery of the learning targets and your engagement score.  The <q>Total</q> you see in Canvas is the total for the engagement score only.  There is also a <term>Learning Mastery</term> tab where you can see which learning targets you have mastered.
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <xi:include href="./policies.ptx" />
+  <xi:include href="./success.ptx" />
+  <xi:include href="./dates.ptx" />
+
+  <xi:include href="./lac.ptx" />
+  <xi:include href="./licensure.ptx" />
+</section>

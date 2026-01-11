@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="activity-01-odometer-speedometer" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Odometer vs. Speedometer</title>
+
+  <introduction>
+    <p>
+      Your roommate picks you up at DIA to drive you the 50 miles back to campus. How long will it take you to get home?
+    </p>
+  </introduction>
+
+  <exercise workspace="1in">
+    <p>
+      What information do you need to answer this question?  Make some (simple) assumptions and answer the question based on those assumptions.
+    </p>
+  </exercise>
+  <exercise workspace="1in">
+    <p>
+      For the first 20 minutes of the trip, you note the speed you are traveling every 5 minutes.  The speeds you see are 75 mph, 60 mph, 65 mph, and 50 mph.  How many miles have you traveled so far?  (Again, you might need to make some assumptions; pay attention to what these are.)
+    </p>
+  </exercise>
+  <exercise workspace="1in">
+    <p>
+      You stop for some food in Fort Lupton (just about exactly half way home).  Your roommate's car reports that the average speed of the trip so far has been 60 mph.  How did the car know this?
+    </p>
+  </exercise>
+  <exercise workspace="1in">
+    <p>
+      When you get home, the car says that your average speed was 70 mph.  How fast did your roommate drive during the second half of the trip?
+    </p>
+  </exercise>
+</worksheet>

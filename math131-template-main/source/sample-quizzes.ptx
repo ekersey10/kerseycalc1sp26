@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="sample-quizzes" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sample Learning Target Quizzes</title>
+
+  <worksheet xml:id="lt-1">
+    <title>LT 1 Sample Quiz</title>
+
+    <exercise>
+      <introduction>
+        <p>
+          The distance <m>s(t)</m> traveled by a bicycle (in feet) after <m>t</m> seconds is given by the function with graph and table below.
+        </p>
+
+        <sidebyside>
+          <image width="40%">
+            <shortdescription>
+              A graph
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}
+              % Axes:
+              \draw[thick, ->] (0,0) -- (0,4) node[above] {$s(t)$ (ft)};
+              \draw[thick, ->] (0,0) -- (5,0) node[right] {$t$ (sec)};
+              \foreach \x in {1,2,3,4} \draw[thick] (\x,.1) -- (\x,-.1) node[below] {$\x$};
+              \draw[very thick] plot[smooth, tension=.5] coordinates {(0,0) (0.5, 0.2) (1,1) (1.5,2.35) (2,3) (3,3.4) (4,3.5) (4.5,3.5)};
+              \draw[dashed] (1,1) -- (3,3.4);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+
+          <tabular>
+            <col halign="center" right="minor"> </col> <col halign="center"> </col>
+            <row>
+              <cell> <m>t</m> (sec)</cell>
+              <cell> <m>s(t)</m> (ft)</cell>
+            </row>
+
+            <row>
+              <cell> </cell>
+            </row>
+
+            <row>
+              <cell>0</cell>
+              <cell>0</cell>
+            </row>
+
+            <row>
+              <cell>1</cell>
+              <cell>10</cell>
+            </row>
+
+            <row>
+              <cell>2</cell>
+              <cell>30</cell>
+            </row>
+
+            <row>
+              <cell>3</cell>
+              <cell>34</cell>
+            </row>
+
+            <row>
+              <cell>4</cell>
+              <cell>35</cell>
+            </row>
+          </tabular>
+        </sidebyside>
+      </introduction>
+
+
+      <task workspace="2in">
+        <statement>
+          <p>
+            Find the average velocity of the bicycle between second 1 and second 3.
+          </p>
+        </statement>
+      </task>
+
+
+      <task workspace="2in">
+        <statement>
+          <p>
+            Was the bicycle's instantaneous velocity at second 1 more than or less than its average velocity between second 1 and second 3?  Explain using either the graph or the table above.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-2">
+    <title>LT 2 Sample Quiz</title>
+
+    <exercise>
+      <introduction>
+        <p>
+          The graph of the function <m>f</m> is given below.
+        </p>
+
+        <image width="40%">
+          <shortdescription>
+            a graph
+          </shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[
+                declare function={
+                  func(\x)= ( \x \lt 1) * (-2*\x + 2) + and(\x >= 1, \x \lt 3) * ((\x - 2)^2 - 1) + (\x >= 3) * (-(\x - 4)^2 + 1);
+                }
+                ]
+                \begin{axis}[
+                axis x line=middle, axis y line=middle, ymin=-1.2, ymax=2.2, xlabel=$x$, ylabel=$f(x)$, grid=major
+                ]
+                \addplot [domain=0:4.5,samples=100, ultra thick]{func(x)};
+                \end{axis}
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </introduction>
+
+
+      <task workspace="2in">
+        <statement>
+          <p>
+            Use the graph to find <m>f'(1)</m>, the derivative of <m>f</m> at <m>a=1</m>.
+            Show your work or explain why your answer is correct.
+          </p>
+        </statement>
+      </task>
+
+
+      <task workspace="2in">
+        <statement>
+          <p>
+            Where is the derivative of <m>f</m> zero? That is, find a value of <m>a</m> such that <m>f'(a)=0</m>.
+            Explain why your answer is correct.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-3">
+    <title>LT 3 Sample Quiz</title>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          Let <m>f(x) = x^{2} + 4x</m>.
+          Use the <em>limit definition of the derivative</em> to find <m>f'(x)</m>, the derivative of <m>f</m>.
+          Show all your work.
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-4">
+    <title>LT 4 Sample Quiz</title>
+
+    <exercise>
+      <statement>
+        <p>
+          For each function graphed below, carefully sketch a graph of the functions derivative in the space provided below the original graph.
+        </p>
+
+        <sidebyside widths="35% 35%">
+          <image>
+            <shortdescription>
+              a graph
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[
+              declare function={
+                func(\x)= ( \x - 1)^2 - 2;
+              }
+              ]
+              \begin{axis}[height=6.5cm,
+              axis lines=center, ymin=-2.5, ymax=4.5, xmin=-2.5, xmax=4.5, xlabel=$x$, ylabel=$f(x)$, ylabel style={right}, ytick={-2,-1,...,4}, xtick={-4,-3,...,4}, grid=both
+              ]
+              \addplot [domain=-3:4,samples=100, ultra thick]{func(x)};
+              \end{axis}
+              \begin{axis}[height=6.5cm, yshift=-5.25cm,
+              axis lines=center, ymin=-3.5, ymax=3.5, xmin=-2.5, xmax=4.5, xlabel=$x$, ylabel=$f'(x)$, ylabel style={right}, ytick={-3,-2,-1,...,4}, xtick={-4,-3,...,4}, grid=both
+              ]
+              \end{axis}  
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+
+          <image>
+            <shortdescription>
+              a graph
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[
+              declare function={
+                func(\x)= 1.4^\x;
+              }
+              ]
+              \begin{axis}[height=6.5cm,
+              axis lines=center, ymin=-3.5, ymax=3.5, xmin=-3.5, xmax=3.5, xlabel=$x$, ylabel=$f(x)$, ylabel style={right}, ytick={-2,-1,...,4}, xtick={-4,-3,...,4}, grid=both
+              ]
+                \addplot [domain=-3:3,samples=100, ultra thick]{func(x)};
+                \end{axis}
+                \begin{axis}[height=6.5cm, yshift=-5.25cm,
+                axis lines=center, ymin=-3.5, ymax=3.5, xmin=-3.5, xmax=3.5, xlabel=$x$, ylabel=$f'(x)$, ylabel style={right}, ytick={-3,-2,-1,...,4}, xtick={-4,-3,...,4}, grid=both
+                ]
+                \end{axis}  
+                \end{tikzpicture}
+            </latex-image>
+          </image>
+        </sidebyside>
+
+        <sidebyside widths="35% 35%">
+          <image>
+            <shortdescription>
+              a graph
+            </shortdescription>
+            <latex-image>
+            \begin{tikzpicture}[
+            declare function={
+              func(\x)= .25*( \x^3 - 3*\x + 2 );
+            }
+            ]
+        \begin{axis}[height=6.5cm,
+        axis lines=center, ymin=-2.5, ymax=4.5, xmin=-3.5, xmax=3.5, xlabel=$x$, ylabel=$f(x)$, ylabel style={right}, ytick={-2,-1,...,4}, xtick={-4,-3,...,4}, grid=both
+        ]
+        \addplot [domain=-3.5:3.5,samples=100, ultra thick]{func(x)};
+        \end{axis}
+        \begin{axis}[height=6.5cm, yshift=-5.25cm,
+        axis lines=center, ymin=-3.5, ymax=3.5, xmin=-3.5, xmax=3.5, xlabel=$x$, ylabel=$f'(x)$, ylabel style={right}, ytick={-3,-2,-1,...,4}, xtick={-4,-3,...,4}, grid=both
+        ]
+        \end{axis}  
+        \end{tikzpicture}
+            </latex-image>
+          </image>
+
+          <image>
+            <shortdescription>
+              a graph
+            </shortdescription>
+            <latex-image>
+        \begin{tikzpicture}[
+        declare function={
+          func(\x)= -1*abs(x-1)+3;
+        }
+        ]
+        \begin{axis}[height=6.5cm,
+        axis lines=center, ymin=-2.5, ymax=4.5, xmin=-2.5, xmax=4.5, xlabel=$x$, ylabel=$f(x)$, ylabel style={right}, ytick={-2,-1,...,4}, xtick={-4,-3,...,4}, grid=both
+        ]
+        \addplot [domain=-3:4.5,samples=100, ultra thick]{func(x)};
+        \end{axis}
+        \begin{axis}[height=6.5cm, yshift=-5.25cm,
+        axis lines=center, ymin=-3.5, ymax=3.5, xmin=-2.5, xmax=4.5, xlabel=$x$, ylabel=$f'(x)$, ylabel style={right}, ytick={-3,-2,-1,...,4}, xtick={-4,-3,...,4}, grid=both
+        ]
+        \end{axis}  
+        \end{tikzpicture}
+            </latex-image>
+          </image>
+        </sidebyside>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-5">
+    <title>LT 5 Sample Quiz</title>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          Your baby pygmy hippo’s weight, measured in pounds (lbs), is a function of its age, measured in days.
+          That is, <m>w(t)</m> gives the weight of the hippo <m>t</m> days after birth.
+        </p>
+
+        <p>
+          Write a sentence accurately interpreting the two equations below, <em>including units</em>.
+          Your sentence must use all numbers in the equations.
+          <me>
+            w(30) = 35 \qquad \qquad w'(30) = 2
+          </me>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          You are buying stickers to give out to celebrate your baby pygmy hippo, and the sticker company has offered you a discount if you buy in bulk.
+          The total cost in dollars is given by a function <m>c(x)</m> for buying <m>x</m> stickers.
+        </p>
+
+        <p>
+          Write a sentence accurately interpreting the two equations below, <em>including units</em>.
+          Your sentence must use all numbers in the equation.
+          <me>
+            c(100) = 12 \qquad\qquad c'(100) = 0.05
+          </me>
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-6">
+    <title>LT 6 Sample Quiz</title>
+
+    <exercise>
+      <statement>
+        <p>
+          The function <m>f</m> is graphed below.
+          Use the graph to determine whether the first or second derivatives of <m>f</m> are positive, negative, zero at the given points.
+          Briefly explain your answers.
+        </p>
+
+        <sidebyside widths="40% 40%">
+          <image>
+            <shortdescription>
+              a graph
+            </shortdescription>
+            <latex-image>
+                \begin{tikzpicture}[
+                declare function={
+                  func(\x)= 0.5*( \x - 1)^3 - \x^2 + 4;
+                }
+                ]
+                \begin{axis}[height=6.5cm,
+                axis lines=center, ymin=-2.5, ymax=4.5, xmin=-2.5, xmax=4.5, xlabel=$x$, ylabel=$f(x)$, ylabel style={right}, ytick={}, xtick={1,3}, grid=major
+                ]
+                \addplot [domain=-3:4,samples=100, ultra thick]{func(x)};
+                \end{axis}
+                \end{tikzpicture}
+            </latex-image>
+          </image>
+
+          <p>
+            <line> <m>f'(1)</m> is:<nbsp/>
+            <fillin characters="25" /> </line>
+            <line> because:<nbsp/>
+            <fillin characters="25" /> </line>
+            <line> <m>f''(1)</m> is:<nbsp/>
+            <fillin characters="25" /> </line>
+            <line> because:<nbsp/>
+            <fillin characters="25" /> </line>
+            <line> <m>f'(3)</m> is:<nbsp/>
+            <fillin characters="25" /> </line>
+            <line> because:<nbsp/>
+            <fillin characters="25" /> </line>
+            <line> <m>f''(3)</m> is:<nbsp/>
+            <fillin characters="25" /> </line>
+            <line> because:<nbsp/>
+            <fillin characters="25" /> </line>
+          </p>
+        </sidebyside>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          The function <m>g</m> has a <alert>derivative</alert> <m>g'</m> with values given in the following table.
+          Use the table to describe the behavior of <m>g</m>, <m>g'</m> and the <m>g''</m>.
+          That is, can you say whether either of these are positive/negative, increasing/decreasing, or concave up/down? Briefly explain your answers.
+        </p>
+
+        <tabular>
+          <col halign="center" right="minor"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col> <col halign="center"> </col>
+          <row bottom="minor">
+            <cell> <m>x</m> </cell>
+            <cell>0</cell>
+            <cell>1</cell>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>4</cell>
+          </row>
+
+          <row>
+            <cell> </cell>
+          </row>
+
+          <row>
+            <cell> <m>g'(x)</m> </cell>
+            <cell>- 2</cell>
+            <cell>-0.5</cell>
+            <cell>0.5</cell>
+            <cell>1</cell>
+            <cell>1.25</cell>
+          </row>
+        </tabular>
+      </introduction>
+
+
+      <task workspace=".5in">
+        <statement>
+          <p>
+            What can you say about <m>g'(2)</m> (which the table says has positive value 0.5)? Is <m>g'</m> increasing, decreasing, or neither at <m>x = 2</m>?
+          </p>
+        </statement>
+      </task>
+
+
+      <task workspace=".5in">
+        <statement>
+          <p>
+            What can you say about <m>g''(2)</m>?
+          </p>
+        </statement>
+      </task>
+
+
+      <task workspace=".5in">
+        <statement>
+          <p>
+            What can you say about <m>g(2)</m>, the original function whose derivative is given in the table? (You can determine two of the three characteristics.)
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-7">
+    <title>LT 7 Sample Quiz</title>
+
+    <exercise>
+      <introduction>
+        <p>
+          Suppose you know that the function <m>f</m> passes through the point <m>(4,3)</m> and has first derivative
+          <me>
+            f'(x) = \sqrt{x}+ 5.
+          </me>
+        </p>
+      </introduction>
+
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            Find the equation of the tangent line to the the function <m>f(x)</m> at the point <m>(4,3)</m>.
+          </p>
+        </statement>
+      </task>
+
+
+      <task workspace=".75in">
+        <statement>
+          <p>
+            Use the tangent line (or the equivalent <em>local linearization</em>) to approximate <m>f(4.1)</m>.
+            Show your work.
+          </p>
+        </statement>
+      </task>
+
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            Suppose you found out that <m>f''(4) = 0.25</m>.
+            What does this tell you about the shape of <m>f</m> near <m>x = 4</m>? Does this mean your approximation for <m>f(4.1)</m> is an over estimate or under estimate? Briefly explain.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-8">
+    <title>LT 8 Sample Quiz</title>
+
+    <introduction>
+      <p>
+        For each function given below, find its derivative (using basic derivative rules).
+      </p>
+    </introduction>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          <m>f(x) = x^{4} + 10x^{3} + 5</m>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          <m>f(x) = 3\sin(x) - \cos(x)</m>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          <m>f(x) = e^{x} + 5^{x} - e^{5}</m>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          <m>f(x) = \sqrt{x}+ \frac{2}{x^{3}}</m>
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-9">
+    <title>LT 9 Sample Quiz</title>
+
+    <introduction>
+      <p>
+        Find the derivatives of the following functions, using the product and quotient rules as appropriate.
+      </p>
+    </introduction>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          <m>f(x) = x^{3}\cos(x)</m>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          <m>f(x) = \dfrac{\sqrt{x} + 5}{x^2 + x}</m>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          <m>f(x) = \dfrac{3^x\sin(x)}{3x+7}</m>
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-10">
+    <title>LT 10 Sample Quiz</title>
+
+    <introduction>
+      <p>
+        Find the derivatives of the following functions, using the chain rule.
+      </p>
+    </introduction>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          <m>f(x) = \cos(x^{3})</m>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          <m>f(x) = 5^{\sqrt{x}}</m>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          <m>f(x) = \sin((2x+3)^{4})</m>
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-11">
+    <title>LT 11 Sample Quiz</title>
+
+    <introduction>
+      <p>
+        Find the derivatives of the following functions.
+        You will need to use a combination of multiple rules.
+      </p>
+    </introduction>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          <m>f(x) = \dfrac{\cos(x^2)}{\sin^2(x)}</m>  (note, <m>\sin^2(x)</m> means <m>(\sin(x))^2</m>)
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          <m>f(x) = \d 3^{x^2\ln(x)}</m>
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-12">
+    <title>LT 12 Sample Quiz</title>
+
+    <exercise>
+      <introduction>
+        <p>
+          Consider the curve defined implicitly by
+          <me>
+            x^{2} + xy = y^{2} + 9.
+          </me>
+        </p>
+      </introduction>
+
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            Use implicit differentiation to find <m>\dfrac{dy}{dx}</m>.
+            Show your work.
+          </p>
+        </statement>
+      </task>
+
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            Find the slope of the line tangent to the curve at the point <m>(3,0)</m>.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-13">
+    <title>LT 13 Sample Quiz</title>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          A 13-foot ladder is sliding down a wall.
+          When the base of the ladder is 5 feet from the wall, the top of the ladder is moving downward at 2 feet per second.
+          How fast is the base of the ladder moving away from the wall at this instant?  Show your work.
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-14">
+    <title>LT 14 Sample Quiz</title>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          You are going to add fence around a rectangular field adjacent to a building.
+          Thus you will need fence on just three sides of the field.
+        </p>
+
+        <p>
+          Assuming you have 100 feet of fencing available, what is the largest field you can enclose?  Find the dimensions of such a field and its total area.
+          Show all your work.
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="lt-15">
+    <title>LT 15 Sample Quiz</title>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          The function <m>f(x)</m> (which you don’t know) has <em>first and second derivatives</em>
+          <me>
+            f'(x) = e^{x}(x-4)(x+3)
+          </me>
+          <me>
+            f''(x) = e^{x}(x^{2} + x - 13)
+          </me>
+          Using these provided derivatives, find all <em>critical numbers</em> of the original function <m>f(x)</m>, and then use the first or second derivative tests to classify them as local maximums, local minimums, or neither.
+          Then give the intervals on which <m>f</m> is increasing or decreasing.
+        </p>
+
+        <p>
+          Use the middle of the page to show your work and record your answers at the bottom of the page.
+        </p>
+    </statement>
+  </exercise>
+
+  <p>
+    Critical numbers:
+  </p>
+
+  <p>
+    Local maximum(s) at <m>x =</m>
+  </p>
+
+  <p>
+    Local minimum(s) at <m>x =</m>
+  </p>
+
+  <p>
+    <m>f</m> is increasing on the interval(s):
+  </p>
+
+  <p>
+    <m>f</m> is decreasing on the interval(s):
+  </p>
+</worksheet>
+
+
+<worksheet xml:id="lt-16">
+  <title>LT 16 Sample Quiz</title>
+  <exercise workspace="1in">
+    <statement>
+    <p>
+      Find the limit, using L'Hôpital's rule if appropriate:
+      <me>
+        \lim_{x \to 2}\frac{x^2 + x - 6}{5x - 10}
+      </me>
+    </p>        
+    </statement>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+        <p>
+  Evaluate the limit at infinity, using L'Hôpital's rule if appropriate:
+  <me>
+    \lim_{x \to \infty}\frac{15x}{e^{x}}
+  </me>
+</p>
+    </statement>
+  </exercise>
+  </worksheet>
+  
+  <worksheet xml:id="lt-17">
+    <title>LT 17 Sample Quiz</title>
+    <exercise>
+      <introduction>
+        <p>
+          The <em>velocity</em> <m>v(t)</m>, in feet per second, of a model rocket, <m>t</m> seconds after launch, has graph shown below.
+        </p>
+        <image width="40%">
+          <shortdescription>a graph</shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[
+            declare function={
+              func(\x) = ( \x \lt 2) * (10) + and(\x >= 2, \x \lt 4) * ((-10*\x)+30);
+            }
+          ]
+            \begin{axis}[
+              axis x line=middle, axis y line=middle, ymin=-12.2, ymax=12.7, xmin=0, xmax=4.3, xlabel=$t$, ylabel=$v(t)$, grid=major
+            ]
+              \addplot [domain=0:4, samples=100, ultra thick]{func(x)};
+            \end{axis}
+              
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+          
+      </introduction>
+
+      <task workspace="1in">
+        <statement>
+          <p>
+        Find the total distance traveled by the rocked in the first three seconds (between seconds 0 and 3).
+        Briefly explain how you found your answer.
+            
+          </p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>
+            Find the total <em>change in position</em> of the rocked in the first <em>four</em> seconds (between seconds 0 and 4).
+            Explain why this is less than the distance traveled in the first three seconds.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    </worksheet>
+    <!-- -->
+</chapter>

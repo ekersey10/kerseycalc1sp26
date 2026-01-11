@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section xml:id="notes-week-13">
+<title>Week 13 (11/17-11/21)</title>
+
+<subsection>
+  <title>Monday 11/17</title>
+
+  <p>
+    Today we will practice with Riemann sums using the <xref ref="activity-08-Riemann-sums" text="title"/> activity.
+  </p>
+</subsection>
+
+<subsection>
+  <title>Tuesday 11/18</title>
+  
+  <p>
+    In class today we answered questions about practice and homework.  We then introduced the concept of a <term>definite integral</term> as a  limit of Riemann sums.  We will explore this more next time.
+  </p>
+</subsection>
+
+<handout>
+  <title>Wednesday 11/19</title>
+  <p>
+    We have seen that Riemann sums can be used to approximate the <term>net signed area</term> between a curve and the horizontal axis, and that this area can also be interpreted as the net change in position if the original curve represents velocity.
+  </p>
+
+  <p>
+    To get better approximations, we increase the number of sub-intervals. When we consider the limit of these approximations as <m>n</m> tends to infinity (i.e., as the width of each sub-interval tends to 0), we get the <em>exact</em> net signed area between the curve and the horizontal axis.  We give this an name: the <term>definite integral</term>.  
+  </p>
+
+  <p>
+    Write this down and label all the parts (like we did last class).  
+  </p>
+
+  <p>
+    Just like the derivative from chapter 1, we have a <em>definition</em> that involves a limit.  We also have a few interpretations of what this means, that make it a lot easier to reason about definite integrals.  
+    <ul>
+      <li>
+        <p>
+          The definite integral gives the net signed areas bounded by the function and the horizontal axis on the interval <m>[a,b]</m>. 
+        </p>
+      </li>
+      <li>
+        <p>
+          If the integrand is a velocity function, then <m>\int_a^b v(t)\, dt</m> gives the net change in position, <m>s(b) - s(a)</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          While we could evaluate limits of sums to <em>find</em> (or <term>evaluate</term>) definite integrals, this is not easy.  Instead we can compute area using geometry or use the Fundamental Theorem of Calculus, which we will explore next time. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Go through the examples in Activity 4.3.2 for the geometric approach.
+        </p>
+      </li>
+      <li>
+        <p>
+          For part (d), note that we are making some assumptions about how we can break up the integral instead of evaluating it all at once.
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    Some properties of integrals that are useful:
+    <ul>
+      <li>
+        <p>
+          <m>\int_a^a f(x)\, dx = 0</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\int_a^b f(x) \, dx + \int_b^c f(x)\, dx = \int_a^c f(x) \, dx</m>.  This makes sense if you think of <m>a \lt b \lt c</m>, but it is true even if the numbers are not in order.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\int_b^a f(x) \, dx = -\int_a^b f(x)\, dx</m>.  That is, if you travel backwards along the interval, the integral is the negative of travling forwards.  This is because the <m>\Delta x</m> you get will be the negative of the original.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\int_a^b k\cdot f(x) \, dx = k \int_a^b f(x)\, dx</m>.  This is the constant multiple rule, just like we had for derivatives.  Does this make sense?  Look at Desmos to see what happens when you multiply a function by a constant.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\int_a^b f(x) + g(x) \, dx = \int_a^b f(x)\, dx + \int_a^b g(x)\, dx</m>.  The sum rule.  Again, look at desmos to see that this makes sense.
+        </p>
+      </li>
+    </ul>
+  </p>
+  <p>
+    One more cool thing we can do with integrals: find the <term>average value</term> of a function. 
+    <ul>
+      <li>
+        <p>
+          Think about what the average value of a set of numbers is.  But what if we wanted to find the average value of a function.  That has an infinite number of points.
+        </p>
+      </li>
+      <li>
+        <p>
+          So really what we want to compute is 
+          <md>
+            \lim_{n \to \infty} \frac{f(x_1) + f(x_2)+ f(x_3) + \cdots f(x_n)}{n}
+          </md>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Now compare this limit to the limit of a right Riemann sum.  They are sort of similar, since <m>\Delta x = \frac{b-a}{n}</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          In fact, we get
+          <md>
+            f_{\text{AVG}[a,b]}= \frac{1}{b-a}\cdot \int_a^b f(x)\, dx
+          </md>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Think back to what the integral tells us about change in position when integrating velocity.  The other way we can think about finding change in position is by multiplying the time spent going that velocity by the velocity.  But what if velocity isn't constant?  Well, multiply time by <em>average velocity</em>.
+        </p>
+      </li>
+    </ul>
+  </p>
+</handout>
+
+<handout>
+  <title>Friday, 11/21</title>
+  
+  <p>
+    Today we will start section 4.4 to discover the Fundamental Theorem of Calculus.  But first, from section 4.3:
+  </p>
+
+   <p>
+    One more cool thing we can do with integrals: find the <term>average value</term> of a function. 
+    <ul>
+      <li>
+        <p>
+          Think about what the average value of a set of numbers is.  But what if we wanted to find the average value of a function.  That has an infinite number of points.
+        </p>
+      </li>
+      <li>
+        <p>
+          So really what we want to compute is 
+          <md>
+            \lim_{n \to \infty} \frac{f(x_1) + f(x_2)+ f(x_3) + \cdots f(x_n)}{n}
+          </md>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Now compare this limit to the limit of a right Riemann sum.  They are sort of similar, since <m>\Delta x = \frac{b-a}{n}</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          In fact, we get
+          <md>
+            f_{\text{AVG}[a,b]}= \frac{1}{b-a}\cdot \int_a^b f(x)\, dx
+          </md>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Think back to what the integral tells us about change in position when integrating velocity.  The other way we can think about finding change in position is by multiplying the time spent going that velocity by the velocity.  But what if velocity isn't constant?  Well, multiply time by <em>average velocity</em>.
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    Baked into the formula for average value of a function is the (hopefully familiar, at this point) idea that <m>\int_a^b v(t)\, dt</m> gives the total change in position <m>s(t)</m> between <m>t = a</m> and <m>t = b</m>, where <m>v(t)</m> is the velocity corresponding to position function <m>s(t)</m>.  
+    <ul>
+      <li>
+        <p>
+          In other words:
+          <md>
+            \int_a^b v(t)\,dt = s(b) - s(a)
+          </md>.
+          But think about the relationship between <m>s</m> and <m>v</m>.  Velocity is the <em>derivative</em> of position.  So another way we could write the equation above is
+          <md>
+            \int_a^b s'(t)\, dt = s(b) - s(a)
+          </md>.
+        </p>
+      </li>
+      <li>
+        <p>
+          In fact, for any continuous function, we can think of that function as a velocity function for some position function it is the derivative of.  Big idea: if we can get our hands on that position function, we can use <m>s(b) - s(a)</m> to <em>compute</em> the integral (instead of using a limit of Riemann sums).
+        </p>
+      </li>
+      <li>
+        <p>
+          Notation: given a (continuous) function <m>f</m>, let <m>F</m> be <term>antiderivative</term> of <m>f</m> (that is, <m>F'(x) = f(x)</m>). 
+        </p>
+      </li>
+      <li>
+        <p>
+          The Fundamental Theorem of Calculus (FTC) is that 
+          <md>
+            \int_a^b f(x) \, dx = F(b) - F(a)
+          </md>.
+        </p>
+      </li>
+      <li>
+        <p>
+          More notation: instead of writing <m>F(b) - F(a)</m> we will write <m>\left.F(x)\right|_a^b</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Let's use the FTC to evaluate some definite integrals.  Do some examples involving constant functions, linear functions, polynomials, basic trig and exponential functions.
+        </p>
+      </li>
+    </ul>
+  </p>
+  
+</handout>
+</section>

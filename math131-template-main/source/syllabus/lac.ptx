@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="sec-lac">
+  <title>LAC Area 2/GtPathways Content and Competency Criteria</title>
+    <p>
+      The following table describes how this course meets the LAC Area 2 and gtPathways content and competency criteria, and is provided purely for your information (nothing in this section requires action on your part or changes how you will be assessed in this class as described above).
+    </p>
+
+    <tabular left="minor" top="minor">
+      <col halign="right"/><col width="70%" right="minor" halign="left"/><col halign="center" right="minor"/><col halign="center" right="minor"/><col halign="center" right="minor"/>
+      <row>
+        <cell colspan="2" halign="left">
+        <p>
+          LAC Mathematics Learning Outcomes + gtP Competency &amp; SLO's
+        </p>
+        </cell>
+        <cell colspan="3" halign="center" bottom="minor">Mapping</cell>
+      </row>
+
+      <row>
+        <cell><nbsp/>
+        <nbsp/></cell>
+        <cell/>
+        <cell/>
+        <cell/>
+        <cell/>
+      </row>
+
+      <row bottom="minor">
+        <cell colspan="2" halign="left">Student Learning Outcomes</cell>
+        <cell>Class</cell>
+        <cell>Hmwk</cell>
+        <cell>Tests</cell>
+      </row>
+
+      <row valign="top" bottom="minor">
+        <cell >1.</cell>
+        <cell>
+        <p>
+          Interpret Information
+          <ol marker="a.">
+            <li>
+              <p>
+                Explain information presented in mathematical forms (e.g., equations, graphs, diagrams, tables, words).
+              </p>
+            </li>
+          </ol>
+        </p>
+        </cell>
+        <cell>X</cell>
+        <cell>X</cell>
+        <cell>X</cell>
+      </row>
+
+      <row valign="top" bottom="minor">
+        <cell>2.</cell>
+        <cell>
+        <p>
+          Represent Information
+          <ol marker="a.">
+            <li>
+              <p>
+                Convert information into and between various mathematical forms (e.g., equations, graphs, diagrams, tables, words).
+              </p>
+            </li>
+          </ol>
+        </p>
+        </cell>
+        <cell>X</cell>
+        <cell>X</cell>
+        <cell>X</cell>
+      </row>
+
+      <row valign="top" bottom="minor">
+        <cell>3.</cell>
+        <cell>
+        <p>
+          Perform Calculations
+          <ol marker="a.">
+            <li>
+              <p>
+                Solve problems or equations at the appropriate course level.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Use appropriate mathematical notation.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Solve a variety of different problem types that involve a multi-step solution and address the validity of the results.
+              </p>
+            </li>
+          </ol>
+        </p>
+        </cell>
+        <cell>X</cell>
+        <cell>X</cell>
+        <cell>X</cell>
+      </row>
+
+      <row valign="top" bottom="minor">
+        <cell>4.</cell>
+        <cell>
+        <p>
+          Apply and Analyze Information
+          <ol marker="a.">
+            <li>
+              <p>
+                Make use of graphical objects (such as graphs of equations in two or three variables, histograms, scatterplots of bivariate data, geometrical figures, etc.) to supplement a solution to a typical problem at the appropriate level.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Formulate, organize, and articulate solutions to theoretical and application problems at the appropriate course level.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Make judgments based on mathematical analysis appropriate to the course level.
+              </p>
+            </li>
+          </ol>
+        </p>
+        </cell>
+        <cell>X</cell>
+        <cell>X</cell>
+        <cell>X</cell>
+      </row>
+
+      <row valign="top" bottom="minor">
+        <cell>5.</cell>
+        <cell>
+        <p>
+          Communicate Using Mathematical Forms
+          <ol marker="a.">
+            <li>
+              <p>
+                Express mathematical analysis symbolically, graphically, and in written language that clarifies/justifies/summarizes reasoning (may also include oral communication)
+              </p>
+            </li>
+          </ol>
+        </p>
+        </cell>
+        <cell>X</cell>
+        <cell>X</cell>
+        <cell>X</cell>
+      </row>
+    </tabular>
+
+    <tabular left="minor" top="minor">
+      <col halign="right"/><col width="70%" right="minor" halign="left"/><col halign="center" right="minor"/><col halign="center" right="minor"/><col halign="center" right="minor"/>
+      <row>
+        <cell colspan="2" halign="left">
+        <p>
+          Content Criteria for Mathematics (GT-MA1)
+        </p>
+        </cell>
+        <cell colspan="3" halign="center" bottom="minor">Mapping</cell>
+      </row>
+
+      <row bottom="minor">
+        <cell colspan="2" halign="left">This course should provide students with the opportunity to:</cell>
+        <cell>Class</cell>
+        <cell>Hmwk</cell>
+        <cell>Tests</cell>
+      </row>
+
+      <row valign="top" bottom="minor">
+        <cell >a)</cell>
+        <cell>
+        <p>
+          Demonstrate good problems-solving habits, including
+          <ul>
+            <li>
+              <p>
+                Estimating solutions and recognizing unreasonable results.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Considering a variety of approaches to a given problem and selecting one that is appropriate.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                Interpreting solutions correctly
+              </p>
+            </li>
+          </ul>
+        </p>
+        </cell>
+        <cell>X</cell>
+        <cell>X</cell>
+        <cell>X</cell>
+      </row>
+
+      <row valign="top" bottom="minor">
+        <cell>b)</cell>
+        <cell>
+        <p>
+          Generate and interpret symbolic, graphical, numerical, and verbal (written or oral) representations of mathematical ideas.
+        </p>
+        </cell>
+        <cell>X</cell>
+        <cell>X</cell>
+        <cell>X</cell>
+      </row>
+
+      <row valign="top" bottom="minor">
+        <cell>c)</cell>
+        <cell>
+        <p>
+          Communicate mathematical ideas in written and/or oral form using appropriate mathematical language, notation, and style.
+        </p>
+        </cell>
+        <cell>X</cell>
+        <cell>X</cell>
+        <cell>X</cell>
+      </row>
+
+      <row valign="top" bottom="minor">
+        <cell>d)</cell>
+        <cell>
+        <p>
+          Apply mathematical concepts, procedures, and techniques appropriate to the course.
+        </p>
+        </cell>
+        <cell>X</cell>
+        <cell>X</cell>
+        <cell>X</cell>
+      </row>
+
+      <row valign="top" bottom="minor">
+        <cell>e)</cell>
+        <cell>
+        <p>
+          Recognize and apply patterns or mathematical structure.
+        </p>
+        </cell>
+        <cell>X</cell>
+        <cell>X</cell>
+        <cell>X</cell>
+      </row>
+
+      <row valign="top" bottom="minor">
+        <cell>f)</cell>
+        <cell>
+        <p>
+          Utilize and integrate appropriate technology.
+        </p>
+        </cell>
+        <cell>X</cell>
+        <cell>X</cell>
+        <cell>X</cell>
+      </row>
+    </tabular>
+
+
+</subsection>
+

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet xml:id="activity-08-Riemann-sums">
+            <title>Riemann Sums</title>
+<page>
+<exercise xml:id="act-4-2-2" workspace="3cm">
+      <introduction>
+        <p>
+      Suppose that an object moving along a straight line path has its velocity in feet per second at time <m>t</m> in seconds given by <m>v(t) = \frac{2}{9}(t-3)^2 + 2</m>.
+
+      </p>
+      </introduction>
+      <task workspace="2cm" xml:id="act-4-2-2-task-0">
+        <statement>
+          <p>
+            Carefully sketch the region whose exact area will tell you the value of the distance the object traveled on the time interval <m>2 \le t \le 5</m>.
+          </p>
+        </statement>
+        <!-- <hint>
+          <p>
+            Note that <m>y = v(t)</m> is a parabola with vertex <m>(3,2)</m>.
+          </p>
+        </hint>
+        <answer>
+          <image width="40%" source="images/4_2_Act2Soln" />
+        </answer>
+        <solution>
+          <p>
+            The region whose exact area tells us the value of the distance the object traveled on the time interval <m>2 \le t \le 5</m> is shown below.
+          </p>
+          <image width="40%" source="images/4_2_Act2Soln" />
+        </solution> -->
+      </task>
+      <task workspace="2cm" xml:id="act-4-2-2-task-1">
+        <statement>
+          <p>
+            Estimate the distance traveled on <m>[2,5]</m> by computing <m>L_4</m>,
+            <m>R_4</m>, and <m>M_4</m>.
+          </p>
+        </statement>
+        <!-- <hint>
+          <p>
+            Recall the formulas for <m>L_n</m>,
+            <m>R_n</m>, and <m>M_n</m>.
+          </p>
+        </hint>
+        <answer>
+          <p><m>L_4 = \frac{311}{48} \approx 6.47917</m>,
+            <m>R_4 = \frac{335}{48} \approx 6.97917</m>,
+            and <m>M_4 = \frac{637}{96} \approx 6.63542</m>.
+          </p>
+        </answer>
+        <solution>
+          <p><m>L_4 = \frac{311}{48} \approx 6.47917</m>,
+            <m>R_4 = \frac{335}{48} \approx 6.97917</m>,
+            and <m>M_4 = \frac{637}{96} \approx 6.63542</m>.
+          </p>
+        </solution> -->
+      </task>
+      <task workspace="2cm" xml:id="act-4-2-2-task-2">
+        <statement>
+          <p>
+            Does averaging <m>L_4</m> and <m>R_4</m> result in the same value as <m>M_4</m>?
+            If not,
+            what do you think the average of <m>L_4</m> and <m>R_4</m> measures?
+          </p>
+        </statement>
+        <!-- <hint>
+          <p>
+            Think about what the average of <m>L_1</m> and <m>R_1</m> measures.
+          </p>
+        </hint>
+        <answer>
+          <p><me>
+              \frac{L_4 + M_4}{2} = \frac{646}{96} \ne \frac{637}{96} = M_4
+            </me>.
+          </p>
+        </answer> -->
+        <!-- <solution>
+          <p>
+            The average of <m>L_4</m> and <m>R_4</m> is
+            <me>
+              \frac{L_4 + M_4}{2} = \frac{311+335}{96} = \frac{646}{96} \ne \frac{637}{96} = M_4
+            </me>.
+            This average actually measures what would result from using four trapezoids,
+            rather than rectangles,
+            to estimate the area on each subinterval.
+            One reason this is so is because the area of a trapezoid is the average of the bases times the width,
+            and the <q>bases</q>
+            are given by the function values at the left and right endpoints.
+          </p>
+        </solution> -->
+      </task>
+    </exercise>
+  </page>
+
+  <page>
+        <exercise xml:id="act-4-2-3" workspace="3cm">
+      <introduction>
+        <p>
+      Suppose that an object moving along a straight line path has its velocity <m>v</m>
+      (in feet per second)
+      at time <m>t</m>
+      (in seconds)
+      given by
+      <me>
+        v(t) = \frac{1}{2}t^2 - 3t + \frac{7}{2}
+      </me>.
+      </p>
+      </introduction>
+      <task workspace="7cm" xml:id="act-4-2-3-task-0">
+        <statement>
+          <p>
+            Compute <m>M_5</m>, the middle Riemann sum,
+            for <m>v</m> on the time interval <m>[1,5]</m>.
+            Be sure to clearly identify the value of
+            <m>\Delta t</m> as well as the locations of <m>t_0</m>,
+            <m>t_1</m>,
+            <m>\cdots</m>, <m>t_5</m>.
+            In addition,
+            provide a careful sketch of the function and the corresponding rectangles that are being used in the sum.
+          </p>
+        </statement>
+        <!-- <hint>
+          <p>
+            Note that <m>\Delta t = \frac{5-1}{5}</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>M_5 = -\frac{36}{25} = -1.44</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            For this Riemann sum with five subintervals,
+            <m>\Delta t = \frac{5-1}{5} = \frac{4}{5}</m>,
+            so <m>t_0 = 1</m>, <m>t_1 = 1.8</m>, <m>t_2 = 2.6</m>,
+            <m>t_3 = 3.4</m>, <m>t_4 = 4.2</m> and <m>t_5 = 4</m>.
+            It follows that
+            <md><mrow>M_5 =\mathstrut \amp  v(1.4) \Delta t + v(2.2) \Delta t + v(3.0) \Delta t + v(3.8) \Delta t + v(4.6)</mrow><mrow>=\mathstrut \amp  \frac{7}{25} \cdot \frac{4}{5} - \frac{17}{25} \cdot \frac{4}{5} - 1 \cdot \frac{4}{5} - \frac{17}{25} \cdot \frac{4}{5} +  \frac{7}{25} \cdot \frac{4}{5}</mrow><mrow>=\mathstrut \amp  -\frac{36}{25} = -1.44</mrow></md>
+            A sketch is shown below.
+          </p>
+        </solution> -->
+      </task>
+      <task workspace="4.5cm" xml:id="act-4-2-3-task-1">
+        <statement>
+          <p>
+            Give an estimate for the total change in position of the object on the interval <m>[1,5]</m>.
+          </p>
+        </statement>
+        <!-- <hint>
+          <p>
+            Change in position is tied to the net signed area bounded by the velocity function.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            The change in position is approximately <m>-1.44</m> feet.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Since the net signed area bounded by <m>v</m> on <m>[1,5]</m> represents the total change in position of the object on the interval <m>[1,5]</m>,
+            it follows that <m>M_5</m> estimates the total change in position.
+            Hence,
+            the change in position is approximately <m>-1.44</m> feet.
+          </p>
+        </solution> -->
+      </task>
+      <task workspace="5cm" xml:id="act-4-2-3-task-2">
+        <statement>
+          <p>
+            Give an estimate for the total distance traveled by the object on <m>[1,5]</m>.
+          </p>
+        </statement>
+        <!-- <hint>
+          <p>
+            Think about how total distance is different from change in position when the velocity is sometimes negative.
+          </p>
+        </hint>
+        <answer>
+          <p><m>D \approx 2.336</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            To estimate the total distance traveled by the object on <m>[1,5]</m>,
+            we have to calculate the total area between the curve and the <m>t</m>-axis.
+            Thus,
+            <me>
+              D \approx \frac{7}{25} \cdot \frac{4}{5} + \frac{17}{25} \cdot \frac{4}{5} + 1 \cdot \frac{4}{5} + \frac{17}{25} \cdot \frac{4}{5} +  \frac{7}{25} \cdot \frac{4}{5} = \frac{292}{125} \approx 2.336
+            </me>.
+          </p>
+        </solution> -->
+      </task>
+      <task workspace="3cm" xml:id="act-4-2-3-task-3">
+        <statement>
+          <p>
+            Use appropriate computing technology such as <url href="https://gvsu.edu/s/a9" visual="gvsu.edu/s/a9">this applet</url>
+            to compute <m>M_{10}</m> and <m>M_{20}</m>.
+            What exact value do you think the middle sum eventually approaches as <m>n</m> increases without bound?
+            What does that number represent in the physical context of the overall problem?
+          </p>
+        </statement>
+        <!-- <hint>
+          <p>
+            Besides the noted applet,
+            computer algebra systems such as <em>Maple</em>
+            and <em>Mathematica</em> offer this utility.
+          </p>
+        </hint>
+        <answer>
+          <p><m>-\frac{4}{3}</m> is the object's total change in position on <m>[1,5]</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Using appropriate technology,
+            <m>M_{10} = -1.36</m> and <m>M_{20} = -1.34</m>.
+            Further calculations suggest that
+            <m>M_n \to -\frac{4}{3} = -1.\overline{33}</m> as <m>n \to \infty</m>,
+            and this number represents the object's total change in position on <m>[1,5]</m>.
+          </p>
+        </solution> -->
+      </task>
+    </exercise>
+  </page>
+
+        </worksheet>
+

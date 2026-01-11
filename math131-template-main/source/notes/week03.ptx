@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section xml:id="notes-week-03">
+<title>Week 3 (9/8 - 9/12)</title>
+<p>
+We will cover sections 1.4, 1.5, and start 1.6 this week.
+</p>
+
+<handout>
+  <title>Monday 9/8</title>
+    <p>
+      We are still working on 1.4 today.  Thinking about the derivative as a function of slopes or of instantaneous rates of change.  So instead of finding <m>f'(a)</m>, we are finding a function <m>f'(x)</m>.
+    </p>
+    <p>
+      Here are two things to try:
+      <ul>
+
+        <li>
+          <p>
+            Sketch the graph of <m>f(x) = 4 + 3x - x^2</m> and guess its derivative <m>f'(x)</m>.
+          </p>
+        </li>
+      </ul> 
+    </p>
+    <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}
+          \begin{axis}[
+            axis lines = middle,
+            xlabel = \(x\),
+            ylabel = {\(f(x)\)},
+            ymin=-.5, ymax=7,
+            xmin=-1.5, xmax=4.5,
+            domain=-1:4,
+            samples=100,
+            grid=both,
+            minor tick num=1,
+            major grid style={line width=.2pt,draw=gray!50},
+            minor grid style={line width=.1pt,draw=gray!10}
+          ]
+          \addplot [very thick, blue] {4 + 3*x - x^2};
+          \end{axis}
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Let <m>f(x) = 4 + 3x - x^2</m>.  Find <m>f'(x)</m> using the limit definition.
+          </p>
+        </li>
+        <li>
+          <p>
+            Interesting, we get the equation of a line for the derivative.  This line is NOT the tangent line: it is a line that gives slopes of tangent lines at any given point.
+          </p>
+        </li>
+        <li>
+          <p>
+            Let's try the same thing with <m>f(x) = x^3 + 1</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Graphically, what do we guess the derivative function will look like?
+          </p>
+        </li>
+        <li>
+          <p>
+            Using the limit definition, find <m>f'(x)</m>.  We will need to multiply out <m>(x + h)^3 = x^3 + 3x^2h + 3xh^2 + h^3</m>.
+          </p>
+        </li>
+      </ul>
+    </p>
+</handout>
+
+<handout>
+  <title>Tuesday 9/9</title>
+    <p>
+      Now we know how to approximate and compute derivatives (even if we don't yet have shortcut rules).  But what is the derivative good for?  Why do we care?  Sure, instantaneous velocity is great, but is it good for anything else?
+    </p>
+
+    <p>
+      There are lots of other <q>speeds</q> we can consider.
+      <ul>
+        <li>
+          <p>
+            Let <m>f(t)</m> be the temperature (in degrees Fahrenheit) in a room at time <m>t</m> (in hours).  Then <m>f'(t)</m> is the instantaneous rate of change of temperature with respect to time, measured in degrees per hour.  What does <m>f(3) = 72</m> mean?  What does <m>f'(3) = -4</m> mean?  Can that tell us what <m>f(4)</m> is?
+          </p>
+        </li>
+        <li>
+          <p>
+            Let <m>p(t)</m> be the population of Greeley <m>t</m> years after 2020.  What does <m>p(5) = 120000</m> mean?  What does <m>p'(5) = 3000</m> mean, and what are its units?  Can that tell us what <m>p(6)</m> is?
+          </p>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      The units of the derivative are always <m>\frac{units\ of\ f(x)}{units\ of\ x}</m>.  One notation for the derivative is <m>f'(x)</m>.  Another notation is <m>\frac{df}{dx}</m>, which is read as <q>the derivative of <m>f</m> with respect to <m>x</m></q>.  This notation emphasizes the units of the derivative.
+    </p>
+
+    <p>
+      The derivative does not always have to be with respect to time.  The preview activity for today asked about the function <m>T(x) = \frac{50}{x}</m>, which gave the <em>time</em> (in hours) it takes to drive 50 miles at <m>x</m> miles per hour.  What are the units of <m>T(x)</m>?  What are the units of <m>T'(x)</m>?  What does <m>T'(60) = -\frac{1}{72}</m> mean?
+    </p>
+
+
+</handout>
+
+
+<handout>
+  <title>Wednesday 9/10</title>
+  <p>
+    A few left over examples of interpretation of the derivative:
+      <ul>
+        <li>
+          <p>
+            <m>V(m)</m> gives the value of a car (in dollars) after the car has been driven <m>m</m> miles.  What does <m>V'(m)</m> tell us?
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>C(s)</m> measures the rate at which a person burns calories (in calories per hour) when riding a bike at speed of <m>s</m> kilometers per hour.  What does <m>C'(19) = 52.1</m> mean?
+          </p>
+        </li>
+        <li>
+          <p>
+            Your car's fuel efficiency depends on the speed you drive.  Let <m>f(s)</m> be the fuel efficiency (in miles per gallon) when you are driving at speed <m>s</m> (in miles per hour).  What are the units of <m>f'(s)</m>?
+          </p>
+        </li>
+      </ul>
+  </p>
+
+  <p>
+    Okay, one more: your speed is also a function of time.  What happens when you accelerate?  Your speed increases!  We can ask for the rate at which your speed (which is already a rate of change) changes.  We are taking the derivative <em>of</em> a derivative.  We call this the <term>second derivative</term> and write <m>f''(x)</m>.  
+  </p>
+
+  <p>
+    Explore this idea by completing the <xref ref="activity-02-velocity-acceleration" text="title"/> activity
+  </p>
+  
+</handout>
+
+<handout>
+  <title>Friday 9/12</title>
+  <p>
+    Today we finish section 1.6 which explores the second derivative.
+    Start by reviewing the second half of the <xref ref="activity-02-velocity-acceleration" text="title"/> activity.  In particular, look at question 5 and fill in the blanks.
+  </p>
+  <p>
+    Let's look at another function, just graphically.  In Desmos, graph the functions <m>f(x) = x^3 - x^2 - 2x + 3</m>.  Desmos can graph <m>f'(x)</m> and <m>f''(x)</m> automatically.  What do we notice?
+  </p>
+  <p>
+    Make a chart with some possible shapes of graphs and what we can say about <m>f</m>, <m>f'</m>, and <m>f''</m>.
+    <ul>
+      <li>
+        <p>
+          Consider an increasing, concave up function <m>f</m>.  Since <m>f</m> is increasing, <m>f'</m> is positive.  Since <m>f</m> is concave up, <m>f'</m> is increasing, so <m>f''</m> is positive.  
+        </p>
+      </li>
+      <li>
+        <p>
+          Can a function have negative first derivative and positive second derivative?  What does that tell you about direction and concavity of the various functions <m>f</m>, <m>f'</m>, and <m>f''</m>?
+        </p>
+      </li>
+    </ul>
+  </p>
+  
+</handout>
+</section>

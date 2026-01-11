@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section xml:id="notes-week-12">
+<title>Week 12 (11/10-11/14)</title>
+
+<handout>
+  <title>Monday 11/10</title>
+  <p>
+    Today, we might start section 4.1, but more likely we will work some applied optimization problems from section 3.6.  Questions from the practice problems would be good, or we can pick a problem from the samples distributed last week.
+  </p>
+  <p>
+    To start section 4.1:
+    <ul>
+      <li>
+        <p>
+          At the very beginning of the course, we motivated all of calculus with an example about driving back from DIA.  We realized there was a connection between the distance traveled, the time that took, and the velocity of your car.  
+        </p>
+      </li>
+      <li>
+        <p>
+          In particular, we noted that velocity was given by distance divided by time.  Or more precisely, <m>v = \frac{\Delta d}{\Delta t}</m>, the change in distance divided by the change in time.
+        </p>
+      </li>
+      <li>
+        <p>
+          This allowed us to find the average velocity over any time interval.  As that time interval got smaller, we said that these average velocities were essentially the <em>instantaneous</em> velocity.  This led us to the definition of a derivative, which we have been studying for the last two months.
+        </p>
+      </li>
+      <li>
+        <p>
+          Another question we asked that first day though: if you recorded your speeds every 5 minutes, can you estimate how far you have traveled?  We said after 5 minutes, you noticed speeds of 75mph, 60mph, 65mph and 50mph.  Or in terms of miles/minute, these numbers are 1.25, 1, 1.08, and 0.84.  
+        </p>
+      </li>
+      </ul></p>
+</handout>
+
+<handout>
+  <title>Tuesday 11/11</title>
+  <p>
+    Today we will start exploring the connection between velocity and distance
+  </p>
+  
+  <p>
+    Continuing our exploration of moving from velocity to distance:
+    <ul>
+      <li>
+        <p>
+          Example: suppose you drop a ball down a well.  Since acceleration on earth is a constant <m>32</m> feet per second squared, the velocity after <m>t</m> seconds <m>v(t) = 32t</m> (assuming that the initial velocity was 0).  We are thinking of positive velocity as moving downward here, otherwise we would make the 32 negative.  Can we find the distance traveled by the ball?  Graph this, look at the antiderivative, and look at area,.  
+        </p>
+      </li>
+      <li>
+        <p>
+          Another question we asked that first day: if you recorded your speeds every 5 minutes, can you estimate how far you have traveled?  We said after 5 minutes, you noticed speeds of 75mph, 60mph, 65mph and 50mph.  Or in terms of miles/minute, these numbers are 1.25, 1, 1.08, and 0.84.  
+        </p>
+      </li>
+      <li>
+        <p>
+          In fact, for <em>any</em> rate of change of some quantity, the total change in that quantity will be the rate of change multiplied by the change in independent variable.  Thinking about units here is helpful.
+        </p>
+      </li>
+      <li>
+        <p>
+          A very useful observation about derivatives or instantaneous rates of change, is that these can be pictured graphically as slopes.  What is the graphical interpretation of going the other way?
+        </p>
+      </li>
+      <li>
+        <p>
+          Consider a graph of a constant function that represents a velocity.  What does the product of velocity and time look like?  It is exactly the <em>area under the graph</em>.  That's because the velocity is the height of the function, and the time is the width of the interval on the horizontal axis.
+        </p>
+      </li>
+      <li>
+        <p>
+          But what if the function is not constant?  Well, we can still think of distance as being an area under the curve: just think of the curve as infinitely many small horizontal line segments, sort of like a staircase that when you zoom out looks like a smooth curve.  
+        </p>
+      </li>
+      <li>
+        <p>
+          A big idea: we also have developed a symbolic way to represent rates of change: the derivative function.  For example, if the distance traveled is given by the function <m>f(t) = t^2 - 3t + 8</m> then the velocity is <m>f'(t) = 2t - 3</m>.   Okay, well now if I told you the velocity was <m>v(t) = 2t-3</m>, what is the function that describes the distance?  We can take an <term>antiderivative</term>.  
+        </p>
+      </li>
+    </ul>
+  </p>
+</handout>
+
+<subsection>
+  <title>Wednesday 11/12</title>
+  
+  <p>
+    The plan for today is to do a much deeper dive into section 4.1 by working through an activity that highlights the connection between antiderivatives and area.  We will also consider what happens when the function is negative and how this should impact these calculations.
+  </p>
+
+  <p>
+    We will work through Activity 4.1.3 from the textbook.
+  </p>
+</subsection>
+
+<handout>
+  <title>Friday 11/14</title>
+  
+  <p>
+    We will start on section 4.2 today by considering a systematic way to approximate area under a curve using what is called a <term>Riemann sum</term>.
+  </p>
+
+  <p>
+    First, a reminder of what we are doing here.  We noticed that if we are given a <em>velocity</em> function, we can find the change in distance by multiplying the velocity by the change it time.  Okay, this only works for constant velocity.  To resolve this, we will just approximate the velocity function by a sequence of constant velocities that are close to the true velocity.
+  </p>
+
+  <p>
+    It is also very helpful to picture this product of velocity by change it time as the <em>area</em> under the velocity curve.  In fact, everything we are doing can be thought of as simply a geometry problem of finding area under a curve.
+  </p>
+
+  <p>
+    So how do we approximate this area (i.e., this change in distance)?  We divide up our interval into a bunch of sub-intervals and find the area (change in distance) for each sub-interval.  Then add them up. 
+  </p>
+  
+  <p>
+    Some notation:
+    <ul>
+      <li>
+        <p>
+          We use <term>summation notation</term> or <term>Sigma notation</term> using the Greek letter <m>\Sigma</m> to represent a sum.  For example, <m>\Sigma_{i = 1}^4 i^2 = 1 + 4 + 9 + 16</m>.  Try a few more examples.
+        </p>
+      </li>
+      <li>
+        <p>
+          This will be useful because what we really want to do is add up a bunch of areas.  So we will want to find <me>A_1 + A_2 + A_3 + \cdots + A_n = \Sigma_{i = 1}^n A_i</me>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Now what is each <m>A_i</m>?  Each is a base times a height.  Let's first think about finding the bases.
+        </p>
+      </li>
+      <li>
+        <p>
+          We have some intervale <m>[a,b]</m> that we want to find the area under (draw the picture).  Suppose we divide this up into <m>n</m> sub-intervals.  We will call each sub-interval <m>\Delta x</m>.  What is its value?  Well, <m>\Delta x = \dfrac{b-a}{n}</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          What about the heights (velocities) for each rectangle?  How tall are they?  This is given to us by the function.  We just need to decide what input to use to find that height.
+        </p>
+      </li>
+      <li>
+        <p>
+          As an example, consider the function <m>v(x) = 16 - x^2</m> on the interval <m>[0,4]</m>.  Let's first divide this interval into <m>n = 2</m> sub-intervals.  Keep track of where each sub-interval starts and stops.  Call the <em>endpoints</em> of the sub-intervals <m>x_0, x_1, x_2</m>.  What inputs should we use to find the heights?  
+        </p>
+      </li>
+      <li>
+        <p>
+          We can choose to use the left endpoint of each sub-interval.  Doing so will give us a <term>left Riemann sum</term>, which we would call <m>L_2</m>.  If we choose the right endpoints, we get a <term>right Riemann sum</term>, denoted <m>R_2</m>.  We could also pick the midpoint of the sub-interval, giving a <term>middle Riemann sum</term>, <m>M_2</m>.  The subscript is <m>n</m>, so we can also ask for <m>L_4</m>, <m>R_4</m>, <m>M_4</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          For this example, note that the following table of <m>v</m> values is useful:
+        </p>
+        <tabular>
+          <col right="minor"/>
+          <row bottom="minor">
+            <cell><m>x</m></cell><cell>0</cell><cell>.5</cell><cell>1</cell><cell>1.5</cell><cell>2</cell><cell>2.5</cell><cell>3</cell><cell>3.5</cell><cell>4</cell>
+          </row>
+          <row>
+            <cell><m>v(x)</m></cell><cell>16</cell><cell>15.75</cell><cell>15</cell><cell>13.75</cell><cell>12</cell><cell>9.75</cell><cell>7</cell><cell>3.75</cell><cell>0</cell>
+          </row>
+        </tabular>
+      </li>
+    </ul>
+  </p>
+</handout>
+
+</section>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="homework" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Homework assignments</title>
+
+  <xi:include href="./homework/hw1.ptx"/>
+  <xi:include href="./homework/hw2.ptx"/>
+  <xi:include href="./homework/hw3.ptx"/>
+  <xi:include href="./homework/hw4.ptx"/>
+  
+
+</chapter>

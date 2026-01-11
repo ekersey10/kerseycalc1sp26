@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Written by Sarah Sparks, Fall 2025 -->
+
+<worksheet xml:id="hw2">
+  <title>Written Homework 2</title>
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Complete all the parts below on a <em>separate page</em> (not between the prompts).  Submit your work by uploading a single PDF to Canvas.  This can either be a scan of handwritten solutions or a PDF you created by first typing your solutions
+    </p>
+  </introduction>
+  
+  <page>
+
+  <project>
+    <introduction>
+      <p>
+        You are going on a hot air balloon ride.  For the first 10 minutes, the height of the balloon is a function of time, given by <me>h(t) = 1.75t + 2\sin(t)</me>, where <m>t</m> is measured in minutes and <m>h</m> is measured in 100s of feet.  
+      </p>
+
+      <p>
+        The air temperature gets colder the higher you ride.  In fact, the temperature is a function of height, given by <me>T(h) = 30e^{-0.01h}+40</me>, where <m>h</m> is measured in 100s of feet above the ground and <m>T</m> is given in degrees Fahrenheit.  
+      </p>
+
+      <p>
+        Our goal is to use these two facts to understand how the temperature is changing relative to time spent in the balloon, and to explore how the chain rule makes sense in this context.
+      </p>
+    </introduction>
+
+
+    <task>
+      <statement>
+        <p>
+          Use Desmos to graph both functions.  Sketch these graphs carefully, including labels for the axes.  (Note that the axes will have different labels for the two functions.)
+        </p>
+      </statement>
+    </task>
+
+
+    <task>
+      <statement>
+        <p>
+          How high is the balloon after 8 minutes (rounded to the nearest foot), and what is the air temperature there?  Include units.  Then carefully explain why you do NOT use <m>T(8)</m> in your computation of air temperature.
+        </p>
+      </statement>
+    </task>
+
+
+    <task xml:id="hw2-task-product">
+      <statement>
+        <p>
+          Find <m>h'(8)</m> and <m>T'(15.98)</m>.  Show your work and explain what these values represent (including units).  Then find <m>h'(8)\cdot T'(15.98)</m> and explain what this value represents (including units). 
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Paying attention to units will be helpful for interpreting the meaning of <m>h'(8)\cdot T'(15.98)</m>.
+        </p>
+      </hint>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Find the composite function <m>C(t) = T(h(t))</m> and explain what it represents.  What is <m>C(8)</m> and what does it mean?          
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Find <m>C'(t)</m> using the chain rule.  Compute <m>C'(8)</m> and explain what this value represents (including units).  How does this relate to what you did for part <xref ref="hw2-task-product" text="local"/>?
+        </p>
+      </statement>
+    </task>
+  </project>
+  </page>
+</worksheet>

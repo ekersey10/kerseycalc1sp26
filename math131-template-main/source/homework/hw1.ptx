@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Written by Sarah Sparks, Fall 2025 -->
+
+<worksheet xml:id="hw1">
+  <title>Written Homework 1</title>
+  <introduction>
+    <p>
+      <alert> <em>Instructions:</em> </alert> Use the information in the prompt to provide a <alert>short report</alert>. You should write in <alert>complete sentences</alert>. Make sure to explain how you determined the answer to each question and <alert>include units</alert> and <alert>appropriate mathematical notation</alert> throughout.
+    </p>
+  </introduction>
+  
+  <page>
+
+  <project>
+    <introduction>
+      <p>
+        You decide to keep track of snowfall during a major snowstorm in Estes Park.
+        The graph below shows the function <m>s(t)</m> that gives the amount of snow on the ground in inches.
+      </p>
+
+      <image source="images/hw1graph.png" width="75%">
+        <shortdescription>
+          graph showing snowfall with respect to time with a tangent line marked at (3,5.2) with designates slope 3/4.
+        </shortdescription>
+
+        <description>
+          <p>
+            The x-axis is labeled <q>Time (in hours since yous tarted recording)</q>.
+            The y-axis is labeled <q>Snow (in inches)</q>.
+            The graph starts on the y-axis, slightly above the origin, then snakes upward with slight curves back and forth.
+            The point The tangent line is drawn as a dashed line, intersecting the solid curve at the point (3, 5.2).
+            The tangent line is labeled with its slope of 3/4.
+            The curve ends at the tangent line.
+          </p>
+        </description>
+      </image>
+    </introduction>
+
+
+    <task>
+      <statement>
+        <p>
+          What is <m>s(3)</m>? What is <m>s'(3)</m>? What does each value tell you about the snow?
+        </p>
+      </statement>
+    </task>
+
+
+    <task>
+      <statement>
+        <p>
+          Approximately how much snow do you expect to be on the ground 4.5 hours after you started recording?
+        </p>
+      </statement>
+    </task>
+
+
+    <task>
+      <statement>
+        <p>
+          Sketch a graph of <m>s'(t)</m> based on the information you have so far in the graph.
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          You continue tracking snowfall, but don't check as often over time.
+          Below is your table recording amount of snow at each hour.
+          Using the table,
+          Approximate <m>s'(21)</m>.
+          What does this value tell you about the snow?
+          
+        </p>
+
+        <tabular width="40%">
+          <col width="50%" right="minor" halign="center"/><col width="50%" halign="center"/>
+          <row header="yes" bottom="minor">
+            <cell><p>
+              Hours since you began recording
+            </p></cell>
+            <cell><p>
+              Snow in inches
+            </p></cell>
+          </row>
+          <row><cell>18</cell><cell>13</cell></row>
+          <row><cell>19</cell><cell>12.5</cell></row>
+          <row><cell>20</cell><cell>12</cell></row>
+          <row><cell>21</cell><cell>11.75</cell></row>
+          <row><cell>22</cell><cell>10.8</cell></row>
+        </tabular>
+      </statement>
+    </task>
+  </project>
+  </page>
+</worksheet>

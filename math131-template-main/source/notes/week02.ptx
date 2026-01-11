@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-02">
+  <title>Week 2 (9/2 - 9/5)</title>
+
+  <p>
+    This week we cover sections 1.3 and some of 1.4 of the textbook.
+    This introduces the derivative at a point, and the derivative function.
+  </p>
+  <handout>
+  <title>Tuesday, 9/2</title>
+
+  <p>
+    Today we will start by discussing any questions about the practice problems due tonight.
+    Then some discussion section 1.3 on the derivative at a point.
+    Finally, we will do the first Learning Target Quiz.
+  </p>
+
+  <p>
+    <ul>
+      <li>
+        <p>
+          Look at question 2 from last Friday's activity.
+          We want to evaluate that limit.
+          Notice that it is a very particular type of limit.
+          It is a limit of an average velocity between two points.
+          What are they?
+        </p>
+      </li>
+
+      <li>
+        <p>
+          The points are <m>(a, f(a))</m> and <m>(a+h, f(a+h))</m>, where <m>f(x) = x^2 + 5x</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Look at the preview activity for 1.3.
+          Go over this carefully.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          We will want to evaluate these sorts of limits a bunch.
+          But what does <m>\d\frac{f(a+h) - f(a)}{h}</m> look like for different functions?  Try this out with a bunch of different examples.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          The limit of this <term>difference quotient</term> is called the <term>derivative of <m>f</m> at <m>a</m></term>, and written <m>f'(a)</m>.
+          Here we are thinking of <m>a</m> as a specific number.
+          So examples would be <m>f'(2)</m> or <m>f'(0)</m>.
+        </p>
+      </li>
+    </ul>
+  </p>
+  </handout> 
+  
+  <handout>
+  <title>Wednesday, 9/3</title>
+
+  <p>
+    Learning target quizzes discussion.
+    Reminder: you try this again so that you can demonstrate mastery.
+    Your next opportunity is next Tuesday.
+    Let's talk a little bit about instantaneous velocity.
+  </p>
+
+  <p>
+    Let's continue investigating the <term>derivative of a function at a point</term>.
+    <ul>
+      <li>
+        <p>
+          Look at the interactive applet the textbook links to.
+          Compare this to the definition of the derivative we discussed in class and the idea of the instantaneous velocity.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          We can always approximate a derivative at a point by approximating the limit of the average rate of change.
+          In other words, approximating the <term>difference quotient</term> at that point.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Sometimes, we can find the derivative <em>exactly</em> by computing that limit exactly.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Let's think of this as two distinct steps: First, we want to find an expression whose limit is the derivative at a point.
+          Second, we want to evaluate that limit.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Here are some examples.
+          For each function below, write a limit that represents the derivative at the given point.
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    <ol>
+      <li>
+        <p>
+          Let <m>f(x) = \sqrt{x+1}</m>.
+          Find an expression for <m>f'(3)</m>, the derivative at <m>a = 3</m>.
+          Then repeat for <m>f'(8)</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Let <m>f(x) = x^2 + 5x</m>.
+          Find an expression for <m>f'(2)</m>, the derivative at <m>a = 2</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Let <m>f(x) = x^3 - 2x + 1</m>.
+          Find an expression for <m>f'(1)</m>, the derivative at <m>a = 1</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Let <m>f(x) = \sin(x) + \cos(x)</m>.
+          Find an expression for <m>f'(0)</m>, the derivative at <m>a = 0</m>.
+        </p>
+      </li>
+    </ol>
+  </p>
+
+  <p>
+    Pay attention to how the substitution of the function and the difference quotient interact.
+  </p>
+
+  <p>
+    Now, evaluate some of the limits we found.
+    Note that the last one...
+    no clue what to do there.
+  </p>
+  </handout> 
+  
+  <handout>
+  <title> Friday, 9/5 </title>
+    <p>
+      Today we start looking at section 1.4, thinking about the derivative as a function.
+      <ul>
+        <li>
+          <p>
+            Start with an example.  Let <m>f(x) = x^2 + 1</m>.  Find <m>f'(3)</m>.  Then, what is <m>f'(4)</m>? Can we also find <m>f'(42)</m>?  
+          </p>
+        </li>
+        <li>
+          <p>
+            In fact, we can find <m>f'(a)</m> for any number <m>a</m>.  One way to think of this is that we are creating a rule to help us find a lot of different derivatives.  We are giving a recipe.  No matter what <m>a</m> is, we can always find <m>f'(a)</m> by simply...
+          </p>
+        </li>
+        <li>
+          <p>
+            But really we are doing more.  At any point in the domain of <m>f</m>, we can find a derivative.  That derivative changes when <m>a</m> changes.  So there is actually a <em>function</em> of derivatives.
+          </p>
+        </li>
+        <li>
+          <p>
+            We can describe a function in multiple ways.  A formula.  A table.  A graph.  
+          </p>
+        </li>
+        <li>
+          <p>
+            Look at a graph of a function.  At any input, we can ask: what is the slope of the line tangent to the graph?  We can then collect these answers in a table.  That is describing the derivative function!  We can also graph these values to get a graph of <m>f'(x)</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Let's repeat this with a few functions.  
+            
+            <ol>
+              <li>
+                <p>
+                  a piecewise linear function.
+                </p>
+              </li>
+              <li>
+                <p>
+                  A parabola.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=x^3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x) = \sin(x)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x) = e^x</m>
+                </p>
+              </li>
+            </ol>
+
+          </p>
+        </li>
+      </ul>
+    </p>
+  </handout>
+</section>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section xml:id="notes-week-11">
+<title>Week 11 (11/03-11/07)</title>
+
+<handout>
+  <title>Monday 11/03</title>
+  <p>
+    In section 3.3 we discovered that to find <em>local</em> (or <em>relative</em>) extreme values of a function (maximums and minimums), we must look for inputs at which the derivative was zero or undefined (these inputs are called <term>critical numbers</term>).  This is a powerful tool that will be useful in applications.  
+  </p>
+
+  <p>
+    However, we often are more interested in determining the <term>global maximum</term> or <term>global minimum</term>: the <q>optimal</q> value over all.  
+  </p>
+
+  <p>
+    Do the first activity (3.5.2) from active calculus.
+  </p>
+
+  <p>
+    Must all functions have a global maximum or minimum?  Well, a very simple function, <m>f(x) = x</m> does not.  Any number you think is the maximum of the function will quickly be exceeded, just by increasing the input (and similarly for minimums, of course).
+  </p>
+
+  <p>
+    In practice though, we usually have some sort of constraint on the <em>domain</em> of the function.  It might not make sense to allow inputs to be less than 0, for example.  Or there might be a maximum allowable input.  If we consider functions on <term>closed intervals</term>, then it turns out these always do attain their global maximum and minimum values (as long as the function is continuous on that interval).
+  </p>
+
+  <p>
+    Draw some pictures to illustrate this.
+  </p>
+
+  <p>
+    What does this mean in practical terms?  The global maximum and minimum for a continuous function on a closed interval must occur at either a critical number or at one of the end points of the interval.  So we really only have a handful of options.  Which input gives us the largest/smallest output?  Just try them all!
+  </p>
+
+  <p>
+    Find the global maximum and minimum of <m>\dfrac{x^2}{x-2}</m> on the interval <m>[3,7]</m>.
+  </p>
+</handout>
+
+<handout>
+  <title>Tuesday 11/04</title>
+  
+  <p>
+    How can we use global optimization to solve real world problems?  Here is an example.
+  </p>
+
+
+      <p workspace="5in">
+         A piece of cardboard that is <m>10\times 15</m>
+ (each measured in inches) is being made into a box without a top. To do so, squares are cut from each corner of the box and the remaining sides are folded up. If the box needs to be at least 1 inch deep and no more than 3 inches deep, what is the maximum possible volume of the box? what is the minimum volume? Justify your answers using calculus.
+      </p>
+
+</handout>
+
+<subsection>
+<title>Wednesday 11/5</title>
+<p>Today we will explore ways to solve applied optimization problems.  The examples can be found in the <xref ref="activity-07-applied-optimization" text="title"/> activity.</p>
+  </subsection>
+
+<subsection>
+<title>Friday 11/7</title>
+<p>
+  We will do more practice with applied optimization today, using the same activity from Wednesday.
+</p>
+<p>
+  We focused on question 2 from the worksheet.  We will not get through all of these, but on Monday at least some of the time will be spent answering questions from the practice set.
+</p>
+  </subsection>
+</section>

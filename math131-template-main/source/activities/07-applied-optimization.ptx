@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+    <!-- When creating a new activity, make a copy of this file with appropriate name -->
+        <worksheet xml:id="activity-07-applied-optimization">
+            <title>Applied Optimization</title>
+          <page>
+            <exercise>
+              <introduction>
+                <p>
+                  A soup can in the shape of a right circular cylinder is to be made from two materials. The material for the side of the can costs $0.015 per square inch and the material for the lids costs $0.027 per square inch. Suppose that we desire to construct a can that has a volume of 16 cubic inches. What dimensions minimize the cost of the can?
+                </p>
+              </introduction>
+              <task workspace="1in">
+                <statement>
+                  <p>
+                    What quantity is it that you want to <em>optimize</em>?  Write down an expression for this quantity in terms of some variables (any variables).  Use a picture to keep track of what the variables mean.
+                  </p>
+                </statement>
+              </task>
+              <task workspace="1in">
+                <statement>
+                  <p>
+                    What quantity <em>constrains</em> your problem?  Write down one or more expressions for this constraint quantity in terms of some variables (maybe the same from your picture and optimizing quantity).
+                  </p>
+                </statement>
+              </task>
+              <task workspace="2in">
+                <statement>
+                  <p>
+                    Use the constraint expressions to substitute away all but one variable in the optimization expression.  That is, write the quantity you want to optimize as a <em>function</em> of a single variable.
+                  </p>
+                </statement>
+              </task>
+              <task workspace="2in">
+                <statement>
+                  <p>
+                    Use calculus to optimize the function you found in the previous step.
+                  </p>
+                </statement>
+              </task>
+            </exercise>
+          </page>
+          <page>
+            <p>
+              Here are a few more optimization word problems to try.  For each, follow a similar process as you did on the first problem.
+            </p>
+            <exercise>
+              <statement>
+                <p>
+                  Find two numbers exactly 20 apart whose product is as small as possible.  For example, if your numbers were 3.5 and 23.5, their product would be 82.25; can you find a pair with smaller product?
+                </p>
+              </statement>
+            </exercise>
+            <exercise>
+              <statement>
+                <p>
+                  A javelina rancher wants to enclose a rectangular area and then divide it into four pens with fencing parallel to one side of the rectangle.
+                  Each pen will be covered with mulch that costs $5 per cubic meter, to a depth of 3 inches.
+                  Each pig requires 3 square feet of space.
+                  He has 780 feet of fencing available to complete the job.
+                  What is the largest number of javalinas the farmer to enclose?
+                </p>
+              </statement>
+            </exercise>
+            <exercise>
+              <statement>
+                <p>
+                  Next door, a vicuña wool grower wants to enclose a rectangular area along the side of an existing wall.  Fencing costs $25 per foot.  He needs the enclosure to have an area of 300 square feet.  What is the least amount of money he can spend to complete the job?
+                </p>
+              </statement>
+            </exercise>
+            <exercise>
+              <statement>
+                <p>
+                  Your construction firm as been contracted to install a rectangular swimming pool with an area of 300 square feet, surrounded on all sides by a wood deck.  On three sides, the wood deck must extend 3 feet from the pool.  On the fourth side, the deck should extend 7 feet.  What dimensions for the pool will minimize the amount of wood needed for the deck?
+                </p>
+              </statement>
+            </exercise>
+            <exercise>
+              <statement>
+                <p>
+                 Oscar has walked about 1 mile along the straight bank of a lake when he notices a puppy drowning.  Without a care for his own safety, Oscar swims 1/4 of a mile straight out to save the puppy.  Obviously, he wants to get back to his car as quickly as possible.  He figures he can swim at a rate of 3 miles per hour and run at a rate of 7 miles per hour.  To what point along the bank of the lake should this hero swim?
+                </p>
+              </statement>
+            </exercise>
+            <exercise>
+              <statement>
+                <p>
+                  A Norman window has the shape of a semicircle atop a rectangle so that the diameter of the semicircle is equal to the width of the rectangle. What is the area of the largest possible Norman window with a perimeter of 39 feet?
+                </p>
+              </statement>
+            </exercise>
+            <exercise>
+              <statement>
+                <p>
+                  A wire of length 13 is cut into two pieces which are then bent into the shape of a circle of radius <m>r</m> and an equilateral triangle with side length <m>s</m>.
+                  Where should the wire be cut to maximize the combined area of the two shapes?
+                </p>
+              </statement>
+            </exercise>
+            <exercise>
+              <statement>
+                <p>
+                  Consider the region in the <m>x</m>-<m>y</m> plane that is bounded by the <m>x</m>-axis and the function <m>f(x) = 25-x^2</m>.  Construct a rectangle whose base lies on the <m>x</m>-axis and is centered at the origin, and whose sides extend vertically until they intersect the curve <m>y = 25-x^2</m>.  Which such rectangle has the greatest perimeter?
+                </p>
+              </statement>
+            </exercise>
+            <exercise>
+              <statement>
+                <p>
+                  You have been hired to build a rectangular trash can without a lid out of pure gold sheet metal for the new White House bathroom.  The material costs $440 per square inch and you have a budget of $2 million.  What is the largest amount of trash the trashcan can hold?
+                </p>
+              </statement>
+            </exercise>
+          </page>
+        </worksheet>
+

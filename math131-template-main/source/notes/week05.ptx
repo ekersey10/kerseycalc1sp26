@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section xml:id="notes-week-05">
+<title>Week 5 (9/22 - 9/26)</title>
+<p>
+  This week we finish section 2.1 and 2.2.  This will give us lots of functions that we can take the derivative of.
+</p>
+
+<handout>
+  <title>Monday 9/22</title>
+  <p>
+    Last time we learned how to take derivatives of power functions, like <m>f(x) = x^4</m>, but also <m>f(x) = \frac{1}{x^2} = x^{-2}</m> and <m>f(x) = \sqrt[3]{x} = x^{-1/3}</m>.  The rule is that for any constant <m>n</m>, if <me>
+      f(x) = x^n
+    </me>
+    then <me>
+      f'(x) = nx^{n-1}
+    </me>.
+  </p>
+
+  <p>
+    We also looked at how to combine functions: <m>f(x) = g_1(x) +g_2(x)</m> has derivative <m>f'(x) = g_1'(x) + g_2'(x)</m>.  And if <m>f(x)</m> is a constant multiple of another function, say <m>f(x) = 5g(x)</m>, then <m>f'(x) = 5g'(x)</m>.  For example, <m>f(x) = 7x^3</m> will have derivative <m>f'(x) = 7\cdot(3x^2) = 21x^2</m>.
+  </p>
+  
+
+  <p>
+    Today, let's practice these derivatives.  Write down a bunch of functions that we can take derivatives of and do it.  Include some that need to be simplified first.
+  </p>
+
+  <p>
+    What if we have <m>f(x) = 2^x</m>?  Is the derivative <m>f'(x) = x2^{x-1}</m>?  No!  We can verify this by graphing both.  So actually we do want to graph these exponential functions and numerically compute the derivatives.  It turns out that for any constant <m>a</m>, the function <m>f(x) = a^x</m> has derivative <m>f'(x) = a^x \ln(a)</m>. 
+  </p>
+
+  <p>
+    In other words, the derivative if an exponential function is proportional to itself, with constant of proportionality <m>\ln(a)</m> where <m>a</m> is the base.  Note that since <m>\ln(e) = 1</m>, this says that <m>\frac{d}{dx}e^x = e^x</m>.
+  </p>
+</handout>
+
+<handout>
+  <title>Tuesday 9/23</title>
+  
+  <p>
+    The goal of section 2.2 is to develop rules for the derivatives of <m>\sin(x)</m> and <m>\cos(x)</m>.  We could think of these rules as arbitrary, but to help us remember and make sense of them, it will be useful to briefly review some trigonometry.  
+  </p>
+  
+  <p>
+    Perhaps you learned trigonometry as a method for finding the lengths of legs of right triangles.  What does <m>\sin(x)</m> and <m>\cos(x)</m> tell you there?
+  </p>
+
+  <p>
+    We want to extend this meaning to a larger domain of angles, not just between 0 and 90 degrees.
+  </p>
+        <p>
+          Now we want the triangle with base on the <m>x</m>-axis and angle at the origin to still obey the usual relationships for <m>\sin(\theta)</m> and <m>\cos(\theta)</m>.  So this means that <m>\sin(\theta)</m> will be the <m>y</m>-value of the circle, and <m>\cos(\theta)</m> is the <m>x</m>-value.
+        </p>
+
+        <p>
+          Now continuing this, it makes sense to ask for <m>\sin(3\pi/4)</m>.  We just need to know what the <m>y</m> value is on the circle at that point.
+        </p>
+
+        <p>
+          Notice that we are using a circle with radius 1 here, so while <m>\sin(\theta) = y/r</m>, we really get <m>y</m>.
+        </p>
+
+
+</handout>
+
+
+<handout>
+  <title>Wednesday 9/24</title>
+  
+  <p>
+    Let's pick up where we left off with our review of basic trigonometry.
+  </p>
+  <p>
+    <ul>
+        <li>
+        <p>
+          First we want to switch to using radians.  What do those means?  1 radian is the angle that gives you an arc of the circle of length equal to the radius of the circle.  
+        </p>
+      </li>
+      <li>
+        <p>
+          The key thing though is that the circumference of a circle is <m>\2\pi r</m>, so the full angle of a circle gives an arc length of <m>2\pi</m> times the radius.  Thus a full circle (<m>360^\circ</m>) is <m>2\pi</m> radians.  
+        </p>
+      </li>
+      <li>
+        <p>
+          From this, we can divide a circle into smaller chunks.  Half a circle is <m>\pi</m> radians, etc.
+        </p>
+      </li>
+    </ul>
+  </p>
+    <p>
+    Now we can think of both <m>\sin(x)</m> and <m>\cos(x)</m> as being functions of <m>x</m>.  But here <m>x</m> is the angle and <m>y = f(x)</m> is the value of the function (which is an <m>x</m> or <m>y</m> value on the unit circle).  Let's graph those functions.
+  </p>
+  <p>
+    Now what about the rate of change of those functions?  Think about what increasing from 0 to 1 radian does to the <m>x</m> and <m>y</m> values on the unit circle!   
+  </p>
+  <p>
+    We can also look at this graphically, by considering slopes of the sine and cosine functions.
+  </p>
+  <p>
+    The point is, <m>\frac{d}{dx}\sin(x) = \cos(x)</m> and <m>\frac{d}{dx}\cos(x) = -\sin(x)</m>
+  </p>
+  <p>
+    Now let's see how to combine all the rules we have so far.  Work through the activity.
+  </p>
+</handout>
+
+<handout>
+  <title>Friday 9/26</title>
+  <p>
+    We used today as an opportunity to catch up on learning target quizzes.  No new content was discussed.
+  </p>
+  
+</handout>
+</section>

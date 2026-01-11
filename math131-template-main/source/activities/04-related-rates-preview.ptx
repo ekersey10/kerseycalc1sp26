@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-04-related-rates-preview">
+  <title>Related to Related Rates</title>
+
+  <introduction>
+    <p>
+      Each scenario below describes how changing quantities are related to each other.  Eventually, we will use derivatives to describe how the rates of change of these quantities are related.
+    </p>
+    <p>
+        But for now, let's make sure that we understand how to describe the relation between the quantities.  In each case, draw a picture, label quantities that are changing with variables, and write down one or more equations relating these changing quantities.
+    </p>
+  </introduction>
+<page>
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        A rock is thrown into a still pond and causes a circular ripple.
+        When the radius of the ripple is 15 inches, it is increasing at a rate of 3 inches per second.
+    </p>
+    
+    <p>
+        How much does the circumference of the ripple increase over the next second?
+      </p>
+    </statement>
+
+    <solution>
+        <p>
+            
+            There are two quantities that change: circumference and radius.
+            These are related by,
+            <me>
+                C = 2\pi r.
+            </me>
+            At the time in question, <m>r = 15</m>, so <m>C = 94.25</m>.
+        </p>
+        <p>
+            After one second, the radius has increased to 18 inches, giving a circumference of 113.1 inches.
+            So the circumference changed by <m>18.85</m> inches.
+        </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        A street light is at the top of a 16 ft tall pole.
+        A woman 6 ft tall walks away from the pole with a speed of 4 ft/sec along a straight path.
+      </p>
+      <p>
+        As she walks, the tip of her shadow moves along the ground.
+        When she is 20 feet away from the pole, is she or the top of her shadow moving faster?  By approximately how much?
+      </p>
+    </statement>
+
+    <solution>
+      <image>
+        <shortdescription>
+          A picture for this problem
+        </shortdescription>
+        <latex-image>
+            \begin{tikzpicture}
+            \draw[thick] (0,0) -- (0,.8) node[left]{\footnotesize 16} -- (0,1.6);
+            \draw[thick] (2,0) -- (2,.3) node[left]{\footnotesize 6} -- (2,.6);
+            \draw (0,0) -- (1,0) node[below]{\footnotesize $x$} -- (2,0) -- (2.6,0) node[below]{\footnotesize $y$} -- (3.4,0);
+            \draw[dashed, thin] (0,1.6) -- (3.2, 0);
+            \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p>
+        Note the similar triangles.
+        the smaller triangle's base <m>y</m> is the length of the woman's shadow.
+        The larger triangle's base <m>x+y</m> is the distance from the light pole to the end of the woman's shadow.
+        The heights of the triangles are 6 and 16, and since the triangles are similar, we get
+        <me>
+          \frac{16}{6}= \frac{x+y}{y}.
+        </me>
+        We are interested in what happens when <m>x = 20</m>.
+        Solving for <m>y</m> we get <m>y = 12</m>.
+        To find the exact rate of change in <m>y</m> we would need to do calculus.
+        Instead, let's just compute <m>y</m> after one second, when <m>x = 24</m>.
+        This gives <m>y = 14.4</m>.
+      </p>
+
+      <p>
+        However, the total distance traveled by the top of the shadow is <m>6.4</m> feet (since the distance from the pole is <m>x+y</m>), so the top of the shadow is traveling at 2.4 feet per second more than the woman (approximately).
+      </p>
+    </solution>
+  </exercise>
+</page>
+
+<page>
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        Suppose that two boats leave a dock at different times.
+        One heads due north, the other due east.
+        When the first boat is 33 miles from the dock it is traveling at a speed of 37 mph.
+        At the same time, the second boat is 65 miles from the dock and is traveling at a speed of 26 mph.
+      </p>
+      <p>
+        If the boats maintain their same speed and heading for another hour, by how much will the distance between them change?
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+        Let <m>a</m> be the distance from the dock for the first boat, and <m>b</m> the distance for the second boat.
+        Let <m>d</m> be the distance between the boats.
+        All these quantities are changing, so we need an equation relating the quantities:
+        <me>
+          a^{2} + b^{2} = d^{2}.
+        </me>
+        At the time in question, we have <m>a = 33</m>, <m>b = 65</m>, so <m>d \approx 72.9</m>.
+        After one hour, <m>a</m> has increased to <m>70</m>, <m>b</m> has increased to <m>91</m>, giving a new value for <m>d</m> of approximately 114.8.
+        This is change of <m>41.9</m> miles.
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        A potter forms a piece of clay into a right circular cylinder.
+        As she rolls it, the height <m>h</m> of the cylinder increases and the radius <m>r</m> decreases.
+        Assume that no clay is lost in the process.
+        When the radius is 3 cm and the height is 6 cm, the height is increasing by 0.6 cm/sec.
+    </p>
+    
+    <p>
+        If this rate continues, what will the dimensions of the cylinder be 2 seconds later?
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+        We have two quantities that are changing: <m>h</m> and <m>r</m>.
+        These are related to each other by the constant volume of the cylinder:
+        <me>
+          V = \pi r^{2} h
+        </me>
+        At the time of interest, <m>r = 3</m> and <m>h = 6</m>, so <m>V = 54\pi</m>.
+        After two seconds, we will have increased <m>h</m> by <m>1.2</m>cm, to a new height of <m>7.2</m>cm.
+        We can use our equation to find <m>r</m> at this time:
+        <me>
+          54\pi = \pi r^{2} 7.2
+        </me>
+        <me>
+          r \approx 2.74
+        </me>
+      </p>
+    </solution>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>
+        Gravel is being dumped from a conveyor belt at a rate of <m>40{\text{ft}}^{3}/\text{min}</m>.
+        It forms a pile in the shape of a right circular cone whose base diameter and height are always the same.
+      </p>
+      <p>
+        Which will take longer: to increase the height of the pile from 10 ft to 11 ft, or from 11 ft to 12 ft?
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+        The base <em>radius</em> <m>r</m> and height <m>h</m> are changing, as well as the volume <m>V</m>.
+        The relationships between these quantities are
+        <me>
+          V = \frac{1}{3}\pi r^{2} h
+        </me>
+        <me>
+          h = 2r.
+        </me>
+        We can combine these to get an equation relating just volume and height:
+        <me>
+          V = \frac{1}{3}\pi \frac{h^{2}}{4}h
+        </me>
+        <me>
+          V = \frac{\pi}{12}h^{3}
+        </me>
+        Now consider what happens to the volume as height changes:
+      </p>
+
+      <tabular>
+        <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center"> </col>
+        <row>
+          <cell> <m>h</m> </cell>
+          <cell>10</cell>
+          <cell>11</cell>
+          <cell>12</cell>
+        </row>
+
+        <row>
+          <cell> </cell>
+        </row>
+
+        <row>
+          <cell> <m>V</m> </cell>
+          <cell>261.8</cell>
+          <cell>348.5</cell>
+          <cell>452.4</cell>
+        </row>
+      </tabular>
+
+      <p>
+        So the volume increases first by 86.7 cubic feet, and then by 103.9 cubic feet.
+        Given that the volume is increasing at a constant rate with respect to time, it will take longer to make the second increase.
+      </p>
+    </solution>
+  </exercise>
+</page>
+</worksheet>

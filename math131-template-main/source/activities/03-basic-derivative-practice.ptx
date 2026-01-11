@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="activity-03-basic-derivative-practice">
+  <title>Basic Derivative Practice</title>
+  
+  <page>
+<exercisegroup cols="2" workspace="1in">
+  <title>Find the derivatives</title>
+<introduction>
+  <p>
+    For each function defined below, compute the derivative using the basic derivatives rules for power functions, exponential functions, sine and cosine, and sums and constant multiples.
+  </p>
+</introduction>
+
+  <exercise>
+    <statement>
+      <p>
+        <m>f(x) = x^3 + 3^x + 3^3</m>
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>f'(x) = 3x^2 + 3^x\ln(3)</m>
+      </p>
+    </answer>
+  </exercise>
+
+  
+  <exercise>
+      <statement>
+        <p>
+          <m>f(x) = 4\cos(x) - 7x^5</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>f'(x) = -4\sin(x) - 35x^4</m>
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          <m>f(x) = \frac{8}{x} + 2\sin(x)</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>f'(x) = \frac{-8}{x^2} + 2 \cos(x)</m>
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          <m>f(x) = x^3(x^2 + 3)</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>5x^4 + 9x^2</m> (distribute first)
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          <m>\displaystyle f(x) = \sqrt{x} + \frac{1}{\sqrt{x}}</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>f'(x) = \frac{1}{2\sqrt{x}} + -\frac{1}{2}x^{-3/2}</m>
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          <m>f(x) = \sin(x) - \cos(x) + e^x + x^{e}</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>f'(x) = \cos(x) + \sin(x) + e^x + ex^{e-1}</m>
+        </p>
+      </answer>
+    </exercise>
+  </exercisegroup>
+</page>
+  <page>
+  <exercisegroup cols="2" workspace="1in">
+    <title>More derivatives</title>
+    
+    <introduction>
+      <p>
+        For each function defined below, compute the derivative using the basic derivatives rules for power functions, exponential functions, sine and cosine, and sums and constant multiples.
+      </p>
+    </introduction>
+  
+
+    <exercise>
+      <statement>
+        <p>
+          <m>P(t) = 500(1.2^t)</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>P'(t) = 500(1.2^t)\ln(1.2)</m>
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          <m>A(x) = (x+5)^2</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>A'(x) = 2x + 10</m> (multiply out the function before taking the derivative).
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          <m>\d h(t) = \frac{-9.8}{2}t^2 + 30 t + 100</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>h'(t) = -9.8t + 30</m>
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          <m>f(x) = e^t + e^{t+2} + e^2</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>f'(x) = e^t + e^2e^t</m> (note that <m>e^{t+2} = e^te^2</m>)
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          <m>\d f(x) = 7\sqrt[5]{x} + \frac{7}{\sqrt[5]{x}}</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>f'(x) = \frac{7}{5}x^{-4/5} + \frac{-7}{5}x^{-6/5}</m>
+        </p>
+      </answer>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          <m>\d f(t) = \frac{t^2 + t + 1}{t^3}</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>f'(t) = -t^{-2} - 2t^{-3} - 3t^{-4}</m>
+        </p>
+      </answer>
+    </exercise>
+
+</exercisegroup>
+</page>
+
+</worksheet>

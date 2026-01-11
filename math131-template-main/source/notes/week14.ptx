@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section xml:id="notes-week-14">
+<title>Week 14 (11/24-11/25)</title>
+<introduction>
+<p>
+  Note that due to Thanksgiving, we only have class on Monday and Tuesday this week.
+</p>
+</introduction>
+<handout>
+  <title>Monday 11/24</title>
+
+  <p>
+    Let's see how useful the Fundamental Theorem of Calculus can be.  The theorem tells us the relationships between the two main ideas in Calculus: derivatives and integrals.  But one way to <em>use</em> the theorem is to evaluate definite integrals exactly by finding antiderivatives.
+  </p>
+
+  <p>
+    Remember what this looks like with an example.  Introduce the notation <q><term>evaluated between</term></q>:
+    <md>
+      \left.\int_2^6 x^3 \, dx = \frac{x^4}{4}\right|_2^6 = \frac{6^4}{4} - \frac{2^4}{4} = 324 - 4 = 320
+    </md>.
+  </p>
+  <p>
+    To use this, we need to find antiderivatives.  Create a chart of standard antiderivatives.  These are just our standard basic derivative rules written in reverse order.  Basically.
+    <ul>
+      <li>
+        <p>
+          <m>f(x) = x^n</m> has antiderivative <m>F(x) = \frac{x^{n+1}}{n+1}</m>.  This works for all <m>n \ne -1</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>f(x) = \frac{1}{x} = x^{-1}</m> has antiderivative <m>F(x) = \ln(|x|)</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>f(x) = e^x</m> has antiderivative <m>F(x) = e^x</m>.  What about other bases for exponential?  <m>f(x) = 3^x</m> has antiderivative <m>F(x) = \frac{3^x}{\ln(3)}</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Trig functions:  <m>f(x) = \sin(x)</m> has antiderivative <m>F(x) = -\cos(x)</m>.  For <m>f(x) = \cos(x)</m>, an antiderivative is <m>F(x) = \sin(x)</m>.  What about other trig functions?  Note that we don't want to worry about this, but we can think about what derivatives we get to find new anti-derivative rules.  For example, what is the antiderivative of <m>\frac{1}{\sqrt{1-x^2}}</m>.
+        </p>
+      </li>
+    </ul>
+  </p>
+  <p>
+    Now use these to evaluate integrals.
+  </p>
+</handout>
+
+<subsection>
+  <title>Tuesday 11/25</title>
+  <p>
+    Today we will just do learning target quizzes.  Any from 1 through 19 will be available.
+  </p>
+</subsection>
+
+
+</section>

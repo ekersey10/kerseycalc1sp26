@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-01">
+  <title>Week 1 (8/25 - 8/29)</title>
+
+  <p>
+    This week focuses on an introduction to what Calculus is about, and the first two sections of Active Calculus.
+  </p>
+  <handout>
+  <title>Monday, 8/25</title>
+
+  <p>
+    Welcome to Calculus!  Wait, what is Calculus?  Today we will explore this in part by doing <xref ref="activity-01-odometer-speedometer" text="title"/>.
+    We start with that and then discuss as a group.
+    Some notes:
+    <ul>
+      <li>
+        <p>
+          There are two quantities that we are measuring: distance traveled and speed.
+          Clearly, there is some relationship between these, but what is it?  That's what calculus is all about.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Note that from physics, and really the definition, we have that
+          <me>
+            speed = \frac{distance}{time}
+          </me>.
+          That makes sense if we are looking at a constant speed, or in our case, an <term>average speed</term>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Next time, we will explore how these concepts relate to each other in more depth.
+        </p>
+      </li>
+    </ul>
+  </p>
+  </handout> 
+  
+  <handout>
+  <title>Tuesday, 8/26</title>
+
+  <p>
+    Today we will explore the relationship between distance, average velocity, and instantaneous velocity.  This is covered in the textbook in section 1.1.
+    <ul>
+      <li>
+        <p>
+          The activity from Monday gave us some ideas that distance and velocity are related, but sometimes in a unclear way.  Let's try to understand this in a more precise mathematical way.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          We can describe the two quantities as <term>functions</term>.
+          In particular, both distance and speed are functions of <term>time</term>.
+          (This is a good choice that we are making, but it is a choice.)
+        </p>
+      </li>
+
+      <li>
+        <p>
+          When we have a function, we can represent it in different ways, such as with a table of values, a graph, or an equation.
+          No idea what the equation is, but we might be able to draw a graph of each.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          We can think about how the graphs are related.
+          What does a high speed mean for the distance graph?
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Here is another important question: how can we estimate one value from the other?  That is, if you know the speed function, can you estimate the distance traveled?  That's essentially what you do in the activity, question 2.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          What if we wanted to go the other way?  If we know the distance function, can we estimate the speed?  Actually, how does the car determine the speed?  How does a radar gun work??
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Note that from physics, and really the definition, we have that
+          <me>
+            speed = \frac{distance}{time}
+          </me>.
+          That makes perfect sense for a constant speed, or an <term>average velocity</term>.
+          But what about the speed <em>right now</em>?  In this very instant, how fast is the car going?
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    Let's give a careful definition of <term>average velocity</term> and explore what happens when you look at the average velocity over different time intervals.
+    <ul>
+      <li>
+        <p>
+          We define average velocity as:
+          <me>
+            AV_{[a,b]} = \frac{s(b) - s(a)}{b - a}
+          </me>
+          where <m>s(t)</m> is the distance function in terms of time <m>t</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Compute an example.  Suppose the height of a drone (in feet) is a function of time (in minutes) given by the equation:
+          <me>
+            h(t) = 20t - 5t^2
+          </me>
+          for the interval <m>[0, 4]</m>.  Compute some average velocities.  Use Desmos for this.  You can create a slider automatically to explore different values.
+        </p>
+      </li>
+      <li>
+        <p>
+          What about the graph here relates to velocity?  Which points on the graph have large velocity?  Which have velocity zero?  Does this make sense?
+        </p>
+      </li>
+      <li>
+        <p>
+          Look at the formula for average velocity.  What does the numerator represent on the graph?  What does the denominator?  What graphical quantity is described by their ratio?
+        </p>
+      </li>
+      <li>
+        <p>
+          Aha!  The average velocity is nothing but the <term>slope</term> of a line through two points on the graph of the distance function.
+        </p>
+      </li>
+      <li>
+        <p>
+          Explore what happens to that line as the two points get closer together.  If the instantaneous velocity is the average velocity when the two points are <q>infinitesimally close</q>, can we determine the velocity at a given point?
+        </p>
+      </li>
+      <li>
+        <p>
+          Graphically, this is the slope of the <term>tangent line</term> at a point on the graph of the distance function.
+        </p>
+      </li>
+      <li>
+        <p>
+          Can we also do this symbolically?  See what you get for the function when you let that slope be in terms of the distance <m>h</m> between the points.
+        </p>
+      </li>
+      <li>
+        <p>
+          What does it mean to be <q>infinitely close</q>?  We will explore this next time and in section 1.2.
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    We will use the model of <term>distance</term> and <term>velocity</term> for a lot of our investigations in this course.
+    But importantly, the tools we develop can be applied to many different functions.
+    <ul>
+      <li>
+        <p>
+          Another car example: your gas mileage is a function of your speed.
+          As your speed changes, we can ask what happens to your mileage.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          The price of eggs is a function of time.
+          We can measure the rate at which the price changes over time too (called inflation).
+          You might hear that inflation is dropping.
+          Does that mean that prices will go down?  Well, if you slow down, does that mean you get closer to the airport?
+        </p>
+      </li>
+
+      <li>
+        <p>
+          The area of a rectangle with a fixed perimeter is a function of its length.
+          As the length changes, we can ask what happens to the area.
+        </p>
+      </li>
+    </ul>
+  </p>
+  </handout>
+
+
+  <handout>
+    <title>Wednesday, 8/27</title>
+    <p>
+      Today we will introduce the idea of a limit, which is essential for understanding the relationship between average velocity and <term>instantaneous velocity</term>.
+      <ul>
+        <li>
+          <p>
+            Remember that the average velocity is given by 
+            <me>
+              AV_{[a,b]} = \frac{s(b) - s(a)}{b - a}
+            </me>.
+            This does not say how fast you were going at any particular time, but does give your <em>average</em> speed over the interval from <m>a</m> to <m>b</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            What if the interval is very small?  Then you might be going faster or slower at certain points on the interval, but it would be reasonable to assume that your average speed is close to your speed at a specific point in time. After all, how much could your speed change in a millisecond?  
+          </p>
+        </li>
+        <li>
+          <p>
+            Okay, maybe it does change a lot, even in a millisecond.  So just zoom in more.  Make the interval even smaller.  
+          </p>
+        </li>
+        <li>
+          <p>
+            As you make the interval smaller and smaller, look at what happens to the average velocity.  Does that average velocity get closer to some value?  If so, we say that <term>limit</term> value <em>is</em> the <term>instantaneous velocity</term>.
+          </p>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      The concept of a <term>limit</term> makes sense for all sorts of functions, not just the average velocity.
+      <ul>
+        <li>
+          <p>
+            Let <m>f(x) = x^2 + 3</m>.  What happens as <m>x</m> approaches 2?  We will write this as <m>\lim_{x \to 2} f(x)</m>.  We want to <term>evaluate</term> this limit.
+          </p>
+        </li>
+        <li>
+          <p>
+            Use Desmos to explore this.  Plug in values closer and closer to 2 <em>on both sides</em>.  Does the value of the function (the <q>output</q>) seem to approach a particular number?  
+          </p>
+        </li>
+        <li>
+          <p>
+            Of course, <m>f(2)</m> is just <m>2^2 + 3 = 7</m>.  So we can say that <m>\lim_{x \to 2} f(x) = 7</m>.  But this doesn't always work.
+          </p>
+        </li>
+        <li>
+          <p>
+            Try <m>f(x) = \frac{\sin(x)}{x}</m> and evaluate <m>\lim_{x \to 0} f(x)</m>.  We cannot just take <m>f(0)</m> since this does not exist.  But maybe the limit does?
+          </p>
+        </li>
+        <li>
+          <p>
+            An important point: Look at the <em>definition</em> of the limit.  We want to find some value that we can get as close as we <em>want</em> to, just by making the input close enough to <m>a</m> (the input we are approaching).
+          </p>
+        </li>
+        <li>
+          <p>
+            Consider the function <m>f(x) = \frac{x^2 - 4}{x - 2}</m>.  What happens if we try to evaluate this function at <m>x = 2</m>?  Here we want to simplify this fraction (try factoring the numerator).
+          </p>
+        </li>
+        <li>
+          <p>
+            But don't we just care about average velocity?  Well, the function above <em>is</em> an average velocity function.  What is the average velocity between <m>0</m> and <m>x</m> for the function <m>s(x) = x^2</m>?
+          </p>
+        </li>
+      </ul>
+    </p>
+    
+  </handout>
+
+  <worksheet>
+    <title>Friday, 8/29</title>
+
+    <page>
+    <p>
+      Let's practice working with limits.
+    </p>
+
+    <exercise workspace="1in">
+      <introduction>
+        <p>
+          Let <m>\d f(x) = \frac{x^2 + x - 2}{x^2 - 4}</m>.  
+        </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Find <m>\d\lim_{x \to 1}f(x)</m>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <p>
+            Find <m>\d\lim_{x \to 2}f(x)</m>.
+          </p>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find <m>\d\lim_{x \to -2}f(x)</m>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find <m>\d\lim_{x \to 4}f(x)</m>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find <m>\d\lim_{x \to \infty}f(x)</m>.
+            </p>
+          </statement>
+        </task>
+      </exercise>
+
+    </page>
+    <page>
+      <exercise workspace="2in">
+        <statement>
+          <p>
+            Evaluate the limit: <me>\lim_{h \to 0} \frac{(2+h)^2 + 5(2+h) - (2^2 + 5\cdot 2)}{h}</me>.
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise workspace="2in">
+        <statement>
+          <p>
+            Evaluate the limit:
+            <me>
+              \lim_{a \to 4}\frac{\sqrt{a} - \sqrt{4}}{a - 4}
+            </me>
+          </p>
+        </statement>
+      </exercise>
+      <exercise workspace="1in">
+        <statement>
+          <p>
+            For each of the two problems above, for what distance function does the limit represent an instantaneous velocity?
+          </p>
+        </statement>
+      </exercise>
+    </page>
+    </worksheet>
+</section>

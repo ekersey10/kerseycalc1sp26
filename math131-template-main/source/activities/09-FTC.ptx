@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="activity-09-FTC">
+  <title>Reasoning with the FTC</title>
+<page>
+  <introduction>
+    <p>
+      You have just bought a new space heater to warm up your dorm room.
+      It has a two-stage heating mechanism that includes heating elements and a fan to blow the air around.
+    </p>
+
+    <p>
+      Let <m>F(t)</m> be the temperature in your room (in degrees Fahrenheit) <m>t</m> hours after midnight on Tuesday, December 2nd.
+      While you don't know much about <m>F(t)</m>, you have determined that the <em>rate of change</em> in temperature looks approximately like the graph shown below.
+      Let <m>f(t)</m> be the rate at which temperature is changing (in degrees Fahrenheit per hour) <m>t</m> hours after midnight on the same day.
+    </p>
+
+    <image width="60%">
+      <shortdescription>
+        a piecewise linear function showing the rate of change in temperature
+      </shortdescription>
+      <latex-image>
+          \begin{tikzpicture}[yscale=.5]
+            		%draw grid
+            \draw[ultra thin, color=gray] (-0.1, -2.3) grid (8.3, 2.7);
+            %put numbers on axis:
+            \foreach \i in {1,...,8} {
+              \node[below, fill=white] at (\i,0) {\tiny \i};
+            }
+            \foreach \i in {-2,...,2} {
+              \node[left, fill=white] at (0,\i) {\tiny \i};
+            }
+            %draw axis:
+            \draw[->] (-0.1, 0) -- (8.3, 0) node[below] {$t$};
+            \draw[->] (0, -2.3) -- (0, 2.4) node[above left] {$y$};
+            %draw graph:
+            \draw[line width=2.5pt, line cap=round] (0,2) -- (1,2) -- (2,0) -- (2.01,-2) -- (3,0) -- (4, 2) -- (5,2) -- (7,-2) -- (8,2);
+            %label graph:
+            \node[below left, fill=white] at (8.3,2.7) {$y = f(t)$};
+          \end{tikzpicture}
+      </latex-image>
+    </image>
+  </introduction>
+
+  <exercise workspace=".5in">
+    <statement>
+      <p>
+        What happens at 2am?  What happens to the temperature between 2am and 3am?
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace=".5in">
+    <statement>
+      <p>
+        When is the temperature of the room getting colder?  When is it warming up?  How do you know?
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace=".5in">
+    <statement>
+      <p>
+        How does the temperature of the room at 3am compare to the temperature at 6am?
+      </p>
+    </statement>
+  </exercise>
+</page>
+<page>
+  <p>
+  Here is the graph again, for reference:
+</p>
+    <image width="60%">
+      <shortdescription>
+        a piecewise linear function showing the rate of change in temperature
+      </shortdescription>
+      <latex-image>
+          \begin{tikzpicture}[yscale=.5]
+            		%draw grid
+            \draw[ultra thin, color=gray] (-0.1, -2.3) grid (8.3, 2.7);
+            %put numbers on axis:
+            \foreach \i in {1,...,8} {
+              \node[below, fill=white] at (\i,0) {\tiny \i};
+            }
+            \foreach \i in {-2,...,2} {
+              \node[left, fill=white] at (0,\i) {\tiny \i};
+            }
+            %draw axis:
+            \draw[->] (-0.1, 0) -- (8.3, 0) node[below] {$t$};
+            \draw[->] (0, -2.3) -- (0, 2.4) node[above left] {$y$};
+            %draw graph:
+            \draw[line width=2.5pt, line cap=round] (0,2) -- (1,2) -- (2,0) -- (2.01,-2) -- (3,0) -- (4, 2) -- (5,2) -- (7,-2) -- (8,2);
+            %label graph:
+            \node[below left, fill=white] at (8.3,2.7) {$y = f(t)$};
+          \end{tikzpicture}
+      </latex-image>
+    </image>
+  <exercise workspace=".5in">
+    <statement>
+      <p>
+        When is your room the coldest?  When is your room the warmest?  That is, when are the local maximums and minimums of <m>F(t)</m>?
+      </p>
+    </statement>
+  </exercise>
+  
+  <exercise workspace=".5in">
+    <statement>
+      <p>
+        Suppose your friend with a nifty digital watch that has a thermometer built in drops by at 3am and notes that the temperature was <m>67^\circ</m>.
+        Find the exact temperature of your room at 4am.
+      </p>
+    </statement>
+  </exercise>
+  
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        Use the Fundamental Theorem of Calculus to find the exact temperature of the fridge at each hour mark.
+        Fill in the table below.
+      </p>
+      
+      <tabular>
+        <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center" right="minor"> </col> <col halign="center"> </col>
+        <row bottom="minor">
+          <cell> <m>t</m> </cell>
+          <cell>0</cell>
+          <cell>1</cell>
+          <cell>2</cell>
+          <cell>3</cell>
+          <cell>4</cell>
+          <cell>5</cell>
+          <cell>6</cell>
+          <cell>7</cell>
+          <cell>8</cell>
+        </row>
+        
+        <row>
+          <cell> <m>F(t)</m> </cell>
+          <cell>
+            <me>
+              \qquad
+            </me>
+          </cell>
+          <cell> <m>\qquad</m> </cell>
+          <cell> <m>\qquad</m> </cell>
+          <cell>  67  </cell>
+          <cell> <m>\qquad</m> </cell>
+          <cell> <m>\qquad</m> </cell>
+          <cell> <m>\qquad</m> </cell>
+          <cell> <m>\qquad</m> </cell>
+          <cell> <m>\qquad</m> </cell>
+        </row>
+      </tabular>
+      
+    </statement>
+    
+  </exercise>
+</page>
+</worksheet>

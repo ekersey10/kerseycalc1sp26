@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section xml:id="notes-week-10">
+<title>Week 10 (10/27-10/31)</title>
+
+<handout>
+  <title>Monday 10/27</title>
+  
+  <p>
+    Today we explore more of L'Hôpital's rule.  The idea is that we can replace a function with its tangent line approximation and use this to evaluate the limit.  But more precisely:
+  </p>
+
+  <theorem xml:id="thm-lhopital">
+    <title>L'Hôpital's rule</title>
+    
+    
+    <statement>
+      <p>
+        Let <m>f</m> and <m>g</m> be differentiable on an open interval that includes <m>x = a</m> and suppose that <m>f(a) = g(a) = 0</m> and that <m>g'(a) \ne 0</m>.  Then
+        <me>
+          \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}
+        </me>
+      </p>
+    </statement>
+  </theorem>
+  <p>
+    Let's do some examples:
+    <ol>
+      <li>
+        <p>
+          Find <m>\d\lim_{x \to 0}\frac{5x - \sin(2x)}{x}</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Find <m>\d\lim_{x \to -2}\frac{x^3+8}{x+2}</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Find <m>\d\lim_{x \to 0}\frac{1-\cos(x)}{3x^2 + 7x}</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Find <m>\d\lim_{x\to 0^+} x \ln (x)</m>.
+        </p>
+      </li>
+    </ol>
+  </p>
+
+  <p>
+    Another use case for L'Hôpital's rule is to find <q>end behavior</q> of functions.  That is, what happens to a function as <m>x</m> gets arbitrarily large.  We write this as <m>\lim_{x \to \infty}f(x)</m>.  Here are some examples.
+    <ol>
+      <li>
+        <p>
+          Find <m>\d\lim_{x\to \infty} \frac{\ln(x)}{2\sqrt{x}}</m>.  What does this say about that function, and about the numerator and denominator separately.
+        </p>
+      </li>
+      <li>
+        <p>
+          Find <m>\d\lim_{x\to\infty} \frac{6x^2 - x + 7}{x-3x^2}</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          Find <m>\d\lim_{x\to\infty}\frac{e^x+x}{2e^x + x^2}</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          Find <m>\d\lim_{x \to \infty} 7xe^{-x}</m>.
+        </p>
+      </li>
+    </ol>
+  </p>
+
+  <p>
+    Careful though.  What is <m>\lim_{x \to 3}\frac{x^3 - 3x - 6}{x+6}</m>?  Or <m>\lim_{x\to\infty}\frac{x^2}{e^{-x}}</m>?  Try graphing these.
+  </p>
+</handout>
+  
+<subsection>
+  <title>Tuesday 10/28</title>
+  <p>Today we went over some more examples of L'Hopital's rule, mostly from the practice, including situations in which it is better to do some algebraic simplification first.</p>
+  
+
+</subsection>
+
+<handout>
+  <title>Wednesday 10/28</title>
+  
+  <p>
+    We will start exploring <em>the</em> big application of derivatives: maximizing and minimizing a function.  This starts with section 3.3, and will continue with 3.5 and 3.6 (we will skip 3.4).
+  </p>
+
+  <p>
+    Today we start by looking for <em>local</em> extrema. What we explore today will not really feel like an application, but hopefully it is not too much of a leap to think that the functions we have here could describe some real-world quantity (say cost or revenue) that we would like to minimize or maximize.
+  </p>
+
+  <p>
+    Start by looking at a graph that has local maxima, minimal, cusp points, and a saddle point.  Consider what each of these are in terms of local extrema, global extrema, and values of the derivative.
+  </p>
+
+  <p>
+    What can we learn from this example?  What is the connection between the local extrema a <term>critical numbers</term>: inputs at which the function has either derivative zero or no derivative? 
+    <ul>
+      <li>
+        <p>
+          If a function as a local max/min at input <m>x = c</m>, then either <m>f'(c) = 0</m> or <m>f'(c)</m> does not exist.  We call such <m>c</m> a <term>critical number</term>, the point <m>(c, f(c))</m> a <term>critical point</term> and the output <m>f(c)</m> a <term>critical value</term>
+        </p>
+      </li>
+      <li>
+        <p>
+          However, just because <m>c</m> is a critical number, doesn't mean that <m>f</m> has a local extrema at <m>c</m>.  
+        </p>
+      </li>
+      <li>
+        <p>
+          Why not?  What can stop this from happening?  This is where we use the first derivative <em>near</em> <m>x = c</m> to understand the behavior of the function.
+        </p>
+      </li>
+      <li>
+        <p>
+          The <term>first derivative test</term> says that if <m>p</m> is a critical number of a continuous function <m>f</m> that is differentiable near <m>p</m> (except possibly at <m>x=p</m>), then we can look at the <em>sign</em> of <m>f'</m> on either side of <m>p</m> to determine whether <m>f</m> has a local maximum or minimum at <m>p</m>.  In particular, if <m>f'</m> changes from positive to negative at <m>p</m>, then <m>f</m> has a local maximum at <m>p</m>.  If <m>f'</m> changes from negative to positive at <m>p</m>, then <m>f</m> has a local minimum at <m>p</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          We could also/alternatively use the <term>second derivative test</term>: if <m>p</m> is a critical number of a continuous function <m>f</m> such that <m>f'(p) = 0</m> and <m>f''(p) \ne 0</m>, then <m>f</m> has local maximum at <m>p</m> if and only if <m>f''(p) \lt 0</m> and <m>f</m> has a local minimum at <m>p</m> if and only if <m>f''(p) \gt 0</m>.
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    Now lets see how this all works with an example.  Consider <m>f(x) = 2x^3 + 3x^2 - 12x - 7</m>.  Find the critical numbers (factor), classify each using both tests, find points of inflection.  Graph the function (by hand).  Check that this makes sense by graphing with desmos.
+  </p>
+
+  <p>
+    Another example (needs quadratic formula) <m>f(x) = x^3 + x^2 - 3x + 1</m>.
+  </p>
+</handout>
+
+
+<handout>
+  <title>Friday 10/31</title>
+
+  <p>
+    Let's practice using the first and second derivative tests to explore the behavior of some functions, including finding local maxima and minima, intervals on which the function is increasing or decreasing, inflection points, and any asymptotes.
+  </p>
+
+  <p>
+    Start with an easier one: <m>f(x) = x^3 - 3x + 2</m>.
+  </p>
+
+  <p>
+    Next, try a slightly more complicated example: <m>f(x) = \dfrac{x^2}{x^2 - 2x + 1}</m>.  Note we need to use the quotient rule here, and then factor the numerator to simplify it.
+  </p>
+
+  <p>
+    Another similar one: <m>f(x) = \dfrac{x^2+4}{x}</m>.  
+  </p>
+</handout>
+</section>

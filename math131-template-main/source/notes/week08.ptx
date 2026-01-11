@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section xml:id="notes-week-08">
+<title>Week 8 (10/13 - 10/17)</title>
+
+<p>
+  This week we will explore <term>implicitly defined</term> functions and their derivatives.
+</p>
+  
+<handout>
+  <title>Monday 10/13</title>
+  <p>
+    Suppose a 10 foot ladder is leaning against a wall. The bottom of the ladder is being pulled away from the wall at a constant rate.  What can we say about how fast the top of the ladder is sliding down the wall?
+    <ul>
+      <li>
+        <p>
+          Let <m>x</m> be the distance from the wall to the bottom of the ladder, and let <m>y</m> be the height of the ladder on the wall.  
+        </p>
+      </li>
+      <li>
+        <p>
+          We know that <m>x^2 + y^2 = 10^2</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          How much does the top of the ladder move when the bottom of the ladder moves 1 foot (from 0 feet to 1 foot)?  What if the ladder moved a foot from 5 feet to 6 feet?
+        </p>
+      </li>
+      <li>
+        <p>
+          What we want to know is what <m>\frac{dy}{dx}</m> is for any value of <m>x</m>.  Now if we had a <em>function</em> for <m>y</m> in terms of <m>x</m>, we would just take the derivative of that function. 
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          Certainly <m>y</m> depends on <m>x</m>, but we don't have an <em>explicit</em> function for <m>y</m> in terms of <m>x</m>.  We have an <em>implicit</em> relationship between <m>x</m> and <m>y</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Luckily, we can still compute <m>\frac{dy}{dx}</m> by differentiating both sides of the equation <m>x^2 + y^2 = 10^2</m> with respect to <m>x</m>.  When we get to the term involving <m>y</m>, we will need to use the chain rule, since <m>y</m> is a function of <m>x</m> (so it is an <q>inside function</q>).
+        </p>
+      </li>
+      <li>
+        <p>
+          Do this.
+        </p>
+      </li>
+    </ul>
+  </p>
+  <p>
+    There are lots of interesting implicitly defined functions.  For example, the equation <m>x^3 + y^3 = 9xy</m> defines <m>y</m> implicitly as a function of <m>x</m>.  (This is called a <term>folium of Descartes</term>.)  Graph this using Desmos.  Then use implicit differentiation to find <m>\frac{dy}{dx}</m>.
+  </p>
+  <p>
+    Play around with different implicit equations in Desmos.  Find one and verify where the tangent really is vertical using implicit differentiation.
+  </p>
+</handout>
+
+<handout>
+  <title>Tuesday 10/14</title>
+  
+  <p>
+    Today we continue exploring implicit functions and their derivatives.
+  </p>
+
+  <p>
+    Using desmos, graph a few of the following:
+    <ul>
+      <li>
+        <p>
+          <m>x^3 + y^3 = 7xy</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>y^2 = x^3 - 4x + 10</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>(x^2+y^2)^2 = 16xy</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>x^2 + y^2 = (x^2 + y^2 - 2x)^2</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>(x^2 + y^2)^2 = 7xy^2 + x^2</m>
+        </p>
+      </li>
+    </ul>
+    A very useful way to understand these problems is to find their <em>local</em> maxima.  This will be a spot where the tangent line is horizontal, or where <m>\frac{dy}{dx} = 0</m>.
+  </p>
+
+  <p>
+    To find <m>\frac{dy}{dx}</m> we evaluate the derivative of both sides, with respect to <m>x</m> (i.e., take <m>\frac{d}{dx}</m> of both sides).  Any term with a <m>y</m> will require the chain rule, since <m>y</m> is a function of <m>x</m>.
+  </p>
+
+  <p>
+    Let's do this for one of the examples, say <m>x^3 + y^3 = 7xy</m>.
+    <ul>
+      <li>
+        <p>
+          <m>\frac{d}{dx}(x^3 + y^3) = \frac{d}{dx}(7xy)</m>.  This becomes <me>3x^2 + 3y^2\frac{dy}{dx} = 7y + 7x\frac{dy}{dx}</me>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Now we solve for <m>frac{dy}{dx}</m>:
+          <md>
+            <mrow>3y^2\frac{dy}{dx} - 7x\frac{dy}{dx} \amp = 7y - 3x^2</mrow>
+            <mrow>(3y^2 - 7x)\frac{dy}{dx} \amp = 7y - 3x^2</mrow>
+            <mrow>\frac{dy}{dx} \amp = \frac{7y - 3x^2}{3y^2 - 7x}</mrow>
+          </md>
+        </p>
+      </li>
+      <li>
+        <p>
+          The maximum value here will be where this derivative is 0.  The only way for the fraction to be zero is if its numerator is 0.  So we want to find <m>x</m> such that <m>7y - 3x^2 = 0</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          First, find <m>y = \frac{3}{7}x^2</m>.  Now substitute this in to the original implicit function:
+          <me>
+            x^3 + \left(\frac{3}{7}x^2\right)^3 = 6x\frac{3}{7}x^2
+          </me>
+          Now we can combine like terms and divide both sides by <m>x^3</m> (although note what happens at <m>x = 0</m>, this is also a place where the tangent line is horizontal.)
+        </p>
+      </li>
+    </ul>
+  </p>
+</handout>
+
+<handout>
+  <title>Wednesday 10/15</title>
+  
+  <p>
+    Let's practice with implicit differentiation.
+  </p>
+
+  <p>
+    Find the <m>\frac{dy}{dx}</m> for the curve defined by <m>(x-y)^2 = y</m>.  This is a tilted parabola.  Find the equation of the line tangent to the curve at the point <m>(0,1)</m>
+  </p>
+
+  <p>
+    Repeat this to explore the cardioid <m>x^2 + y^2 - (x^2+y^2-y)^2 = 0</m>.  What is the slope of the tangent line at the point <m>(1,0)</m>?  Where is the tangent line horizontal?  Where is it vertical?
+  </p>
+  
+</handout>
+
+<handout>
+  <title>Friday 10/17</title>
+  
+  <p>
+    Today in class we will practice with some word problem to get ready for our study of related rates (section 3.1 in the textbook).  We will work on the activity <xref ref="activity-04-related-rates-preview" text="title"/>
+  </p>
+  
+</handout>
+</section>

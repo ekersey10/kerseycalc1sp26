@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Written by Sarah Sparks, Fall 2025 -->
+
+<worksheet xml:id="hw4">
+  <title>Written Homework 4</title>
+  <introduction>
+    <p>
+      <alert>Instructions:</alert> Complete all the parts below on a <em>separate page</em> (not between the prompts).  Submit your work by uploading a <alert>single PDF</alert> to Canvas.  This can either be a scan of handwritten solutions or a PDF you created by first typing your solutions.
+    </p>
+  </introduction>
+  
+  <page>
+
+  <project>
+    <introduction>
+      <p>
+        You have a freezer (to store food for your new emus).  Unfortunately, the thermometer you use to monitor the temperature of the freezer is broken.  Luckily, you were able to find information online about how the freezer works (including how quickly the temperature drops when the compressor turns on, for example). 
+      </p>
+      <p>
+        
+        Suppose that the <em>rate of change</em> in temperature is given by the function <m>r(t) = t(t-1)(t-3)</m>,
+        measured in degrees per hour,
+        and that this function is valid for <m>0 \le t \le 3</m>.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Sketch a graph of the rate function.  Using the graph, when is the temperature of the freezer warmest and when is it coldest?  Explain your answers in terms of your graph.  Remember, your graph doesn't give the temperature; it shows the <em>rate of change</em> in temperature.
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Write an expression involving definite integrals whose value is the total change in temperature of the freezer on the interval <m>[0,3]</m>.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Use appropriate technology (such as <url href="https://gvsu.edu/s/a9" visual="gvsu.edu/s/a9">an applet</url>)
+          to compute Riemann sums to estimate the freezer's total change in temperature on <m>[0,3]</m>.
+          Work to ensure that your estimate is accurate to two decimal places,
+          and explain how you know this to be the case.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          The estimate you found in the previous part is <em>not</em> an estimate for the area between the graph of <m>r(t)</m> and the <m>t</m> axis.  Why is this?  How would you compute the area and what would that represent in terms of temperature?
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Use the Fundamental Theorem of Calculus to find the <em>exact</em> change in temperature of the freezer between 0 and 3 hours.  Show your work and explain why your answer makes sense.
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Between hours 0 and 3, what was the average value of the function <m>r(t)</m>?  That is, find the <em>average rate of change</em> in temperature of the freezer.  Your work should include the formula that involves definite integrals to find the average of a function.  How does this compare to how we found the average rate of change at the beginning of the semester?
+        </p>
+      </statement>
+    </task>
+
+  </project>
+  </page>
+</worksheet>

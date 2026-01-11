@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section xml:id="notes-week-07">
+<title>Week 7 (10/6 - 10/10)</title>
+
+<introduction>
+  <p>
+    This week we will learn the chain rule (section 2.5) and then apply it to find rules for a few more functions (section 2.6).
+  </p>
+</introduction>
+  
+<handout>
+  <title>Monday 10/6</title>
+  
+  <p>
+    Today we learned the chain rule and went through many examples.  See section 2.5 of the textbook for such exampels.
+  </p>
+  
+</handout>
+
+<handout>
+  <title>
+    Tuesday 10/7
+  </title>
+  <p>
+    Let's think a bit about why the chain rule makes sense.  Remember that the chain rule describes how to take the derivative of a composition of functions: <m>f(g(x))</m>.  For this to make sense, it must be that the output of <m>g(x)</m> is a reasonable input to <m>f(x)</m>.  What functions would this make sense for?
+    <ul>
+      <li>
+        <p>
+          Suppose you own a company that makes artisanal soap.  The number of bars of soap you can make is a function of the amount of money you spend on supplies, say <m>g(x) = 3x - 20</m>.  The amount of money you earn from your soap business is a function of the number of bars of soap you make (and sell): <m>f(x) = 7x</m>.  What happens to your income if you increase your investment by a dollar when you are already spending $100? 
+        </p>
+      </li>
+      <li>
+        <p>
+          Another application: the daily water consumption in Greeley is a function of the population: <m>w(p) = 30p + 10,000</m>.  The population of Greeley is a function of time: <m>P(t) = 100,000 \cdot 1.2^t</m>.  At what rate is the water consumption increasing as a function of time?
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    We can also use the limit definition of the derivative to understand the chain rule.  
+    <md>
+      <mrow>
+        \frac{d}{dx}f(g(x)) \amp = \lim_{h\to 0}\frac{f(g(x+h)) - f(g(x))}{h}
+      </mrow>
+      <mrow> \amp = \lim_{h\to 0}\frac{f(g(x+h)) - f(g(x))}{g(x+h)-g(x)}\frac{g(x+h)-g(x)}{h}</mrow>
+    </md>    
+  </p>
+  <p>
+    Anyway, let's do some more examples.  First a straight forward example, such as <m>f(x) = (\sin(x) + x^2)^8</m>.  Then a few where you need to use the chain rule together with other rules, like the product rule, the quotient rule, or the chain rule itself.
+  </p>
+  
+</handout>
+
+<handout>
+  <title>Wednesday 10/8</title>
+  
+  <p>
+    Let's review the chain rule with a few examples, and then see how it can teach us rules for new functions.
+  </p>
+
+  <p>
+    Find the derivatives of the following functions.
+    <ul>
+      <li>
+        <p>
+          <m>f(x) = (\sin(x) + 3^x)^5</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>f(x) = (\sin(x)3^x)^5</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>f(x) = \left(\frac{\sin(x)}{3^x}\right)^5</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>f(x) = \cos(x^2 + 7^{\sqrt[3]{x}})</m>
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    Here is another interesting example: <m>f(x) = \frac{1}{\cos(x)}</m>.  We have done this already using the quotient rule (to find the derivative of <m>\sec(x)</m>), but notice we could also write this as <m>f(x) = (\cos(x))^{-1}</m> and then it is a chain rule problem!
+  </p>
+  
+  <p>
+    Now for something new.  Use the chain rule to find the derivative of <m>e^{\ln(x)}</m>.  Yeah, I know.  We don't the derivative of <m>\ln(x)</m>.  So just leave that as <m>[\ln(x)]'</m>.
+  </p>
+
+  <p>
+    But wait!  <m>e^{\ln(x)} = x</m> (why?).  So this derivative will be the same as <m>(x)' = 1</m>.  So now solve for <m>[\ln(x)]'</m>
+  </p>
+
+  <p>
+    We can conclude that if <m>f(x) = \ln(x)</m> then <m>f'(x) = \frac{1}{x}</m>.
+  </p>
+</handout>
+
+
+<handout>
+  <title>Friday 10/10</title>
+  <p>
+    Today in class we will finish section 2.6 to learn the derivative rules for <m>\arctan(x)</m> and <m>\arcsin(x)</m>.
+  </p>
+  
+</handout>
+
+  <handout xml:id="handout-derivative-rules" label="handout-derivative-rules">
+                <title>Derivative Rules</title>
+                <page>
+                <paragraphs>
+                <title>Rules for specific types of functions</title>
+                <dl workspace=".1in">
+                    <li>
+                        <title>Constant functions</title>
+                        <p>
+                            <m>(k)' = 0</m>
+                        </p>
+                    </li>
+
+                    <li>
+                    <title>Power functions</title>
+                    <p><m>(x^{n})' = nx^{n-1}</m></p>
+                    </li>
+
+                    <li>
+                        <title>Exponential functions</title>
+                        <p>
+                            <m>(a^{x})' = a^{x}\ln(a)</m>
+                        </p>
+                        <p>
+                                <m>(e^{x})' = e^{x}</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Logarithmic functions</title>
+                        <p><m>(\ln(x))' = \frac{1}{x}</m></p>
+                    </li>
+
+                <li>
+                    <title>Trigonometric functions</title>
+                    <p><m>(\sin(x))' = \cos(x)</m>.</p>
+                    <p> <m>(\cos(x))' = -\sin(x)</m>.</p>
+                    <p><m>(\tan(x))' = \sec^{2}(x) = \frac{1}{\cos^{2}(x)}</m>.</p>
+                    <p><m>(\arcsin(x))' = \frac{1}{\sqrt{1-x^{2}}}</m>.</p>
+                    <p><m>(\arctan(x))' = \frac{1}{1+x^{2}}</m>.</p>
+                </li>
+                </dl>
+                </paragraphs>
+
+                <paragraphs>
+                <title>Rules for combinations of functions</title>
+                <dl workspace=".1in">
+                    <li>
+                        <title>Constant multiples</title>
+                        <p>
+                            <m>(k\cdot f(x))' = k\cdot f'(x)</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Sum and difference</title>
+                        <p>
+                            <m>(f(x) \pm g(x))' = f'(x) \pm g'(x)</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Products (the product rule)</title>
+                        <p>
+                            <m>(f(x)\cdot g(x))' = f'(x)g(x) + f(x)g'(x)</m>
+                        </p>
+                    </li>
+
+                    <li>
+                        <title>Quotients (the quotient rule)</title>
+                        <p>
+                            <m>\left(\frac{f(x)}{g(x)}\right)' = \frac{f'(x)g(x) - f(x)g'(x)}{(g(x))^{2}}</m>
+                        </p>
+                    </li>
+
+                <li>
+                    <title>Compositions (the chain rule)</title>
+                    <p>
+                        <m>(f(g(x)))' = f'(g(x))\cdot g'(x)</m>
+                    </p>
+                </li>
+            </dl>
+                </paragraphs>
+            </page>
+        </handout>
+</section>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-05-related-rates">
+  <title>Related Rates Practice</title>
+
+  <introduction>
+    <p>
+      Solve the following related rates questions.
+      For each, you should:
+      <ol>
+        <li>
+          <p>
+            Draw a couple pictures illustrating the situation, labeling quantities that will be changing in the scenario.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Write down an equation that relates the changing quantities.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Take the derivative (with respect to <m>t</m>) of both sides of the equation to find an equation that relates the <em>rates of change</em> of the quantities.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Substitute known values into the equation to discover the unknown values.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </introduction>
+
+  <exercise workspace="5in">
+    <statement>
+      <p>
+        A sailboat is sitting at rest near its dock.
+        A rope attached to the bow of the boat is drawn in over a pulley that stands on a post on the end of the dock that is 5 feet higher than the bow.
+      </p>
+
+      <p>
+        If the rope is being pulled in at a rate of 2 feet per second, how fast is the boat approaching the dock when the length of rope from bow to pulley is 13 feet?
+      </p>
+    </statement>
+  </exercise>
+  <exercise workspace="5in">
+    <statement>
+      <p>
+        A swimming pool is <m>60</m> feet long and <m>25</m> feet wide.
+        Its depth varies uniformly from <m>3</m> feet at the shallow end to <m>15</m> feet at the deep end,
+        as shown in the <xref ref="F-3-5-Ez3">Figure</xref>.
+      </p>
+      <figure xml:id="F-3-5-Ez3">
+        <caption>The swimming pool.</caption>
+        <image width="40%" source="images/3_5_Ez3"/>
+      </figure>
+      <p>
+        Suppose the pool has been emptied and is now being filled with water at a rate of <m>800</m> cubic feet per minute.
+        At what rate is the depth of water
+        (measured at the deepest point of the pool)
+        increasing when it is <m>5</m> feet deep at that end?
+        Over time, describe how the depth of the water will increase:
+        at an increasing rate, at a decreasing rate, or at a constant rate.
+        Explain.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>

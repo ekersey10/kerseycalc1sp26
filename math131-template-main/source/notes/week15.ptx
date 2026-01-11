@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-15">
+<title>Week 15 (12/1-12/5)</title>
+
+<subsection>
+  <title>Monday 12/1</title>
+
+  <p>
+    Let's explore the FTC with an activity (not unlike your final homework assignment).  But first, warm up with a couple examples of using the fundamental theorem of calculus to calculate integrals exactly.
+    <ul>
+      <li>
+        <p>
+          Find <m>\int_0^5 2e^x\, dx</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          Find <m>\int_2^8 1+x+x^2 \, dx</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          Find the average value of the function <m>\sin(x)</m> on the interval from <m>0</m> to <m>\pi</m>.
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    Now work on the <xref ref="activity-09-FTC" text="title"/> activity.
+  </p>
+</subsection>
+
+<subsection>
+  <title>Tuesday 12/2</title>
+  
+  <p>
+    Today we will finish exploring the <xref ref="activity-09-FTC" text="title"/> activity we started last class.  Then learning target quizzes.
+  </p>
+  
+</subsection>
+
+</section>

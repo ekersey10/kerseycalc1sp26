@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section xml:id="notes-week-04">
+<title>Week 4 (9/15 - 9/19)</title>
+<p>
+  We will cover 1.8 this week (we are mostly skipping 1.7) and start 2.1.
+</p>
+
+<handout>
+  <title>Monday 9/15</title>
+  
+  <p>
+    A brief note about section 1.7.  As we have discussed, functions might not have a derivative everywhere.  Section 1.7 looks at various ways that limits might not exist, and since derivatives are limits, these might not exist either.  
+  </p>
+
+  <p>
+    But actually, speaking of this, consider what happens when you zoom in at a point that is differentiable vs one that is not.  Not being differentiable usually means that is a <q>cusp</q> at that point (although points with vertical tangent lines are also not differentiable).
+    <ul>
+      <li>
+        <p>
+          Look at graphs on desmos.  Maybe <m>|x-2|+1</m>.  No matter how far we zoom in, we still have a cusp.
+        </p>
+      </li>
+      <li>
+        <p>
+          But now look at <m>(x-2)^2 + 1</m>.  Zoom in at the point <m>(2,1)</m> and you see that if you zoom in enough, the curve looks like a horizontal line.
+        </p>
+      </li>
+      <li>
+        <p>
+          In fact, also graph the tangent line, <m>y = 1</m>.  Can you tell these apart when you zoom in?  No! 
+        </p>
+      </li>
+      <li>
+        <p>
+          A differentiable function and its tangent line share both a common point and a common derivative at that point.  
+        </p>
+      </li>
+      <li>
+        <p>
+          Since it is often easier to evaluate the equation of a line at a point than a function at a point, we can approximate a function at a point by evaluating the tangent line there.
+        </p>
+      </li>
+      <li>
+        <p>
+          So two important, closely related ideas are:
+          <ol>
+            <li>
+              <p>
+                Given a function <m>f</m> and a point <m>(a,f(a))</m>, we can consider a line <m>y - f(a) = f'(a)(x - a)</m> that also passes through the point <m>(a,f(a))</m> and has slope equal to <m>f'(a)</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Given a function <m>f</m> and a point <m>(a,f(a))</m>, we can consider a <term>linearization</term> function <m>L(x) = f'(a)(x-a)+f(a)</m> that satisfies <m>L(a) = f(a)</m> and <m>L'(a) = f'(a)</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li>
+        <p>
+          The only difference between these two is the context we are thinking about.  The first is a set of points that satisfies an equation.  The second is a linear function (whose graph is exactly that line).
+        </p>
+      </li>
+    </ul>
+  </p>
+  <p>
+    Here is an example.  What is <m>\sqrt{4.1}</m>?  Okay, we know that <m>\sqrt{4}</m> is 2.  In other words, think of <m>f(x) = \sqrt{x}</m> and we are asking for <m>f(4.1)</m>.  What is <m>f'(x)</m>?  We could evaluate a limit and find <m>f'(x) = \frac{1}{2\sqrt{x}}</m>.  Now find <m>L(x)</m> for <m>a = 4</m>.  We get <m>L(x) = \frac{1}{4}(x-4) + 2</m>  
+  </p>
+
+  <p>
+    So what is <m>L(4.1)</m>?  That's pretty easy to compute: <m>L(4.1) = 0.25(4.1-4) + 2 = 0.025 + 2 = 2.025</m>.  Since the local linearization is a good approximation for the function for values of <m>x</m> close to <m>4</m>, we have that <m>f(4.1) = \sqrt{4.1} \approx 2.025</m>.  (In fact, <m>f(4.1) = 2.02485</m>). 
+  </p>
+  
+  <p>
+    <ul>
+      <li>
+        <p>
+          In section 1.5, we used this idea too.  Suppose <m>f(t)</m> is the temperature <m>t</m> hours after midnight.  <m>f(6) = 58</m> and <m>f'(6) = -2</m>.  Can we approximate <m>f(6.25)</m>?  
+        </p>
+      </li>
+      <li>
+        <p>
+          Those statements tell us that at 3am, the temperature is 58 degrees, and is dropping at a rate of 2 degrees per hour.  I don't know what is going to happen in the next hour (maybe the temperature will start increasing), but our best bet is that in the next 15 minutes (0.25 hours), it will decreasing 1/2 a degree.
+        </p>
+      </li>
+      <li>
+        <p>
+          We can write down the local linearization function: <m>L(x) = -2(x-6)+58</m>.  Evaluate this at <m>6.25</m>: <m>L(6.25) = -2(.25)+58 = 57.5</m>.
+        </p>
+      </li>
+    </ul>
+  </p>
+</handout>
+
+<handout xml:id="subsec-tuesday-9-16">
+  <title>Tuesday (9/16)</title>
+  <p>
+    Today we worked through Activity 1.8.3 from the textbook.
+  </p>
+</handout>
+
+<handout xml:id="subsec-wednesday-9-17">
+  <title>Wednesday (9/17)</title>
+  <p>
+    Notes on the learning target quizzes.  Strategies for graphing derivatives.  Then what's wrong with the following interpretations of the hippo functions?
+  </p>
+  <p>
+
+    <ul>
+
+      <li>
+        <p>
+          <m>w'(30) = 2</m> means in 30 days, the hippo's weight has increased by 2 pounds per day.
+        </p>
+      </li>
+      <li>
+        <p>
+          Every day the hippo grows 2 lbs on average for the first 30 days. 
+        </p>
+      </li>
+      <li>
+        <p>
+          The hippo gained weight at 2 lbs/day when it is 30 days old.
+        </p>
+      </li>
+      <li>
+        <p>
+          After the 30 days, the increase in weight of the hippo is increasing at 2 lbs/day.
+        </p>
+      </li>
+      <li>
+        <p>
+          30 days after the hippo's birth, the rate of weight gained per day is 2 lbs/day
+        </p>
+      </li>
+      <li>
+        <p>
+          After every 30 days after birth, the hippo gains 2 lbs.
+        </p>
+      </li>
+      <li>
+        <p>
+          Every day the baby hippo's weight goes up 2 lbs.
+        </p>
+      </li>
+      <li>
+        <p>
+          The weight of the hippo increases by 2 lbs over the 30 days.
+        </p>
+      </li>
+      <li>
+        <p>
+          The hippo approximately gains 2 lbs after 30 days.
+        </p>
+      </li>
+      <li>
+        <p><m>c'(100) = 0.05</m> means that 100 stickers cost 5 cents per sticker.</p>
+      </li>
+      <li>
+        <p>
+          <m>c'(100) = 0.05</m> represents that the price goes up 0.05 dollars after every 100 stickers.
+        </p>
+      </li>
+      <li>
+        <p>
+          For the 100 stickers, each one will cost 0.05 dollars.
+        </p>
+      </li>
+      <li>
+        <p>
+          After 100 stickers, each sticker would cost 5 cents.
+        </p>
+      </li>
+      <li>
+        <p>
+          The cost is increasing 5 cents every 100 stickers.
+        </p>
+      </li>
+    </ul>
+  </p>
+</handout>
+
+<handout>
+  <title>Friday 9/19</title>
+  <p>
+    Today we started on section 2.1.  We learned the rules for derivatives of power functions, as well as rules for derivatives of sums/differences of functions and constant multiples of functions.
+  </p>
+</handout>
+
+</section>

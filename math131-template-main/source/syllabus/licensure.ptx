@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="sec-licensure">
+  <title>Colorado Endorsement Standards Alignment</title>
+
+  <p>
+    This course provides content necessary to ensure middle school and secondary licensure standards are met.
+    The following table shows how the learning objectives for this course align to the Colorado endorsement standards for middle school and secondary content.
+    It is provided purely for your information (nothing in this section requires action on your part or changes how you will be assessed in this class as described above).
+  </p>
+
+  <tabular left="minor" top="minor">
+    <col halign="left" width="38%" right="minor"/><col width="15%" right="minor"/><col width="15%" right="minor" halign="left"/><col width="15%" halign="left" right="minor"/><col width="17%" halign="left" right="minor"/>
+    <row bottom="minor">
+      <cell>
+      <p>
+        Student Learning Objectives (SLO) for MATH 131
+      </p>
+      </cell>
+      <cell><p>Colorado Teacher Quality and English Language Learners Standards </p></cell>
+      <cell>
+      <p>
+        Colorado middle school content standards
+      </p>
+      </cell>
+      <cell>
+      <p>
+        Colorado secondary content standards
+      </p>
+      </cell>
+      <cell>
+      <p>
+        Assignments/ Evidence/ Outcomes
+      </p>
+      </cell>
+    </row>
+
+    <row valign="top" bottom="minor">
+      <cell >
+      <p>
+        SLO 1: Understand the relationships between average rates of change, slopes of secant lines, instantaneous rates of change, and slopes of tangent lines.
+      </p>
+      </cell>
+      <cell/>
+      <cell>
+      <p>
+        4.23(1)(b), 4.23(2)(a), 4.23(2)(f), 4.23(2)(g)(i)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        4.14(1)(b), 4.14(1)(e), 4.14(2)(a), 4.14(2)(g)(i)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        In-class activities, homework, learning target quizzes
+      </p>
+      </cell>
+    </row>
+
+    <row valign="top" bottom="minor">
+      <cell >
+      <p>
+        SLO 2: Understand the relationship between a function and its first and second derivatives, including increasing/decreasing and concavity, through information given graphically, algebraically, or verbally.
+        Use this information to find local extrema and inflection points
+      </p>
+      </cell>
+      <cell/>
+      <cell>
+      <p>
+        4.23(1)(b), 4.23(2)(f), 4.23(2)(g)(i)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        4.14(1)(b), 4.14(1)(e), 4.14(2)(g)(i)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        In-class activities, homework, learning target quizzes
+      </p>
+      </cell>
+    </row>
+
+    <row valign="top" bottom="minor">
+      <cell >
+      <p>
+        SLO 3: Calculate limits through tables of values, algebraic simplifications, and/or L'Hôpital's rule.
+      </p>
+      </cell>
+      <cell/>
+      <cell>
+      <p>
+        4.23(1)(b), 4.23(2)(f), 4.23(2)(g)(i)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        4.14(1)(b), 4.14(1)(e), 4.14(2)(g)(i)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        In-class activities, homework, learning target quizzes
+      </p>
+      </cell>
+    </row>
+
+    <row valign="top" bottom="minor">
+      <cell >
+      <p>
+        SLO 4: Understand the relationship between limits, continuity, and differentiability.
+      </p>
+      </cell>
+      <cell/>
+      <cell>
+      <p>
+        4.23(1)(b), 4.23(2)(f)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        4.14(1)(b), 4.14(1)(e)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        In-class activities, homework, learning target quizzes
+      </p>
+      </cell>
+    </row>
+
+    <row valign="top" bottom="minor">
+      <cell >
+      <p>
+        SLO 5: Correctly interpret the derivative in context.
+      </p>
+      </cell>
+      <cell/>
+      <cell>
+      <p>
+        4.23(1)(b), 4.23(2)(a), 4.23(2)(f)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        4.14(1)(b), 4.14(1)(e), 4.14(2)(a)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        In-class activities, homework, learning target quizzes
+      </p>
+      </cell>
+    </row>
+
+    <row valign="top" bottom="minor">
+      <cell >
+      <p>
+        SLO 6: Determine the derivative of basic polynomial, exponential, trigonometric, and logarithmic functions.
+        Correctly apply the sum and constant multiple rules.
+      </p>
+      </cell>
+      <cell/>
+      <cell>
+      <p>
+        4.23(1)(b), 4.23(2)(f)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        4.14(1)(b), 4.14(1)(e)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        In-class activities, homework, learning target quizzes
+      </p>
+      </cell>
+    </row>
+
+    <row valign="top" bottom="minor">
+      <cell >
+      <p>
+        SLO 7: Recognize the structure of a function in order to correctly apply the chain rule, product rule, and/or quotient rules.
+      </p>
+      </cell>
+      <cell/>
+      <cell>
+      <p>
+        4.23(1)(b), 4.23(2)(f)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        4.14(1)(b), 4.14(1)(e)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        In-class activities, homework, learning target quizzes
+      </p>
+      </cell>
+    </row>
+
+    <row valign="top" bottom="minor">
+      <cell >
+      <p>
+        SLO 8: Find derivatives through implicit differentiation.
+      </p>
+      </cell>
+      <cell/>
+      <cell>
+      <p>
+        4.23(1)(b), 4.23(2)(f)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        4.14(1)(b), 4.14(1)(e)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        In-class activities, homework, learning target quizzes
+      </p>
+      </cell>
+    </row>
+
+    <row valign="top" bottom="minor">
+      <cell >
+      <p>
+        SLO 9: Apply derivative concepts through applied optimization and related rates problems.
+      </p>
+      </cell>
+      <cell/>
+      <cell>
+      <p>
+        4.23(1)(b), 4.23(2)(a), 4.23(2)(f)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        4.14(1)(b), 4.14(1)(e), 4.14(1)(f), 4.14(2)(a)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        In-class activities, homework, learning target quizzes
+      </p>
+      </cell>
+    </row>
+
+    <row valign="top" bottom="minor">
+      <cell >
+      <p>
+        SLO 10: Calculate definite integrals, both as areas bounded by curves and using the Fundamental Theorem of Calculus.
+      </p>
+      </cell>
+      <cell/>
+      <cell>
+      <p>
+        4.23(1)(b), 4.23(2)(f), 4.23(2)(g)(i)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        4.14(1)(b), 4.14(1)(e), 4.14(1)(f), 4.14(2)(g)(i)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        In-class activities, homework, learning target quizzes
+      </p>
+      </cell>
+    </row>
+
+    <row valign="top" bottom="minor">
+      <cell >
+      <p>
+        Process Objectives: This course will give students chances to engage in exploration of calculus ideas, communicate their mathematical ideas orally and in written form, and collaborate with others.
+        They will build intuition for why the main ideas in calculus are true and construct solutions to complex problems.
+      </p>
+      </cell>
+      <cell/>
+      <cell>
+      <p>
+        4.23(2)(a), 4.23(2)(f), 4.23(2)(g)(i)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        4.14(1)(b), 4.14(1)(e), 4.14(2)(a), 4.14(2)(g)(i)
+      </p>
+      </cell>
+      <cell>
+      <p>
+        In-class activities, homework, learning target quizzes
+      </p>
+      </cell>
+    </row>
+  </tabular>
+</subsection>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <xi:include href="./docinfo.ptx" />
+  <book xml:id="math131">
+    <title>Calculus I</title>
+    <subtitle>MATH 131 Fall 2025</subtitle>
+
+    <!-- <xi:include href="./frontmatter.ptx" /> -->
+    <chapter xml:id="ch-course-documents">
+      <title>Course Documents</title>
+      
+      <xi:include href="./syllabus/syllabus.ptx" />
+    </chapter>
+
+  <xi:include href="./notes.ptx" />
+
+  <xi:include href="./activities.ptx"/>
+  
+  <xi:include href="./homework.ptx"/>
+
+  <xi:include href="./sample-quizzes.ptx"/>
+
+  </book>
+</pretext>
