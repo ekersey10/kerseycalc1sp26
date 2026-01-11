@@ -4,7 +4,7 @@
   <title>Syllabus</title>
 
   <!--
-  <subtitle>MATH 131 Fall 2025 (4 credits)</subtitle>
+  <subtitle>MATH 131 Spring 2026 (4 credits)</subtitle>
   --> <!-- Include frontmatter -->
   <introduction>
     <p>
@@ -16,14 +16,14 @@
     <title>Course Information</title>
 
     <p>
-      This is the syllabus for <term>Calculus I (MATH 131, section 006)</term> for Fall 2025.
+      This is the syllabus for <term>Calculus I (MATH 131, section 005)</term> for Spring 2026.
       It is a 4 credit course.
       <dl>
       <li>
         <title>Instructor</title>
 
         <p>
-          Oscar Levin, Ross Hall 2040D, <url href="mailto:oscar.levin@unco.edu">oscar.levin@unco.edu</url>.
+          Dr. Elizabeth (Betsy) Kersey, Ross Hall 2230A, <url href="mailto:elizabeth.kersey@unco.edu">elizabeth.kersey@unco.edu</url>.
         </p>
       </li>
 
@@ -31,12 +31,12 @@
         <title>Student Hours</title>
 
         <p>
-          Tu/Th 10-11am; Wed 10:30-11:30am.
+          Tu 11:05-12:20 (Ross 1250); Th 11:05-12:20 (Ross 2230A), Th 1:15-2:20 (Ross 1250).
           Additional times by appointment.
         </p>
 
         <p>
-          <alert>Important</alert>: I <em>want</em> to see you in student hours, and will happily make appointments with you outside of the regular hours.  I'm also available by email and will respond within 24 hours, usually much sooner.  There is little I enjoy more than discussing mathematics, so you are really doing me a favor by coming to see me.
+          <alert>Important</alert>: I <em>want</em> to see you in student hours, and will happily make appointments with you outside of the regular hours.  I'm also available by email and will respond within 24 hours, except on the weekends.
         </p>
       </li>
 
@@ -44,7 +44,7 @@
         <title>Class meets</title>
 
         <p>
-          M/W/F 12:20-1:10pm and Tu 12:30-1:20pm in Ross 2090.
+          M/W/F 9:05-9:55am and Tu 9:30-10:20am in Ross 2275.
         </p>
       </li>
 
@@ -301,12 +301,12 @@
       <title>Final Exam</title>
 
       <p>
-        The final exam for this class is on <alert>Thursday, December 11 from 10:45am to 1:15pm</alert>.
+        The final exam for this class is on <alert>Monday, May 4 from 8:00am to 10:30am</alert>.
         Instead of a traditional final exam, we will use this time as an opportunity for you to complete any learning targets you have not yet mastered.
       </p>
 
       <p>
-        In the unlikely event that the University is closed due to inclement weather on the day of our exam, we will hold the exam at the same time on Friday, December 12 (the designated makeup day for this situation).  In the event that this makeup day is also canceled, I will contact you with alternative options.
+        In the unlikely event that the University is closed due to inclement weather on the day of our exam, we will hold the exam at the same time on Friday, May 8 (the designated makeup day for this situation).  In the event that this makeup day is also canceled, I will contact you with alternative options.
       </p>
     </paragraphs>
 
