@@ -2,10 +2,10 @@
 
 
 <section xml:id="notes-week-12">
-<title>Week 12 (11/10-11/14)</title>
+<title>Week 12 (4/6-4/10)</title>
 
 <handout>
-  <title>Monday 11/10</title>
+  <title>Monday 4/6</title>
   <p>
     Today, we might start section 4.1, but more likely we will work some applied optimization problems from section 3.6.  Questions from the practice problems would be good, or we can pick a problem from the samples distributed last week.
   </p>
@@ -36,7 +36,7 @@
 </handout>
 
 <handout>
-  <title>Tuesday 11/11</title>
+  <title>Tuesday 4/7</title>
   <p>
     Today we will start exploring the connection between velocity and distance
   </p>
@@ -84,7 +84,7 @@
 </handout>
 
 <subsection>
-  <title>Wednesday 11/12</title>
+  <title>Wednesday 4/8</title>
   
   <p>
     The plan for today is to do a much deeper dive into section 4.1 by working through an activity that highlights the connection between antiderivatives and area.  We will also consider what happens when the function is negative and how this should impact these calculations.
@@ -96,7 +96,7 @@
 </subsection>
 
 <handout>
-  <title>Friday 11/14</title>
+  <title>Friday 4/10</title>
   
   <p>
     We will start on section 4.2 today by considering a systematic way to approximate area under a curve using what is called a <term>Riemann sum</term>.
