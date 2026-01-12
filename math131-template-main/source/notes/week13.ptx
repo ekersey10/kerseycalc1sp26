@@ -2,10 +2,10 @@
 
 
 <section xml:id="notes-week-13">
-<title>Week 13 (11/17-11/21)</title>
+<title>Week 13 (4/13-4/17)</title>
 
 <subsection>
-  <title>Monday 11/17</title>
+  <title>Monday 4/13</title>
 
   <p>
     Today we will practice with Riemann sums using the <xref ref="activity-08-Riemann-sums" text="title"/> activity.
@@ -13,7 +13,7 @@
 </subsection>
 
 <subsection>
-  <title>Tuesday 11/18</title>
+  <title>Tuesday 4/14</title>
   
   <p>
     In class today we answered questions about practice and homework.  We then introduced the concept of a <term>definite integral</term> as a  limit of Riemann sums.  We will explore this more next time.
@@ -21,7 +21,7 @@
 </subsection>
 
 <handout>
-  <title>Wednesday 11/19</title>
+  <title>Wednesday 4/15</title>
   <p>
     We have seen that Riemann sums can be used to approximate the <term>net signed area</term> between a curve and the horizontal axis, and that this area can also be interpreted as the net change in position if the original curve represents velocity.
   </p>
@@ -134,7 +134,7 @@
 </handout>
 
 <handout>
-  <title>Friday, 11/21</title>
+  <title>Friday, 4/17</title>
   
   <p>
     Today we will start section 4.4 to discover the Fundamental Theorem of Calculus.  But first, from section 4.3:
