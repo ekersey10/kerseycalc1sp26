@@ -2,10 +2,10 @@
 
 
 <section xml:id="notes-week-11">
-<title>Week 11 (11/03-11/07)</title>
+<title>Week 11 (3/30-4/3)</title>
 
 <handout>
-  <title>Monday 11/03</title>
+  <title>Monday 3/30</title>
   <p>
     In section 3.3 we discovered that to find <em>local</em> (or <em>relative</em>) extreme values of a function (maximums and minimums), we must look for inputs at which the derivative was zero or undefined (these inputs are called <term>critical numbers</term>).  This is a powerful tool that will be useful in applications.  
   </p>
@@ -40,7 +40,7 @@
 </handout>
 
 <handout>
-  <title>Tuesday 11/04</title>
+  <title>Tuesday 3/31</title>
   
   <p>
     How can we use global optimization to solve real world problems?  Here is an example.
@@ -55,12 +55,12 @@
 </handout>
 
 <subsection>
-<title>Wednesday 11/5</title>
+<title>Wednesday 4/1</title>
 <p>Today we will explore ways to solve applied optimization problems.  The examples can be found in the <xref ref="activity-07-applied-optimization" text="title"/> activity.</p>
   </subsection>
 
 <subsection>
-<title>Friday 11/7</title>
+<title>Friday 4/3</title>
 <p>
   We will do more practice with applied optimization today, using the same activity from Wednesday.
 </p>
