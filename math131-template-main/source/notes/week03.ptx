@@ -2,13 +2,13 @@
 
 
 <section xml:id="notes-week-03">
-<title>Week 3 (9/8 - 9/12)</title>
+<title>Week 3 (1/26 - 1/30)</title>
 <p>
 We will cover sections 1.4, 1.5, and start 1.6 this week.
 </p>
 
 <handout>
-  <title>Monday 9/8</title>
+  <title>Monday 1/26</title>
     <p>
       We are still working on 1.4 today.  Thinking about the derivative as a function of slopes or of instantaneous rates of change.  So instead of finding <m>f'(a)</m>, we are finding a function <m>f'(x)</m>.
     </p>
@@ -76,7 +76,7 @@ We will cover sections 1.4, 1.5, and start 1.6 this week.
 </handout>
 
 <handout>
-  <title>Tuesday 9/9</title>
+  <title>Tuesday 1/27</title>
     <p>
       Now we know how to approximate and compute derivatives (even if we don't yet have shortcut rules).  But what is the derivative good for?  Why do we care?  Sure, instantaneous velocity is great, but is it good for anything else?
     </p>
@@ -110,7 +110,7 @@ We will cover sections 1.4, 1.5, and start 1.6 this week.
 
 
 <handout>
-  <title>Wednesday 9/10</title>
+  <title>Wednesday 1/28</title>
   <p>
     A few left over examples of interpretation of the derivative:
       <ul>
@@ -143,7 +143,7 @@ We will cover sections 1.4, 1.5, and start 1.6 this week.
 </handout>
 
 <handout>
-  <title>Friday 9/12</title>
+  <title>Friday 1/30</title>
   <p>
     Today we finish section 1.6 which explores the second derivative.
     Start by reviewing the second half of the <xref ref="activity-02-velocity-acceleration" text="title"/> activity.  In particular, look at question 5 and fill in the blanks.
