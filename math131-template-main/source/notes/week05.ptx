@@ -2,13 +2,13 @@
 
 
 <section xml:id="notes-week-05">
-<title>Week 5 (9/22 - 9/26)</title>
+<title>Week 5 (2/9 - 2/13)</title>
 <p>
   This week we finish section 2.1 and 2.2.  This will give us lots of functions that we can take the derivative of.
 </p>
 
 <handout>
-  <title>Monday 9/22</title>
+  <title>Monday 2/9</title>
   <p>
     Last time we learned how to take derivatives of power functions, like <m>f(x) = x^4</m>, but also <m>f(x) = \frac{1}{x^2} = x^{-2}</m> and <m>f(x) = \sqrt[3]{x} = x^{-1/3}</m>.  The rule is that for any constant <m>n</m>, if <me>
       f(x) = x^n
@@ -37,7 +37,7 @@
 </handout>
 
 <handout>
-  <title>Tuesday 9/23</title>
+  <title>Tuesday 2/10</title>
   
   <p>
     The goal of section 2.2 is to develop rules for the derivatives of <m>\sin(x)</m> and <m>\cos(x)</m>.  We could think of these rules as arbitrary, but to help us remember and make sense of them, it will be useful to briefly review some trigonometry.  
@@ -67,7 +67,7 @@
 
 
 <handout>
-  <title>Wednesday 9/24</title>
+  <title>Wednesday 2/11</title>
   
   <p>
     Let's pick up where we left off with our review of basic trigonometry.
@@ -109,7 +109,7 @@
 </handout>
 
 <handout>
-  <title>Friday 9/26</title>
+  <title>Friday 2/13</title>
   <p>
     We used today as an opportunity to catch up on learning target quizzes.  No new content was discussed.
   </p>
