@@ -6,7 +6,7 @@
   <xi:include href="./docinfo.ptx" />
   <book xml:id="math131">
     <title>Calculus I</title>
-    <subtitle>MATH 131 Fall 2025</subtitle>
+    <subtitle>MATH 131 Spring 2026</subtitle>
 
     <!-- <xi:include href="./frontmatter.ptx" /> -->
     <chapter xml:id="ch-course-documents">
