@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="notes-week-01">
-  <title>Week 1 (8/25 - 8/29)</title>
+  <title>Week 1 (1/12 - 1/16)</title>
 
   <p>
     This week focuses on an introduction to what Calculus is about, and the first two sections of Active Calculus.
   </p>
   <handout>
-  <title>Monday, 8/25</title>
+  <title>Monday, 1/12</title>
 
   <p>
     Welcome to Calculus!  Wait, what is Calculus?  Today we will explore this in part by doing <xref ref="activity-01-odometer-speedometer" text="title"/>.
@@ -41,7 +41,7 @@
   </handout> 
   
   <handout>
-  <title>Tuesday, 8/26</title>
+  <title>Tuesday, 1/13</title>
 
   <p>
     Today we will explore the relationship between distance, average velocity, and instantaneous velocity.  This is covered in the textbook in section 1.1.
@@ -190,7 +190,7 @@
 
 
   <handout>
-    <title>Wednesday, 8/27</title>
+    <title>Wednesday, 1/14</title>
     <p>
       Today we will introduce the idea of a limit, which is essential for understanding the relationship between average velocity and <term>instantaneous velocity</term>.
       <ul>
@@ -265,7 +265,7 @@
   </handout>
 
   <worksheet>
-    <title>Friday, 8/29</title>
+    <title>Friday, 1/16</title>
 
     <page>
     <p>
