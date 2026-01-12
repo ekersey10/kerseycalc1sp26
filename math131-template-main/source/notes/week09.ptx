@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="notes-week-09">
-  <title>Week 9 (10/20-10/25)</title>
+  <title>Week 9 (3/9-3/13)</title>
 <introduction>
 
   <p>
@@ -10,7 +10,7 @@
 </introduction>
   
   <handout>
-    <title>Monday 10/20</title>
+    <title>Monday 3/9</title>
     
     <p>
       Calculus gives us tools to understand how quantities change.  We have seen this appear primarily when we are given a function that describes the values of a quantity in terms of some independent variable.  But there are also interesting examples of multiple quantities that change in tandem, both functions of some common variable.  These <em>related quantities</em> with have <em>related rates of change</em>.
@@ -58,7 +58,7 @@
 
 
   <subsection>
-    <title>Wednesday 10/22</title>
+    <title>Wednesday 3/11</title>
     
     <p>
       Today in class we will practice with related rates questions by completing the <xref ref="activity-05-related-rates" text="title"/> activity.
@@ -67,7 +67,7 @@
 
 
   <handout>
-    <title>Friday 10/24</title>
+    <title>Friday 3/13</title>
     
     <p>
       Today we will finish the related rates activity from last time and then start exploring section 3.2 on L'Hôpital's Rule.
