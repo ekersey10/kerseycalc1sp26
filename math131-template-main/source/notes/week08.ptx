@@ -2,14 +2,14 @@
 
 
 <section xml:id="notes-week-08">
-<title>Week 8 (10/13 - 10/17)</title>
+<title>Week 8 (3/2 - 3/6)</title>
 
 <p>
   This week we will explore <term>implicitly defined</term> functions and their derivatives.
 </p>
   
 <handout>
-  <title>Monday 10/13</title>
+  <title>Monday 3/2</title>
   <p>
     Suppose a 10 foot ladder is leaning against a wall. The bottom of the ladder is being pulled away from the wall at a constant rate.  What can we say about how fast the top of the ladder is sliding down the wall?
     <ul>
@@ -60,7 +60,7 @@
 </handout>
 
 <handout>
-  <title>Tuesday 10/14</title>
+  <title>Tuesday 3/3</title>
   
   <p>
     Today we continue exploring implicit functions and their derivatives.
@@ -139,7 +139,7 @@
 </handout>
 
 <handout>
-  <title>Wednesday 10/15</title>
+  <title>Wednesday 3/4</title>
   
   <p>
     Let's practice with implicit differentiation.
@@ -156,7 +156,7 @@
 </handout>
 
 <handout>
-  <title>Friday 10/17</title>
+  <title>Friday 3/6</title>
   
   <p>
     Today in class we will practice with some word problem to get ready for our study of related rates (section 3.1 in the textbook).  We will work on the activity <xref ref="activity-04-related-rates-preview" text="title"/>
