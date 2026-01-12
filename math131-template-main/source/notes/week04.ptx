@@ -2,13 +2,13 @@
 
 
 <section xml:id="notes-week-04">
-<title>Week 4 (9/15 - 9/19)</title>
+<title>Week 4 (2/2 - 2/6)</title>
 <p>
   We will cover 1.8 this week (we are mostly skipping 1.7) and start 2.1.
 </p>
 
 <handout>
-  <title>Monday 9/15</title>
+  <title>Monday 2/2</title>
   
   <p>
     A brief note about section 1.7.  As we have discussed, functions might not have a derivative everywhere.  Section 1.7 looks at various ways that limits might not exist, and since derivatives are limits, these might not exist either.  
@@ -96,14 +96,14 @@
 </handout>
 
 <handout xml:id="subsec-tuesday-9-16">
-  <title>Tuesday (9/16)</title>
+  <title>Tuesday 2/3</title>
   <p>
     Today we worked through Activity 1.8.3 from the textbook.
   </p>
 </handout>
 
 <handout xml:id="subsec-wednesday-9-17">
-  <title>Wednesday (9/17)</title>
+  <title>Wednesday 2/4</title>
   <p>
     Notes on the learning target quizzes.  Strategies for graphing derivatives.  Then what's wrong with the following interpretations of the hippo functions?
   </p>
@@ -184,7 +184,7 @@
 </handout>
 
 <handout>
-  <title>Friday 9/19</title>
+  <title>Friday 2/26</title>
   <p>
     Today we started on section 2.1.  We learned the rules for derivatives of power functions, as well as rules for derivatives of sums/differences of functions and constant multiples of functions.
   </p>
