@@ -2,7 +2,7 @@
 
 
 <section xml:id="notes-week-07">
-<title>Week 7 (10/6 - 10/10)</title>
+<title>Week 7 (2/23 - 2/27)</title>
 
 <introduction>
   <p>
@@ -11,7 +11,7 @@
 </introduction>
   
 <handout>
-  <title>Monday 10/6</title>
+  <title>Monday 2/23</title>
   
   <p>
     Today we learned the chain rule and went through many examples.  See section 2.5 of the textbook for such exampels.
@@ -21,7 +21,7 @@
 
 <handout>
   <title>
-    Tuesday 10/7
+    Tuesday 2/24
   </title>
   <p>
     Let's think a bit about why the chain rule makes sense.  Remember that the chain rule describes how to take the derivative of a composition of functions: <m>f(g(x))</m>.  For this to make sense, it must be that the output of <m>g(x)</m> is a reasonable input to <m>f(x)</m>.  What functions would this make sense for?
@@ -55,7 +55,7 @@
 </handout>
 
 <handout>
-  <title>Wednesday 10/8</title>
+  <title>Wednesday 2/25</title>
   
   <p>
     Let's review the chain rule with a few examples, and then see how it can teach us rules for new functions.
@@ -106,7 +106,7 @@
 
 
 <handout>
-  <title>Friday 10/10</title>
+  <title>Friday 2/27</title>
   <p>
     Today in class we will finish section 2.6 to learn the derivative rules for <m>\arctan(x)</m> and <m>\arcsin(x)</m>.
   </p>
