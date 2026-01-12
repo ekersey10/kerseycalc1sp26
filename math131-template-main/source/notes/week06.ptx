@@ -2,14 +2,14 @@
 
 
 <section xml:id="notes-week-06">
-<title>Week 6 (9/29 - 10/3)</title>
+<title>Week 6 (2/16 - 2/20)</title>
 
 <p>
   This week we discuss the product and quotient rules (section 2.3) and then apply them to additional trig functions (section 2.4).
 </p>
 
 <handout>
-  <title>Monday 9/29</title>
+  <title>Monday 2/16</title>
   
   <p>
     We know how to take derivatives of a bunch of basic functions, as well as how to take derivatives of functions that are the sum or difference of those functions.  The <term>sum rule</term> says that the derivative of a sum is just the sum of the derivatives.  That is, if <m>f(x)</m> is the sum of two functions, we can find <m>f'(x)</m> by taking the derivatives of each of the two functions and adding the results.
@@ -68,7 +68,7 @@
 </handout>
 
 <handout>
-  <title>Tuesday 9/30</title>
+  <title>Tuesday 2/17</title>
   
   <p>
     Today we practiced additional examples of the product rule and the quotient rule, including an example where the product rule is required in the numerator of a quotient.
@@ -76,7 +76,7 @@
 </handout>
 
 <handout>
-  <title>Wednesday 10/1</title>
+  <title>Wednesday 2/18</title>
   
   <p>
     Our goal today is to discover derivative rules for the rest of the main trigonometric functions: <m>\tan(x)</m>, <m>\cot(x)</m>, <m>\sec(x)</m>, and <m>csc(x)</m>.  
@@ -100,7 +100,7 @@
 </handout>
 
 <handout>
-  <title>Friday 10/3</title>
+  <title>Friday 2/20</title>
   
   <p>
     Today we will do a little review about what we know how to do with derivatives already and explore the one way we don't yet know to take derivatives of combined functions.
