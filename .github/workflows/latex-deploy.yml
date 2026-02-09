@@ -1,0 +1,12 @@
+name: CI
+on: [push]
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Generate PDF document
+        uses: hspaans/latexmk-action@v2.1.0
+        with:
+          filename: main.tex # Replace 'main.tex' with your primary LaTeX file name
