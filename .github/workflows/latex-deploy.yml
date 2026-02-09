@@ -1,12 +1,33 @@
-name: CI
-on: [push]
+name: Test LaTeX to PDF
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+    tags:
+      - "*"
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
 jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-      - name: Generate PDF document
-        uses: hspaans/latexmk-action@v2.1.0
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+
+      - name: Compile test LaTeX document with Maths
+        uses: ./
         with:
-          filename: main.tex # Replace 'main.tex' with your primary LaTeX file name
+          output_dir: output
+          main_latex_file: resources/test.tex
+          ctan_packages: amsmath amsfonts lua-uni-algos
+      - name: Upload PDF - Maths
+        uses: actions/upload-artifact@v4
+        with:
+          name: output-maths
+          path: output/test.pdf
