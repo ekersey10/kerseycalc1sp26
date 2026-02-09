@@ -219,4 +219,41 @@
 
 \end{questions}
 
+\newpage
+
+\def\version{C}
+%space for name
+\noindent {\large\bf Name:} \underline{\hspace{2.5 in}}
+\vskip 1em
+
+\begin{questions}
+  \question The graph of the function $f$ is given below.  
+
+  \begin{center}
+    \begin{tikzpicture}[
+      declare function={
+        func(\x)= (\x < 3) * (4*\x-(\x)^2) + and(\x >= 3) * (9 - 2*\x);
+      }
+    ]
+      \begin{axis}[
+        axis x line=middle, axis y line=middle, ymin=-, ymax=4, xlabel=$x$, ylabel=$f(x)$, grid=major
+      ]
+        \addplot [domain=0:5.5,samples=100, ultra thick]{func(x)};
+      \end{axis}
+    \end{tikzpicture}
+  \end{center}
+
+
+  \begin{parts}
+    \part Use the graph to find $f'(4)$, the derivative of $f$ at $a=1$.  Show your work or explain why your answer is correct.
+    \vfill
+    \part Where is the derivative of $f$ zero?  That is, find a value of $a$ such that $f'(a)=0$.  Explain why your answer is correct.
+    \vfill
+  \end{parts}
+
+
+\end{questions}
+
+
+
 \end{document}
