@@ -20,12 +20,12 @@ jobs:
         id: compile-latex-document
         uses: thomas-chauvet/latex2pdf-action@v2
         with:
-          output_dir: output
-          main_latex_file: lt2.tex
+          output_dir: quizzes
+          main_latex_file: quizzes/lt2.tex
           ctan_packages: amsmath amsfonts lua-uni-algos
       - name: Upload PDF to the workflow tab
         id: upload-workflow-tab
         uses: actions/upload-artifact@v4
         with:
-          name: output
-          path: output/test.pdf
+          name: lt2
+          path: quizzes/lt2.pdf
