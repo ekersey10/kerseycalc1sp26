@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: salem                          *-->
+<!--*  Palette: bold2                        *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Week 1 (1/12 - 1/16)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Calculus I">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.15';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.529fd9398bfbd03e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="math131.html"><span class="title">Calculus I</span> <span class="subtitle">MATH 131 Spring 2026</span></a></h1>
+<p class="byline"></p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="calculator-toggle" class="calculator-toggle button" title="Show calculator" aria-expanded="false" aria-controls="calculator-container"><span class="icon material-symbols-outlined" aria-hidden="true">&#xea5f;</span><span class="name">Calc</span></button><div id="calculator-container" class="calculator-container" style="display: none; z-index:100;"><div id="geogebra-calculator"></div></div>
+<script>
+var ggbApp = new GGBApplet({"appName": "classic",
+    "width": 330,
+    "height": 600,
+    "showToolBar": true,
+    "showAlgebraInput": true,
+    "perspective": "G/A",
+    "algebraInputPosition": "bottom",
+    "scaleContainerClass": "calculator-container",
+    "allowUpscale": true,
+    "autoHeight": true,
+    "disableAutoScale": false},
+true);
+</script><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<div class="embed-code-container">
+<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div>
+</div>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-course-notes.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-course-notes.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="notes-week-02.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\def\d{\displaystyle }
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-course-documents.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="title">Syllabus</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-course-info" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-assessments" class="internal"><span class="title">Assessments and Grades</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-course-policies" class="internal"><span class="title">Course Policies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-success" class="internal"><span class="title">Suggestions for Success</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-important-dates" class="internal"><span class="title">Important Dates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-lac" class="internal"><span class="title">LAC Area 2/GtPathways Content and Competency Criteria</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-licensure" class="internal"><span class="title">Colorado Endorsement Standards Alignment</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-course-notes.html" class="internal"><span class="title">Course Notes</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="notes-week-01.html" class="internal"><span class="title">Week 1 (1/12 - 1/16)</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-3" class="internal"><span class="title">Monday, 1/12</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-4" class="internal"><span class="title">Tuesday, 1/13</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-5" class="internal"><span class="title">Wednesday, 1/14</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="notes-week-01.html#notes-week-01-6" class="internal"><span class="title">Friday, 1/16</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-02.html" class="internal"><span class="title">Week 2 (1/20 - 1/23)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-3" class="internal"><span class="title">Tuesday, 1/20</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-4" class="internal"><span class="title">Wednesday, 1/21</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-5" class="internal"><span class="title">Friday, 1/23</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-03.html" class="internal"><span class="title">Week 3 (1/26 - 1/30)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-03.html#notes-week-03-3" class="internal"><span class="title">Monday 1/26</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-03.html#notes-week-03-4" class="internal"><span class="title">Tuesday 1/27</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-03.html#notes-week-03-5" class="internal"><span class="title">Wednesday 1/28</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-03.html#notes-week-03-6" class="internal"><span class="title">Friday 1/30</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-04.html" class="internal"><span class="title">Week 4 (2/2 - 2/6)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-04.html#notes-week-04-3" class="internal"><span class="title">Monday 2/2</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-04.html#subsec-tuesday-9-16" class="internal"><span class="title">Tuesday 2/3</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-04.html#subsec-wednesday-9-17" class="internal"><span class="title">Wednesday 2/4</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-04.html#notes-week-04-6" class="internal"><span class="title">Friday 2/26</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-05.html" class="internal"><span class="title">Week 5 (2/9 - 2/13)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-05.html#notes-week-05-3" class="internal"><span class="title">Monday 2/9</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-05.html#notes-week-05-4" class="internal"><span class="title">Tuesday 2/10</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-05.html#notes-week-05-5" class="internal"><span class="title">Wednesday 2/11</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-05.html#notes-week-05-6" class="internal"><span class="title">Friday 2/13</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-06.html" class="internal"><span class="title">Week 6 (2/16 - 2/20)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-06.html#notes-week-06-3" class="internal"><span class="title">Monday 2/16</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-06.html#notes-week-06-4" class="internal"><span class="title">Tuesday 2/17</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-06.html#notes-week-06-5" class="internal"><span class="title">Wednesday 2/18</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-06.html#notes-week-06-6" class="internal"><span class="title">Friday 2/20</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-07.html" class="internal"><span class="title">Week 7 (2/23 - 2/27)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-07.html#notes-week-07-3" class="internal"><span class="title">Monday 2/23</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-07.html#notes-week-07-4" class="internal"><span class="title">Tuesday 2/24</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-07.html#notes-week-07-5" class="internal"><span class="title">Wednesday 2/25</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-07.html#notes-week-07-6" class="internal"><span class="title">Friday 2/27</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-07.html#handout-derivative-rules" class="internal"><span class="title">Derivative Rules</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-08.html" class="internal"><span class="title">Week 8 (3/2 - 3/6)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-08.html#notes-week-08-3" class="internal"><span class="title">Monday 3/2</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-08.html#notes-week-08-4" class="internal"><span class="title">Tuesday 3/3</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-08.html#notes-week-08-5" class="internal"><span class="title">Wednesday 3/4</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-08.html#notes-week-08-6" class="internal"><span class="title">Friday 3/6</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-09.html" class="internal"><span class="title">Week 9 (3/9-3/13)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-09.html#notes-week-09-3" class="internal"><span class="title">Tuesday 3/10</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-09.html#notes-week-09-4" class="internal"><span class="title">Wednesday 3/11</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-09.html#notes-week-09-5" class="internal"><span class="title">Friday 3/13</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-10.html" class="internal"><span class="title">Week 10 (3/23-3/27)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-10.html#notes-week-10-2" class="internal"><span class="title">Monday 3/23</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-10.html#notes-week-10-3" class="internal"><span class="title">Tuesday 3/24</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-10.html#notes-week-10-4" class="internal"><span class="title">Wednesday 3/25</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-10.html#notes-week-10-5" class="internal"><span class="title">Friday 3/27</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-11.html" class="internal"><span class="title">Week 11 (3/30-4/3)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-11.html#notes-week-11-2" class="internal"><span class="title">Monday 3/30</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-11.html#notes-week-11-3" class="internal"><span class="title">Tuesday 3/31</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-11.html#notes-week-11-4" class="internal"><span class="title">Wednesday 4/1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-11.html#notes-week-11-5" class="internal"><span class="title">Friday 4/3</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-12.html" class="internal"><span class="title">Week 12 (4/6-4/10)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-12.html#notes-week-12-2" class="internal"><span class="title">Monday 4/6</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-12.html#notes-week-12-3" class="internal"><span class="title">Tuesday 4/7</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-12.html#notes-week-12-4" class="internal"><span class="title">Wednesday 4/8</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-12.html#notes-week-12-5" class="internal"><span class="title">Friday 4/10</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-13.html" class="internal"><span class="title">Week 13 (4/13-4/17)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-13.html#notes-week-13-2" class="internal"><span class="title">Monday 4/13</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-13.html#notes-week-13-3" class="internal"><span class="title">Tuesday 4/14</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-13.html#notes-week-13-4" class="internal"><span class="title">Wednesday 4/15</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-13.html#notes-week-13-5" class="internal"><span class="title">Friday, 4/17</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-14.html" class="internal"><span class="title">Week 14 (4/20-4/24)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="notes-week-14.html#notes-week-14-3" class="internal"><span class="title">Monday 4/20</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-14.html#notes-week-14-4" class="internal"><span class="title">Tuesday 4/21</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="notes-week-15.html" class="internal"><span class="title">Week 15 (4/27-5/1)</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-15.html#notes-week-15-2" class="internal"><span class="title">Monday 4/27</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-15.html#notes-week-15-3" class="internal"><span class="title">Tuesday 4/28</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="sec-section-name.html" class="internal"><span class="title">In-Class Activities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity-01-odometer-speedometer.html" class="internal"><span class="title">Odometer vs. Speedometer</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity-02-velocity-acceleration.html" class="internal"><span class="title">Distance, Velocity, Acceleration!</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity-03-basic-derivative-practice.html" class="internal"><span class="title">Basic Derivative Practice</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity-04-related-rates-preview.html" class="internal"><span class="title">Related to Related Rates</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity-05-related-rates.html" class="internal"><span class="title">Related Rates Practice</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity-06-global-optimization.html" class="internal"><span class="title">Global Optimization</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity-07-applied-optimization.html" class="internal"><span class="title">Applied Optimization</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity-08-Riemann-sums.html" class="internal"><span class="title">Riemann Sums</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity-09-FTC.html" class="internal"><span class="title">Reasoning with the FTC</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="homework.html" class="internal"><span class="title">Homework assignments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="hw1.html" class="internal"><span class="title">Written Homework 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="hw2.html" class="internal"><span class="title">Written Homework 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="hw3.html" class="internal"><span class="title">Written Homework 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="hw4.html" class="internal"><span class="title">Written Homework 4</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="sample-quizzes.html" class="internal"><span class="title">Sample Learning Target Quizzes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-1.html" class="internal"><span class="title">LT 1 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-2.html" class="internal"><span class="title">LT 2 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-3.html" class="internal"><span class="title">LT 3 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-4.html" class="internal"><span class="title">LT 4 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-5.html" class="internal"><span class="title">LT 5 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-6.html" class="internal"><span class="title">LT 6 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-7.html" class="internal"><span class="title">LT 7 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-8.html" class="internal"><span class="title">LT 8 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-9.html" class="internal"><span class="title">LT 9 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-10.html" class="internal"><span class="title">LT 10 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-11.html" class="internal"><span class="title">LT 11 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-12.html" class="internal"><span class="title">LT 12 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-13.html" class="internal"><span class="title">LT 13 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-14.html" class="internal"><span class="title">LT 14 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-15.html" class="internal"><span class="title">LT 15 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-16.html" class="internal"><span class="title">LT 16 Sample Quiz</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lt-17.html" class="internal"><span class="title">LT 17 Sample Quiz</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="section" id="notes-week-01"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Week 1 (1/12 - 1/16)</span>
+</h2>
+<div class="para" id="notes-week-01-2">This week focuses on an introduction to what Calculus is about, and the first two sections of Active Calculus.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="handout" id="notes-week-01-3" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Monday, 1/12</span><div class="print-links"><a href="?printpreview=notes-week-01-3" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<div class="para logical" id="notes-week-01-3-2">
+<div class="para">Welcome to Calculus!  Wait, what is Calculus?  Today we will explore this in part by doing <a href="activity-01-odometer-speedometer.html" class="internal" title="Worksheet: Odometer vs. Speedometer">Odometer vs. Speedometer</a>. We start with that and then discuss as a group. Some notes:</div>
+<ul class="disc" id="notes-week-01-3-2-2">
+<li id="notes-week-01-3-2-2-1">
+<div class="para" id="notes-week-01-3-2-2-1-1">There are two quantities that we are measuring: distance traveled and speed. Clearly, there is some relationship between these, but what is it?  That’s what calculus is all about.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-3-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-3-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-3-2-2-2">
+<div class="para logical" id="notes-week-01-3-2-2-2-1">
+<div class="para">Note that from physics, and really the definition, we have that</div>
+<div class="displaymath process-math" id="notes-week-01-3-2-2-2-1-1">
+\begin{equation*}
+speed = \frac{distance}{time}\text{.}
+\end{equation*}
+</div>
+<div class="para">That makes sense if we are looking at a constant speed, or in our case, an <dfn class="terminology">average speed</dfn>.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-3-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-3-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-3-2-2-3">
+<div class="para" id="notes-week-01-3-2-2-3-1">Next time, we will explore how these concepts relate to each other in more depth.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-3-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-3-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Handout: Monday, 1/12"><a href="#notes-week-01-3" title="Copy heading and permalink for Handout: Monday, 1/12" aria-label="Copy heading and permalink for Handout: Monday, 1/12">🔗</a></div></section><section class="handout" id="notes-week-01-4" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Tuesday, 1/13</span><div class="print-links"><a href="?printpreview=notes-week-01-4" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<div class="para logical" id="notes-week-01-4-2">
+<div class="para">Today we will explore the relationship between distance, average velocity, and instantaneous velocity.  This is covered in the textbook in section 1.1.</div>
+<ul class="disc" id="notes-week-01-4-2-1">
+<li id="notes-week-01-4-2-1-1">
+<div class="para" id="notes-week-01-4-2-1-1-1">The activity from Monday gave us some ideas that distance and velocity are related, but sometimes in a unclear way.  Let’s try to understand this in a more precise mathematical way.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-2-1-2">
+<div class="para" id="notes-week-01-4-2-1-2-1">We can describe the two quantities as <dfn class="terminology">functions</dfn>. In particular, both distance and speed are functions of <dfn class="terminology">time</dfn>. (This is a good choice that we are making, but it is a choice.)<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-2-1-3">
+<div class="para" id="notes-week-01-4-2-1-3-1">When we have a function, we can represent it in different ways, such as with a table of values, a graph, or an equation. No idea what the equation is, but we might be able to draw a graph of each.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-2-1-4">
+<div class="para" id="notes-week-01-4-2-1-4-1">We can think about how the graphs are related. What does a high speed mean for the distance graph?<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-2-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-2-1-5">
+<div class="para" id="notes-week-01-4-2-1-5-1">Here is another important question: how can we estimate one value from the other?  That is, if you know the speed function, can you estimate the distance traveled?  That’s essentially what you do in the activity, question 2.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-2-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-2-1-6">
+<div class="para" id="notes-week-01-4-2-1-6-1">What if we wanted to go the other way?  If we know the distance function, can we estimate the speed?  Actually, how does the car determine the speed?  How does a radar gun work??<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-2-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-2-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-2-1-7">
+<div class="para logical" id="notes-week-01-4-2-1-7-1">
+<div class="para">Note that from physics, and really the definition, we have that</div>
+<div class="displaymath process-math" id="notes-week-01-4-2-1-7-1-1">
+\begin{equation*}
+speed = \frac{distance}{time}\text{.}
+\end{equation*}
+</div>
+<div class="para">That makes perfect sense for a constant speed, or an <dfn class="terminology">average velocity</dfn>. But what about the speed <em class="emphasis">right now</em>?  In this very instant, how fast is the car going?</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-2-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-2-1-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="notes-week-01-4-3">
+<div class="para">Let’s give a careful definition of <dfn class="terminology">average velocity</dfn> and explore what happens when you look at the average velocity over different time intervals.</div>
+<ul class="disc" id="notes-week-01-4-3-2">
+<li id="notes-week-01-4-3-2-1">
+<div class="para logical" id="notes-week-01-4-3-2-1-1">
+<div class="para">We define average velocity as:</div>
+<div class="displaymath process-math" id="notes-week-01-4-3-2-1-1-1">
+\begin{equation*}
+AV_{[a,b]} = \frac{s(b) - s(a)}{b - a}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(s(t)\)</span> is the distance function in terms of time <span class="process-math">\(t\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-3-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-3-2-2">
+<div class="para logical" id="notes-week-01-4-3-2-2-1">
+<div class="para">Compute an example.  Suppose the height of a drone (in feet) is a function of time (in minutes) given by the equation:</div>
+<div class="displaymath process-math" id="notes-week-01-4-3-2-2-1-1">
+\begin{equation*}
+h(t) = 20t - 5t^2
+\end{equation*}
+</div>
+<div class="para">for the interval <span class="process-math">\([0, 4]\text{.}\)</span>  Compute some average velocities.  Use Desmos for this.  You can create a slider automatically to explore different values.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-3-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-3-2-3">
+<div class="para" id="notes-week-01-4-3-2-3-1">What about the graph here relates to velocity?  Which points on the graph have large velocity?  Which have velocity zero?  Does this make sense?<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-3-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-3-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-3-2-4">
+<div class="para" id="notes-week-01-4-3-2-4-1">Look at the formula for average velocity.  What does the numerator represent on the graph?  What does the denominator?  What graphical quantity is described by their ratio?<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-3-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-3-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-3-2-5">
+<div class="para" id="notes-week-01-4-3-2-5-1">Aha!  The average velocity is nothing but the <dfn class="terminology">slope</dfn> of a line through two points on the graph of the distance function.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-3-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-3-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-3-2-6">
+<div class="para" id="notes-week-01-4-3-2-6-1">Explore what happens to that line as the two points get closer together.  If the instantaneous velocity is the average velocity when the two points are “infinitesimally close”, can we determine the velocity at a given point?<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-3-2-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-3-2-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-3-2-7">
+<div class="para" id="notes-week-01-4-3-2-7-1">Graphically, this is the slope of the <dfn class="terminology">tangent line</dfn> at a point on the graph of the distance function.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-3-2-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-3-2-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-3-2-8">
+<div class="para" id="notes-week-01-4-3-2-8-1">Can we also do this symbolically?  See what you get for the function when you let that slope be in terms of the distance <span class="process-math">\(h\)</span> between the points.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-3-2-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-3-2-8" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-3-2-9">
+<div class="para" id="notes-week-01-4-3-2-9-1">What does it mean to be “infinitely close”?  We will explore this next time and in section 1.2.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-3-2-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-3-2-9" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="notes-week-01-4-4">
+<div class="para">We will use the model of <dfn class="terminology">distance</dfn> and <dfn class="terminology">velocity</dfn> for a lot of our investigations in this course. But importantly, the tools we develop can be applied to many different functions.</div>
+<ul class="disc" id="notes-week-01-4-4-3">
+<li id="notes-week-01-4-4-3-1">
+<div class="para" id="notes-week-01-4-4-3-1-1">Another car example: your gas mileage is a function of your speed. As your speed changes, we can ask what happens to your mileage.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-4-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-4-3-2">
+<div class="para" id="notes-week-01-4-4-3-2-1">The price of eggs is a function of time. We can measure the rate at which the price changes over time too (called inflation). You might hear that inflation is dropping. Does that mean that prices will go down?  Well, if you slow down, does that mean you get closer to the airport?<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-4-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-4-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-4-4-3-3">
+<div class="para" id="notes-week-01-4-4-3-3-1">The area of a rectangle with a fixed perimeter is a function of its length. As the length changes, we can ask what happens to the area.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-4-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-4-4-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Handout: Tuesday, 1/13"><a href="#notes-week-01-4" title="Copy heading and permalink for Handout: Tuesday, 1/13" aria-label="Copy heading and permalink for Handout: Tuesday, 1/13">🔗</a></div></section><section class="handout" id="notes-week-01-5" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Wednesday, 1/14</span><div class="print-links"><a href="?printpreview=notes-week-01-5" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<div class="para logical" id="notes-week-01-5-2">
+<div class="para">Today we will introduce the idea of a limit, which is essential for understanding the relationship between average velocity and <dfn class="terminology">instantaneous velocity</dfn>.</div>
+<ul class="disc" id="notes-week-01-5-2-2">
+<li id="notes-week-01-5-2-2-1">
+<div class="para logical" id="notes-week-01-5-2-2-1-1">
+<div class="para">Remember that the average velocity is given by</div>
+<div class="displaymath process-math" id="notes-week-01-5-2-2-1-1-1">
+\begin{equation*}
+AV_{[a,b]} = \frac{s(b) - s(a)}{b - a}\text{.}
+\end{equation*}
+</div>
+<div class="para">This does not say how fast you were going at any particular time, but does give your <em class="emphasis">average</em> speed over the interval from <span class="process-math">\(a\)</span> to <span class="process-math">\(b\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-5-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-5-2-2-2">
+<div class="para" id="notes-week-01-5-2-2-2-1">What if the interval is very small?  Then you might be going faster or slower at certain points on the interval, but it would be reasonable to assume that your average speed is close to your speed at a specific point in time. After all, how much could your speed change in a millisecond?<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-5-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-5-2-2-3">
+<div class="para" id="notes-week-01-5-2-2-3-1">Okay, maybe it does change a lot, even in a millisecond.  So just zoom in more.  Make the interval even smaller.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-5-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-5-2-2-4">
+<div class="para" id="notes-week-01-5-2-2-4-1">As you make the interval smaller and smaller, look at what happens to the average velocity.  Does that average velocity get closer to some value?  If so, we say that <dfn class="terminology">limit</dfn> value <em class="emphasis">is</em> the <dfn class="terminology">instantaneous velocity</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-2-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-5-2-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="notes-week-01-5-3">
+<div class="para">The concept of a <dfn class="terminology">limit</dfn> makes sense for all sorts of functions, not just the average velocity.</div>
+<ul class="disc" id="notes-week-01-5-3-2">
+<li id="notes-week-01-5-3-2-1">
+<div class="para" id="notes-week-01-5-3-2-1-1">Let <span class="process-math">\(f(x) = x^2 + 3\text{.}\)</span>  What happens as <span class="process-math">\(x\)</span> approaches 2?  We will write this as <span class="process-math">\(\lim_{x \to 2} f(x)\text{.}\)</span>  We want to <dfn class="terminology">evaluate</dfn> this limit.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-5-3-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-5-3-2-2">
+<div class="para" id="notes-week-01-5-3-2-2-1">Use Desmos to explore this.  Plug in values closer and closer to 2 <em class="emphasis">on both sides</em>.  Does the value of the function (the “output”) seem to approach a particular number?<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-5-3-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-5-3-2-3">
+<div class="para" id="notes-week-01-5-3-2-3-1">Of course, <span class="process-math">\(f(2)\)</span> is just <span class="process-math">\(2^2 + 3 = 7\text{.}\)</span>  So we can say that <span class="process-math">\(\lim_{x \to 2} f(x) = 7\text{.}\)</span>  But this doesn’t always work.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-3-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-5-3-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-5-3-2-4">
+<div class="para" id="notes-week-01-5-3-2-4-1">Try <span class="process-math">\(f(x) = \frac{\sin(x)}{x}\)</span> and evaluate <span class="process-math">\(\lim_{x \to 0} f(x)\text{.}\)</span>  We cannot just take <span class="process-math">\(f(0)\)</span> since this does not exist.  But maybe the limit does?<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-3-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-5-3-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-5-3-2-5">
+<div class="para" id="notes-week-01-5-3-2-5-1">An important point: Look at the <em class="emphasis">definition</em> of the limit.  We want to find some value that we can get as close as we <em class="emphasis">want</em> to, just by making the input close enough to <span class="process-math">\(a\)</span> (the input we are approaching).<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-3-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-5-3-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-5-3-2-6">
+<div class="para" id="notes-week-01-5-3-2-6-1">Consider the function <span class="process-math">\(f(x) = \frac{x^2 - 4}{x - 2}\text{.}\)</span>  What happens if we try to evaluate this function at <span class="process-math">\(x = 2\text{?}\)</span>  Here we want to simplify this fraction (try factoring the numerator).<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-3-2-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-5-3-2-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="notes-week-01-5-3-2-7">
+<div class="para" id="notes-week-01-5-3-2-7-1">But don’t we just care about average velocity?  Well, the function above <em class="emphasis">is</em> an average velocity function.  What is the average velocity between <span class="process-math">\(0\)</span> and <span class="process-math">\(x\)</span> for the function <span class="process-math">\(s(x) = x^2\text{?}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-3-2-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#notes-week-01-5-3-2-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Handout: Wednesday, 1/14"><a href="#notes-week-01-5" title="Copy heading and permalink for Handout: Wednesday, 1/14" aria-label="Copy heading and permalink for Handout: Wednesday, 1/14">🔗</a></div></section><section class="worksheet" id="notes-week-01-6" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Friday, 1/16</span><div class="print-links"><a href="?printpreview=notes-week-01-6" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<section class="onepage" id="notes-week-01-6-2"><div class="para" id="notes-week-01-6-2-1">Let’s practice working with limits.<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="notes-week-01-6-2-2"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="notes-week-01-6-2-2-1"><div class="para" id="notes-week-01-6-2-2-1-1">Let <span class="process-math">\(\d f(x) = \frac{x^2 + x - 2}{x^2 - 4}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-6-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<article class="task exercise-like" id="notes-week-01-6-2-2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="notes-week-01-6-2-2-2-1-1">Find <span class="process-math">\(\d\lim_{x \to 1}f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-6-2-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 1.a"><a href="#notes-week-01-6-2-2-2" title="Copy heading and permalink for Task 1.a" aria-label="Copy heading and permalink for Task 1.a">🔗</a></div></article><article class="task exercise-like" id="notes-week-01-6-2-2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="notes-week-01-6-2-2-3-1">Find <span class="process-math">\(\d\lim_{x \to 2}f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-6-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 1.b"><a href="#notes-week-01-6-2-2-3" title="Copy heading and permalink for Task 1.b" aria-label="Copy heading and permalink for Task 1.b">🔗</a></div></article><article class="task exercise-like" id="notes-week-01-6-2-2-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="notes-week-01-6-2-2-4-1-1">Find <span class="process-math">\(\d\lim_{x \to -2}f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-6-2-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 1.c"><a href="#notes-week-01-6-2-2-4" title="Copy heading and permalink for Task 1.c" aria-label="Copy heading and permalink for Task 1.c">🔗</a></div></article><article class="task exercise-like" id="notes-week-01-6-2-2-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="notes-week-01-6-2-2-5-1-1">Find <span class="process-math">\(\d\lim_{x \to 4}f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-6-2-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 1.d"><a href="#notes-week-01-6-2-2-5" title="Copy heading and permalink for Task 1.d" aria-label="Copy heading and permalink for Task 1.d">🔗</a></div></article><article class="task exercise-like" id="notes-week-01-6-2-2-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="notes-week-01-6-2-2-6-1-1">Find <span class="process-math">\(\d\lim_{x \to \infty}f(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-6-2-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Task 1.e"><a href="#notes-week-01-6-2-2-6" title="Copy heading and permalink for Task 1.e" aria-label="Copy heading and permalink for Task 1.e">🔗</a></div></article><div class="autopermalink" data-description="Worksheet Exercise 1"><a href="#notes-week-01-6-2-2" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div></article></section><section class="onepage" id="notes-week-01-6-3"><article class="exercise exercise-like" id="notes-week-01-6-3-1"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para logical" id="notes-week-01-6-3-1-1-1">
+<div class="para">Evaluate the limit:</div>
+<div class="displaymath process-math" id="notes-week-01-6-3-1-1-1-1">
+\begin{equation*}
+\lim_{h \to 0} \frac{(2+h)^2 + 5(2+h) - (2^2 + 5\cdot 2)}{h}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-6-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 2"><a href="#notes-week-01-6-3-1" title="Copy heading and permalink for Worksheet Exercise 2" aria-label="Copy heading and permalink for Worksheet Exercise 2">🔗</a></div></article><article class="exercise exercise-like" id="notes-week-01-6-3-2"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para logical" id="notes-week-01-6-3-2-1-1">
+<div class="para">Evaluate the limit:</div>
+<div class="displaymath process-math" id="notes-week-01-6-3-2-1-1-1">
+\begin{equation*}
+\lim_{a \to 4}\frac{\sqrt{a} - \sqrt{4}}{a - 4}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-6-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 3"><a href="#notes-week-01-6-3-2" title="Copy heading and permalink for Worksheet Exercise 3" aria-label="Copy heading and permalink for Worksheet Exercise 3">🔗</a></div></article><article class="exercise exercise-like" id="notes-week-01-6-3-3"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="notes-week-01-6-3-3-1-1">For each of the two problems above, for what distance function does the limit represent an instantaneous velocity?<div class="autopermalink" data-description="Paragraph"><a href="#notes-week-01-6-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4"><a href="#notes-week-01-6-3-3" title="Copy heading and permalink for Worksheet Exercise 4" aria-label="Copy heading and permalink for Worksheet Exercise 4">🔗</a></div></article></section><div class="autopermalink" data-description="Worksheet: Friday, 1/16"><a href="#notes-week-01-6" title="Copy heading and permalink for Worksheet: Friday, 1/16" aria-label="Copy heading and permalink for Worksheet: Friday, 1/16">🔗</a></div></section><div class="autopermalink" data-description="Section: Week 1 (1/12 - 1/16)"><a href="#notes-week-01" title="Copy heading and permalink for Section: Week 1 (1/12 - 1/16)" aria-label="Copy heading and permalink for Section: Week 1 (1/12 - 1/16)">🔗</a></div></section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="ch-course-notes.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="notes-week-02.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
