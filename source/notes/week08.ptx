@@ -112,7 +112,7 @@
       </li>
       <li>
         <p>
-          Now we solve for <m>frac{dy}{dx}</m>:
+          Now we solve for <m>\frac{dy}{dx}</m>:
           <md>
             <mrow>3y^2\frac{dy}{dx} - 7x\frac{dy}{dx} \amp = 7y - 3x^2</mrow>
             <mrow>(3y^2 - 7x)\frac{dy}{dx} \amp = 7y - 3x^2</mrow>
