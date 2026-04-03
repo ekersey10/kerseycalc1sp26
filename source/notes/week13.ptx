@@ -6,21 +6,94 @@
 
 <subsection>
   <title>Monday 4/13</title>
-
-
+  <p>
+    To start section 4.1:
+    <ul>
+      <li>
+        <p>
+          At the very beginning of the course, we motivated all of calculus with an example about driving back from DIA.  We realized there was a connection between the distance traveled, the time that took, and the velocity of your car.  
+        </p>
+      </li>
+      <li>
+        <p>
+          In particular, we noted that velocity was given by distance divided by time.  Or more precisely, <m>v = \frac{\Delta d}{\Delta t}</m>, the change in distance divided by the change in time.
+        </p>
+      </li>
+      <li>
+        <p>
+          This allowed us to find the average velocity over any time interval.  As that time interval got smaller, we said that these average velocities were essentially the <em>instantaneous</em> velocity.  This led us to the definition of a derivative, which we have been studying for the last two months.
+        </p>
+      </li>
+      <li>
+        <p>
+          Another question we asked that first day though: if you recorded your speeds every 5 minutes, can you estimate how far you have traveled?  We said after 5 minutes, you noticed speeds of 75mph, 60mph, 65mph and 50mph.  Or in terms of miles/minute, these numbers are 1.25, 1, 1.08, and 0.84.  
+        </p>
+      </li>
+      </ul></p>
 </subsection>
 
 <subsection>
   <title>Tuesday 4/14</title>
+  <p>
+    Today we will explore the connection between velocity and distance
+  </p>
   
   <p>
-    In class today we answered questions about practice and homework.  We then introduced the concept of a <term>definite integral</term> as a  limit of Riemann sums.  We will explore this more next time.
+    Continuing our exploration of moving from velocity to distance:
+    <ul>
+      <li>
+        <p>
+          Example: suppose you drop a ball down a well.  Since acceleration on earth is a constant <m>32</m> feet per second squared, the velocity after <m>t</m> seconds <m>v(t) = 32t</m> (assuming that the initial velocity was 0).  We are thinking of positive velocity as moving downward here, otherwise we would make the 32 negative.  Can we find the distance traveled by the ball?  Graph this, look at the antiderivative, and look at area,.  
+        </p>
+      </li>
+      <li>
+        <p>
+          Another question we asked that first day: if you recorded your speeds every 5 minutes, can you estimate how far you have traveled?  We said after 5 minutes, you noticed speeds of 75mph, 60mph, 65mph and 50mph.  Or in terms of miles/minute, these numbers are 1.25, 1, 1.08, and 0.84.  
+        </p>
+      </li>
+      <li>
+        <p>
+          In fact, for <em>any</em> rate of change of some quantity, the total change in that quantity will be the rate of change multiplied by the change in independent variable.  Thinking about units here is helpful.
+        </p>
+      </li>
+      <li>
+        <p>
+          A very useful observation about derivatives or instantaneous rates of change, is that these can be pictured graphically as slopes.  What is the graphical interpretation of going the other way?
+        </p>
+      </li>
+      <li>
+        <p>
+          Consider a graph of a constant function that represents a velocity.  What does the product of velocity and time look like?  It is exactly the <em>area under the graph</em>.  That's because the velocity is the height of the function, and the time is the width of the interval on the horizontal axis.
+        </p>
+      </li>
+      <li>
+        <p>
+          But what if the function is not constant?  Well, we can still think of distance as being an area under the curve: just think of the curve as infinitely many small horizontal line segments, sort of like a staircase that when you zoom out looks like a smooth curve.  
+        </p>
+      </li>
+      <li>
+        <p>
+          A big idea: we also have developed a symbolic way to represent rates of change: the derivative function.  For example, if the distance traveled is given by the function <m>f(t) = t^2 - 3t + 8</m> then the velocity is <m>f'(t) = 2t - 3</m>.   Okay, well now if I told you the velocity was <m>v(t) = 2t-3</m>, what is the function that describes the distance?  We can take an <term>antiderivative</term>.  
+        </p>
+      </li>
+    </ul>
   </p>
 </subsection>
 
 <handout>
   <title>Wednesday 4/15</title>
   <p>
+    The plan for today is to do a much deeper dive into section 4.1 by working through an activity that highlights the connection between antiderivatives and area.  We will also consider what happens when the function is negative and how this should impact these calculations.
+  </p>
+
+  <p>
+    We will work through Activity 4.1.3 from the textbook.
+  </p>
+</handout>
+
+<handout>
+  <title>Friday, 4/17</title>
+    <p>
     We will start on section 4.2 today by considering a systematic way to approximate area under a curve using what is called a <term>Riemann sum</term>.
   </p>
 
@@ -90,14 +163,6 @@
       </li>
     </ul>
   </p>
-</handout>
 
-<handout>
-  <title>Friday, 4/17</title>
-  
-    <p>
-    Today we will practice with Riemann sums using the <xref ref="activity-08-Riemann-sums" text="title"/> activity.
-  </p>
-  
 </handout>
 </section>
