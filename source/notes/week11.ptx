@@ -27,7 +27,7 @@
   <title>Tuesday 3/31</title>
   
   <p>
-    Today we introduced the topic of global optimization, considering the absolute maximum and minimum of a function on a closed interval. You need to find any critical numbers in the interval and then evaluate the function at those critical numbers and the endpoints of the interval. The largest of these $y$-values will be the absolute maximum and the smallest will be the absolute minimum. 
+    Today we introduced the topic of global optimization, considering the absolute maximum and minimum of a function on a closed interval. You need to find any critical numbers in the interval and then evaluate the function at those critical numbers and the endpoints of the interval. The largest of these <m>y<\m>-values will be the absolute maximum and the smallest will be the absolute minimum. 
   </p>
 
 </handout>
