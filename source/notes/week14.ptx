@@ -8,7 +8,15 @@
 </introduction>
 <handout>
   <title>Monday 4/20</title>
- <p>
+  <p>
+    Today we will practice with Riemann sums using the <xref ref="activity-08-Riemann-sums" text="title"/> activity.
+  </p>
+ 
+</handout>
+
+<subsection>
+  <title>Tuesday 4/21</title>
+<p>
     We have seen that Riemann sums can be used to approximate the <term>net signed area</term> between a curve and the horizontal axis, and that this area can also be interpreted as the net change in position if the original curve represents velocity.
   </p>
 
@@ -50,12 +58,6 @@
       </li>
     </ul>
   </p>
- 
-</handout>
-
-<subsection>
-  <title>Tuesday 4/21</title>
-  Today we discussed definite integrals a little more, but took most of the class time for Learning Target quizzes. 
 
 </subsection>
 
