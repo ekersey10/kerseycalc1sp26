@@ -7,6 +7,34 @@
 <handout>
   <title>Monday 3/30</title>
   <p>
+    Let's practice using the first and second derivative tests to explore the behavior of some functions, including finding local maxima and minima, intervals on which the function is increasing or decreasing, inflection points, and any asymptotes.
+  </p>
+
+  <p>
+    Start with an easier one: <m>f(x) = x^3 - 3x + 2</m>.
+  </p>
+
+  <p>
+    Next, try a slightly more complicated example: <m>f(x) = \dfrac{x^2}{x^2 - 2x + 1}</m>.  Note we need to use the quotient rule here, and then factor the numerator to simplify it.
+  </p>
+
+  <p>
+    Another similar one: <m>f(x) = \dfrac{x^2+4}{x}</m>.  
+  </p>
+</handout>
+
+<handout>
+  <title>Tuesday 3/31</title>
+  
+  <p>
+    Today we introduced the topic of global optimization, considering the absolute maximum and minimum of a function on a closed interval. You need to find any critical numbers in the interval and then evaluate the function at those critical numbers and the endpoints of the interval. The largest of these $y$-values will be the absolute maximum and the smallest will be the absolute minimum. 
+  </p>
+
+</handout>
+
+<subsection>
+<title>Wednesday 4/1</title>
+  <p>
     In section 3.3 we discovered that to find <em>local</em> (or <em>relative</em>) extreme values of a function (maximums and minimums), we must look for inputs at which the derivative was zero or undefined (these inputs are called <term>critical numbers</term>).  This is a powerful tool that will be useful in applications.  
   </p>
 
@@ -37,11 +65,10 @@
   <p>
     Find the global maximum and minimum of <m>\dfrac{x^2}{x-2}</m> on the interval <m>[3,7]</m>.
   </p>
-</handout>
+  </subsection>
 
-<handout>
-  <title>Tuesday 3/31</title>
-  
+<subsection>
+<title>Friday 4/3</title>
   <p>
     How can we use global optimization to solve real world problems?  Here is an example.
   </p>
@@ -52,20 +79,5 @@
  (each measured in inches) is being made into a box without a top. To do so, squares are cut from each corner of the box and the remaining sides are folded up. If the box needs to be at least 1 inch deep and no more than 3 inches deep, what is the maximum possible volume of the box? what is the minimum volume? Justify your answers using calculus.
       </p>
 
-</handout>
-
-<subsection>
-<title>Wednesday 4/1</title>
-<p>Today we will explore ways to solve applied optimization problems.  The examples can be found in the <xref ref="activity-07-applied-optimization" text="title"/> activity.</p>
-  </subsection>
-
-<subsection>
-<title>Friday 4/3</title>
-<p>
-  We will do more practice with applied optimization today, using the same activity from Wednesday.
-</p>
-<p>
-  We focused on question 2 from the worksheet.  We will not get through all of these, but on Monday at least some of the time will be spent answering questions from the practice set.
-</p>
   </subsection>
 </section>
