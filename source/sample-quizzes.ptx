@@ -892,7 +892,7 @@
         <p>
           Use your answer to the previous question to find the exact value of the definite integral: 
           <me>
-            \int_1^3 x^2 + 6x /, dx.
+            \int_1^3 x^2 + 6x\, dx.
           </me>
         </p>
       </statement>
