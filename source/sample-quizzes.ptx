@@ -869,5 +869,33 @@
       </task>
     </exercise>
     </worksheet>
+
+ <worksheet xml:id="lt-20">
+    <title>LT 20 Sample Quiz</title>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          Find an antiderivative <m>F(x)</m> of the function
+          <me>
+            f(x) = x^2 + 6x
+          </me>
+        </p>
+        <p>
+        Check your work by computing <m>F'(x)</m>.
+      </statement>
+    </exercise>
+
+    <exercise workspace="1in">
+      <statement>
+        <p>
+          Use your answer to the previous question to find the exact value of the definite integral: 
+          <me>
+            \int_1^3 x^2 + 6x /, dx.
+          </me>
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
     <!-- -->
 </chapter>
