@@ -825,5 +825,49 @@
       </task>
     </exercise>
     </worksheet>
+
+  <worksheet xml:id="lt-19">
+    <title>LT 19 Sample Quiz</title>
+    <exercise>
+      <introduction>
+        <p>
+          Consider the function <m>f(x)</m> graphed below.
+        </p>
+        <image width="40%">
+          <shortdescription>a graph</shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[
+            declare function={
+              func(\x) = {2*sin(deg(1/3*pi*\x))};
+            }
+          ]
+            \begin{axis}[
+              axis x line=middle, axis y line=middle, ymin=-2.2, ymax=2.7, xmin=0, xmax=6.3, xlabel=$x$, ylabel=$f(x)$, grid=none
+            ]
+              \addplot [domain=0:6, samples=100, ultra thick]{func(x)};
+            \end{axis}
+              
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+          
+      </introduction>
+
+      <task workspace="1in">
+        <statement>
+          <p>
+          Give the exact value of <m>\int_0^6 f(x)\, dx</m>. Briefly explain your answer. 
+          </p>
+        </statement>
+      </task>
+      <task workspace="1in">
+        <statement>
+          <p>
+            Write an expression in terms of one or more integrals that gives the total area between the curve and the x-axis. 
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    </worksheet>
     <!-- -->
 </chapter>
