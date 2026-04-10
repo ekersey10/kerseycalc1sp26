@@ -786,7 +786,6 @@
         <p>
           Consider the function <m>f(x)=x^2+3</m>. Compute the left and right Riemann sums for <m>f(x)</m> with <m>n=4</m> sub-intervals on the interval [1, 3]. Sketch the rectangles whose area represent the <em>left</em> Riemann sum on the graph of <m>f</m> below. 
         </p>
-        <task workspace="1in">
         <image width="40%">
           <shortdescription>a graph</shortdescription>
           <latex-image>
